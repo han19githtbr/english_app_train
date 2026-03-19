@@ -1,0 +1,1275 @@
+{
+  "app": {
+    "title": "LINGUA PRO",
+    "subtitle": "Master English for Study & Career Abroad",
+    "version": "2.0"
+  },
+  "sections": [
+    {
+      "id": "grammar",
+      "icon": "📐",
+      "title": "Grammar Foundations",
+      "description": "Master tenses, sentence structure, and grammatical rules",
+      "color": "#00D4FF",
+      "lessons": [
+        {
+          "id": "tenses",
+          "title": "The 12 English Tenses",
+          "content": [
+            {
+              "subtitle": "Present Simple",
+              "explanation": "Used for habits, facts, and routines. Structure: Subject + base verb (+s/es for 3rd person singular).",
+              "examples": [
+                "I work at a university. (habit)",
+                "Water boils at 100°C. (fact)",
+                "She studies every morning. (routine)"
+              ],
+              "tip": "Signal words: always, usually, often, sometimes, never, every day/week/month"
+            },
+            {
+              "subtitle": "Present Continuous",
+              "explanation": "Used for actions happening right now or temporary situations. Structure: Subject + am/is/are + verb-ing.",
+              "examples": [
+                "I am studying English right now.",
+                "She is living in London temporarily.",
+                "They are working on a new project."
+              ],
+              "tip": "Signal words: now, at the moment, currently, right now, today"
+            },
+            {
+              "subtitle": "Present Perfect",
+              "explanation": "Used for past actions with present relevance, life experiences, or recent events. Structure: Subject + have/has + past participle.",
+              "examples": [
+                "I have visited Canada twice. (experience)",
+                "She has just finished her thesis. (recent)",
+                "They have lived here since 2020. (duration)"
+              ],
+              "tip": "Signal words: just, already, yet, ever, never, since, for, recently"
+            },
+            {
+              "subtitle": "Present Perfect Continuous",
+              "explanation": "Used for actions that started in the past and are still continuing. Structure: Subject + have/has + been + verb-ing.",
+              "examples": [
+                "I have been studying English for 3 years.",
+                "She has been working on her PhD since January.",
+                "It has been raining all day."
+              ],
+              "tip": "Signal words: for, since, all day/morning/week, how long"
+            },
+            {
+              "subtitle": "Past Simple",
+              "explanation": "Used for completed actions at a specific time in the past. Structure: Subject + past form of verb.",
+              "examples": [
+                "I graduated in 2021.",
+                "She moved to Berlin last year.",
+                "They won the competition yesterday."
+              ],
+              "tip": "Signal words: yesterday, last week/month/year, ago, in [year], when"
+            },
+            {
+              "subtitle": "Past Continuous",
+              "explanation": "Used for actions in progress at a specific past moment. Structure: Subject + was/were + verb-ing.",
+              "examples": [
+                "I was reading when she called.",
+                "They were studying all evening.",
+                "It was snowing when we arrived."
+              ],
+              "tip": "Often used with Past Simple: 'was doing' (longer action) + 'did' (interruption)"
+            },
+            {
+              "subtitle": "Past Perfect",
+              "explanation": "Used for actions completed before another past action. Structure: Subject + had + past participle.",
+              "examples": [
+                "I had already eaten when they arrived.",
+                "She had never seen snow before moving to Canada.",
+                "They had finished the project before the deadline."
+              ],
+              "tip": "Think of it as the 'past of the past' — use before/after/when/by the time"
+            },
+            {
+              "subtitle": "Future Simple (will)",
+              "explanation": "Used for predictions, spontaneous decisions, and promises. Structure: Subject + will + base verb.",
+              "examples": [
+                "I will help you with your application.",
+                "It will probably rain tomorrow.",
+                "She will become a great researcher."
+              ],
+              "tip": "Signal words: tomorrow, next week, soon, in the future, I think/believe/expect"
+            },
+            {
+              "subtitle": "Future with 'going to'",
+              "explanation": "Used for planned future actions and predictions based on evidence. Structure: Subject + am/is/are + going to + base verb.",
+              "examples": [
+                "I am going to apply for a scholarship next month.",
+                "Look at those clouds — it is going to rain.",
+                "They are going to move to Australia in the fall."
+              ],
+              "tip": "Use 'going to' for plans already decided; use 'will' for decisions made at the moment of speaking"
+            }
+          ]
+        },
+        {
+          "id": "conditionals",
+          "title": "Conditional Sentences",
+          "content": [
+            {
+              "subtitle": "Zero Conditional",
+              "explanation": "Used for scientific facts, general truths, and cause-effect relationships that are always true.",
+              "examples": [
+                "If you heat water to 100°C, it boils.",
+                "When it rains, the streets get wet.",
+                "If students don't study, they fail."
+              ],
+              "tip": "Structure: If + Present Simple, Present Simple. Both clauses use present tense."
+            },
+            {
+              "subtitle": "First Conditional",
+              "explanation": "Used for realistic or probable future situations and their results.",
+              "examples": [
+                "If I get the visa, I will study in Canada.",
+                "If she passes the IELTS, she will apply to Oxford.",
+                "If you practice every day, you will improve quickly."
+              ],
+              "tip": "Structure: If + Present Simple, will + base verb. Real possibility."
+            },
+            {
+              "subtitle": "Second Conditional",
+              "explanation": "Used for hypothetical, unlikely, or imaginary present/future situations.",
+              "examples": [
+                "If I had more time, I would take a language course.",
+                "If she were fluent in German, she would apply for that job.",
+                "If they offered me a scholarship, I would move abroad immediately."
+              ],
+              "tip": "Structure: If + Past Simple, would + base verb. Use 'were' for all persons (formal)."
+            },
+            {
+              "subtitle": "Third Conditional",
+              "explanation": "Used for imaginary situations in the past — things that didn't happen.",
+              "examples": [
+                "If I had studied harder, I would have gotten a better score.",
+                "If she had applied earlier, she would have received funding.",
+                "If they had known about the program, they would have enrolled."
+              ],
+              "tip": "Structure: If + Past Perfect, would have + past participle. Regrets and alternate past scenarios."
+            },
+            {
+              "subtitle": "Mixed Conditionals",
+              "explanation": "Combine elements of different conditionals when the time references are different.",
+              "examples": [
+                "If I had studied medicine (past), I would be a doctor now (present).",
+                "If I were more organized (present), I would have finished the project already (past)."
+              ],
+              "tip": "Mix 2nd and 3rd when past cause has present consequence, or present situation reflects on past actions."
+            }
+          ]
+        },
+        {
+          "id": "passive_voice",
+          "title": "Passive Voice",
+          "content": [
+            {
+              "subtitle": "What is Passive Voice?",
+              "explanation": "In passive voice, the focus is on the action or the object receiving the action, not on who performs it. Essential in academic and professional writing.",
+              "examples": [
+                "Active: The researcher conducted the experiment.",
+                "Passive: The experiment was conducted by the researcher.",
+                "Active: They will announce the results tomorrow.",
+                "Passive: The results will be announced tomorrow."
+              ],
+              "tip": "Structure: Subject + be (conjugated) + past participle + (by + agent). Use passive when the agent is unknown, unimportant, or obvious."
+            },
+            {
+              "subtitle": "Passive in Academic Writing",
+              "explanation": "Passive voice is extremely common in academic and scientific writing. It creates objectivity and emphasizes the research over the researcher.",
+              "examples": [
+                "The data were analyzed using SPSS software.",
+                "The hypothesis has been confirmed by multiple studies.",
+                "The participants were randomly divided into two groups.",
+                "It is widely accepted that climate change is man-made."
+              ],
+              "tip": "In academic papers, passive helps you sound objective and impersonal — a key requirement in formal writing."
+            }
+          ]
+        },
+        {
+          "id": "articles_prepositions",
+          "title": "Articles & Prepositions",
+          "content": [
+            {
+              "subtitle": "Articles: a, an, the",
+              "explanation": "Articles are among the most challenging aspects of English for non-native speakers. 'A/an' is used for indefinite, non-specific nouns. 'The' is used for definite, specific nouns.",
+              "examples": [
+                "A/an (indefinite): I need a visa. She bought an umbrella.",
+                "The (definite, specific): The visa arrived today. The umbrella is mine.",
+                "No article (general plural/uncountable): Dogs are friendly. Water is essential.",
+                "The (unique things): the sun, the moon, the internet, the government",
+                "The (superlatives): She is the best student in the class."
+              ],
+              "tip": "Use 'the' when both speaker and listener know which specific thing is meant. Once a noun is introduced with 'a/an', subsequent references use 'the'."
+            },
+            {
+              "subtitle": "Prepositions of Time: in, on, at",
+              "explanation": "These three prepositions are used for different time expressions. Mastering them is critical for natural English.",
+              "examples": [
+                "AT: at 9am, at noon, at midnight, at Christmas, at the weekend (BrE)",
+                "ON: on Monday, on March 15th, on my birthday, on weekdays",
+                "IN: in the morning/afternoon/evening, in January, in 2024, in the 21st century",
+                "IN: in a moment, in an hour, in time (not late)",
+                "ON: on time (punctual)"
+              ],
+              "tip": "Memory trick: AT = precise point; ON = surface/day; IN = inside a period. The bigger the time period, the more likely you use 'in'."
+            },
+            {
+              "subtitle": "Common Preposition Collocations",
+              "explanation": "Many words require specific prepositions. These combinations are called 'collocations' and must be memorized.",
+              "examples": [
+                "interested IN, good AT, afraid OF, responsible FOR",
+                "apply FOR (a job/visa), apply TO (a university)",
+                "depend ON, consist OF, result IN, result FROM",
+                "agree WITH (a person), agree ON (a topic), agree TO (a proposal)",
+                "congratulate ON, apologize FOR, complain ABOUT/TO",
+                "capable OF, aware OF, proud OF, tired OF"
+              ],
+              "tip": "When in doubt, look up the preposition with the word in a collocations dictionary (e.g., ozdic.com). There is often no logical rule — just usage."
+            }
+          ]
+        },
+        {
+          "id": "modal_verbs",
+          "title": "Modal Verbs in Depth",
+          "content": [
+            {
+              "subtitle": "Ability: can, could, be able to",
+              "explanation": "Use 'can' for present ability, 'could' for past ability or polite requests, 'be able to' for all tenses.",
+              "examples": [
+                "Present: I can speak three languages.",
+                "Past: She could swim at age 5.",
+                "Future: Will you be able to attend?",
+                "Polite request: Could you help me?",
+                "Achievement (past): He was able to finish despite the difficulties."
+              ],
+              "tip": "'Could' and 'was able to' differ in the past: 'could' = general ability; 'was able to' = specific achievement."
+            },
+            {
+              "subtitle": "Obligation & Necessity: must, have to, should",
+              "explanation": "These modals express obligation at different levels of strength and origin.",
+              "examples": [
+                "MUST (strong, internal): I must improve my English before applying.",
+                "HAVE TO (external obligation): You have to show your passport at immigration.",
+                "SHOULD (advice/recommendation): You should proofread your essay carefully.",
+                "OUGHT TO (moral obligation): We ought to reduce carbon emissions.",
+                "MUSTN'T (prohibition): You mustn't miss the application deadline.",
+                "DON'T HAVE TO (no obligation): You don't have to wear formal attire."
+              ],
+              "tip": "'Must' comes from the speaker's own judgment; 'have to' comes from an external rule or requirement."
+            },
+            {
+              "subtitle": "Possibility & Deduction",
+              "explanation": "Modals also express how certain you are about something — essential for academic hedging and natural conversation.",
+              "examples": [
+                "MIGHT/MAY (possibility ~50%): The results might indicate a new trend.",
+                "COULD (weak possibility): This could be a significant finding.",
+                "MUST (strong deduction/certainty): You must be exhausted after that flight!",
+                "CAN'T/COULDN'T (impossibility): That can't be right — the data is clear.",
+                "SHOULD (expectation): The results should be ready by Friday."
+              ],
+              "tip": "In academic writing, 'hedging' with modals (may, might, could, would) is essential. Avoid overly definitive statements."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Grammar Mastery Test",
+        "description": "Test your knowledge of tenses, conditionals, passive voice, articles, and modal verbs",
+        "questions": [
+          {
+            "id": 1,
+            "question": "Choose the correct tense: 'By the time she arrived, we _____ for two hours.'",
+            "options": ["were waiting", "had been waiting", "have been waiting", "waited"],
+            "correct": 1,
+            "explanation": "Past Perfect Continuous is used for an action in progress before another past action. 'By the time' + Past Simple signals the use of Past Perfect Continuous."
+          },
+          {
+            "id": 2,
+            "question": "Which sentence uses the PASSIVE VOICE correctly?",
+            "options": [
+              "The professor taught the seminar last week.",
+              "The seminar was taught by the professor last week.",
+              "The seminar is teaching by the professor.",
+              "The professor has teaching the seminar."
+            ],
+            "correct": 1,
+            "explanation": "Passive voice structure: Subject (the seminar) + was/were + past participle (taught) + by + agent (the professor)."
+          },
+          {
+            "id": 3,
+            "question": "Select the correct conditional: 'If I _____ the grant, I would travel to Japan for research.'",
+            "options": ["will receive", "receive", "received", "had received"],
+            "correct": 2,
+            "explanation": "Second Conditional uses 'If + Past Simple, would + base verb' for hypothetical/unlikely present situations."
+          },
+          {
+            "id": 4,
+            "question": "Which tense is typical in academic writing? 'The results _____ that there is a significant correlation.'",
+            "options": ["are showing", "showed", "show", "will show"],
+            "correct": 2,
+            "explanation": "In academic writing, Present Simple is used to describe findings, conclusions, and what research 'shows' or 'suggests'."
+          },
+          {
+            "id": 5,
+            "question": "Identify the THIRD CONDITIONAL sentence:",
+            "options": [
+              "If she studies hard, she will pass.",
+              "If I had more money, I would travel more.",
+              "If they had applied on time, they would have been accepted.",
+              "If water freezes, it becomes ice."
+            ],
+            "correct": 2,
+            "explanation": "Third Conditional: 'If + Past Perfect, would have + past participle' — used for imaginary situations in the past."
+          },
+          {
+            "id": 6,
+            "question": "Choose the correct article: '_____ Amazon is _____ longest river in _____ South America.'",
+            "options": ["The / a / —", "The / the / —", "A / the / the", "— / a / the"],
+            "correct": 1,
+            "explanation": "'The Amazon' because it's a unique, specific river. 'The longest' because superlatives use 'the'. No article before continental proper nouns like South America."
+          },
+          {
+            "id": 7,
+            "question": "Which modal is MOST appropriate? 'You _____ submit your application before the deadline — it is mandatory.'",
+            "options": ["should", "could", "must", "might"],
+            "correct": 2,
+            "explanation": "'Must' expresses strong obligation. In this context, submitting before the deadline is a requirement, so 'must' is appropriate."
+          },
+          {
+            "id": 8,
+            "question": "Choose the correct preposition: 'The study consists _____ three phases.'",
+            "options": ["in", "of", "on", "by"],
+            "correct": 1,
+            "explanation": "'Consist of' is a fixed collocation — it is always followed by 'of'. Example: 'The team consists of five members.'"
+          },
+          {
+            "id": 9,
+            "question": "Complete: 'She _____ English for five years before she moved to London.'",
+            "options": ["studied", "has studied", "had been studying", "was studying"],
+            "correct": 2,
+            "explanation": "Past Perfect Continuous ('had been studying') shows a continuous action that occurred before another past event ('moved to London')."
+          },
+          {
+            "id": 10,
+            "question": "Which sentence is correct? The professor said the results _____ announced next week.",
+            "options": ["will be", "would be", "are being", "have been"],
+            "correct": 1,
+            "explanation": "In reported speech, 'will' changes to 'would'. Since the professor said this in the past, we use 'would be announced'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vocabulary",
+      "icon": "📚",
+      "title": "Vocabulary & Idioms",
+      "description": "Essential words, academic phrases, idioms, and professional expressions",
+      "color": "#FF6B35",
+      "lessons": [
+        {
+          "id": "academic_words",
+          "title": "Academic Word List (AWL)",
+          "content": [
+            {
+              "subtitle": "Verbs for Research & Analysis",
+              "explanation": "These verbs are essential when writing essays, reports, and research papers. They show critical thinking.",
+              "examples": [
+                "analyze — to examine in detail: 'The study analyzes data from 500 participants.'",
+                "assess — to evaluate: 'This paper assesses the impact of social media.'",
+                "demonstrate — to show clearly: 'The results demonstrate a clear correlation.'",
+                "establish — to prove or create: 'Research has established that sleep affects memory.'",
+                "evaluate — to judge quality/value: 'The committee evaluated the proposals.'",
+                "hypothesize — to propose a theory: 'Scientists hypothesize that bacteria caused the outbreak.'",
+                "indicate — to suggest or show: 'The data indicate a downward trend.'",
+                "investigate — to examine carefully: 'Researchers investigated the effects of diet.'",
+                "conclude — to reach a decision: 'The study concludes that intervention is necessary.'"
+              ],
+              "tip": "In academic writing, 'indicate', 'suggest', and 'demonstrate' are more formal than 'show' or 'prove'."
+            },
+            {
+              "subtitle": "Nouns for Academic Contexts",
+              "explanation": "These nouns frequently appear in textbooks, papers, and lectures across all disciplines.",
+              "examples": [
+                "methodology — the system of methods used in research",
+                "framework — a basic structure or set of ideas",
+                "hypothesis — a proposed explanation to be tested",
+                "parameter — a factor that defines a system",
+                "perspective — a point of view",
+                "concept — an abstract idea or general notion",
+                "implication — a likely consequence",
+                "variable — a factor that can change in an experiment",
+                "criterion (criteria) — a standard for judging something"
+              ],
+              "tip": "Learn the word family: analyze (verb) → analysis (noun) → analytical (adjective) → analytically (adverb)"
+            },
+            {
+              "subtitle": "Discourse Markers & Linking Words",
+              "explanation": "These words and phrases structure your writing and make arguments flow logically. Crucial for IELTS, TOEFL, and academic essays.",
+              "examples": [
+                "Furthermore / Moreover / In addition — to add information",
+                "However / Nevertheless / Nonetheless — to contrast",
+                "Therefore / Consequently / As a result — to show effect",
+                "For instance / For example / Such as — to give examples",
+                "In contrast / On the other hand — to compare opposites",
+                "Despite / Although / Even though — to show contrast within a sentence",
+                "In conclusion / To summarize / Overall — to end",
+                "With regard to / Concerning / As for — to introduce a topic"
+              ],
+              "tip": "Vary your linking words. Don't use 'however' or 'therefore' more than once per paragraph."
+            }
+          ]
+        },
+        {
+          "id": "idioms_phrases",
+          "title": "English Idioms & Expressions",
+          "content": [
+            {
+              "subtitle": "Everyday Idioms (Work & Study)",
+              "explanation": "Idioms are fixed expressions whose meaning cannot be deduced from the individual words. They're essential for natural communication.",
+              "examples": [
+                "hit the books — to study hard: 'I need to hit the books this weekend before the exam.'",
+                "burn the midnight oil — to work/study late into the night: 'She burned the midnight oil finishing her thesis.'",
+                "get the ball rolling — to start something: 'Let's get the ball rolling on this project.'",
+                "on the same page — in agreement/understanding: 'Are we all on the same page about the deadline?'",
+                "bite the bullet — to endure a difficult situation: 'Just bite the bullet and do the presentation.'",
+                "the ball is in your court — it's your turn/decision: 'I sent my application; now the ball is in their court.'",
+                "under the weather — feeling ill: 'I'm a bit under the weather today.'",
+                "think outside the box — to think creatively: 'We need to think outside the box to solve this.'"
+              ],
+              "tip": "Idioms add color and fluency to your speech, but use them carefully in formal writing — they are generally inappropriate in academic essays."
+            },
+            {
+              "subtitle": "Idioms for Career & Professional Life",
+              "explanation": "These expressions are commonly used in workplace conversations, interviews, and networking in English-speaking countries.",
+              "examples": [
+                "climb the corporate ladder — to advance in a career",
+                "go the extra mile — to put in extra effort: 'She always goes the extra mile for her clients.'",
+                "touch base — to make contact briefly: 'Let's touch base next week about the project.'",
+                "in the loop — kept informed: 'Please keep me in the loop about any updates.'",
+                "a steep learning curve — a difficult learning process: 'The new software has a steep learning curve.'",
+                "deadweight — something/someone unproductive: used carefully, as it can be offensive",
+                "wear many hats — to have multiple roles: 'In a startup, you often wear many hats.'",
+                "drop the ball — to make a mistake or fail to do something: 'We can't drop the ball on this presentation.'"
+              ],
+              "tip": "Knowing idioms helps you understand native speakers in meetings, podcasts, and casual conversations. Listen actively for them."
+            },
+            {
+              "subtitle": "American vs British English: Key Differences",
+              "explanation": "When living or studying abroad, you'll encounter differences between American and British English in vocabulary, spelling, and expressions.",
+              "examples": [
+                "VOCABULARY: elevator (US) / lift (UK) | apartment (US) / flat (UK) | math (US) / maths (UK)",
+                "VOCABULARY: vacation (US) / holiday (UK) | fall (US) / autumn (UK) | truck (US) / lorry (UK)",
+                "SPELLING: color/colour | center/centre | organize/organise | analyze/analyse",
+                "EXPRESSIONS: 'I could care less' (US) vs 'I couldn't care less' (UK/correct logic)",
+                "PRONUNCIATION: schedule: 'SKED-yool' (US) vs 'SHED-yool' (UK)",
+                "PREPOSITIONS: 'on the weekend' (US) vs 'at the weekend' (UK)",
+                "TENSE: 'Did you eat yet?' (US) vs 'Have you eaten yet?' (UK)"
+              ],
+              "tip": "Choose ONE variety (American or British) and be consistent. Mixing them randomly looks unprofessional, though both are fully accepted globally."
+            },
+            {
+              "subtitle": "Phrasal Verbs in Context",
+              "explanation": "Phrasal verbs combine a verb with a preposition or adverb to create a new meaning. They are very common in spoken and informal written English.",
+              "examples": [
+                "carry out — to perform/conduct: 'The team carried out an extensive study.'",
+                "look into — to investigate: 'I will look into the scholarship options.'",
+                "put off — to postpone: 'Don't put off your IELTS registration.'",
+                "come across — to encounter by chance: 'I came across a great article on climate change.'",
+                "set up — to establish or arrange: 'She set up a meeting with the admissions office.'",
+                "bring up — to mention a topic: 'He brought up the budget issue in the meeting.'",
+                "follow up — to take further action: 'I'll follow up with an email after our call.'",
+                "break down — to analyze in parts (also: to stop working): 'Let's break down the problem into smaller steps.'"
+              ],
+              "tip": "Phrasal verbs can be separable ('call off the meeting' = 'call the meeting off') or inseparable ('look into the issue' — cannot say 'look the issue into')."
+            }
+          ]
+        },
+        {
+          "id": "business_english",
+          "title": "Business & Professional English",
+          "content": [
+            {
+              "subtitle": "Meetings & Presentations",
+              "explanation": "Key phrases for professional meetings, presentations, and conference calls in English-speaking environments.",
+              "examples": [
+                "Shall we get started? / Let's kick things off.",
+                "I'd like to draw your attention to... (pointing to data)",
+                "As you can see from the slide...",
+                "To elaborate on that point...",
+                "Could you clarify what you mean by...?",
+                "I'd like to build on what [name] said...",
+                "Let's table this discussion for now. (postpone)",
+                "To wrap up, the key takeaways are...",
+                "Are there any questions before we move on?"
+              ],
+              "tip": "In North American English, 'table' means to POSTPONE. In British English, it means to PUT FORWARD for discussion. Be aware of this difference!"
+            },
+            {
+              "subtitle": "Email & Written Communication",
+              "explanation": "Professional email phrases for workplace communication, job applications, and networking.",
+              "examples": [
+                "I hope this email finds you well.",
+                "I am writing to inquire about...",
+                "Please find attached...",
+                "I would be grateful if you could...",
+                "Could you please provide further details on...?",
+                "I look forward to hearing from you.",
+                "Thank you for your prompt response.",
+                "Please do not hesitate to contact me if...",
+                "Best regards / Kind regards / Yours sincerely"
+              ],
+              "tip": "Use 'Yours sincerely' when you know the person's name; 'Yours faithfully' when you don't (British convention)."
+            },
+            {
+              "subtitle": "Job Interview Language",
+              "explanation": "Key phrases and structures for performing well in English-language job interviews, a critical skill for working abroad.",
+              "examples": [
+                "Opening: 'Thank you for having me. I'm really excited about this opportunity.'",
+                "Strengths: 'One of my key strengths is my ability to [skill + example].'",
+                "Experience (STAR method): 'In my previous role, I was faced with [Situation]. My task was to [Task]. I [Action]. As a result, [Result].'",
+                "Weaknesses: 'I've noticed I sometimes take on too much at once. I've been working on this by prioritizing and delegating.'",
+                "Salary: 'Based on my research and experience, I'd expect something in the range of [X]. Is that in line with your budget?'",
+                "Closing: 'What does success look like in this role after the first 90 days?'",
+                "Thank you note: 'Thank you again for your time. I'm very enthusiastic about the team and the role.'"
+              ],
+              "tip": "Use the STAR method (Situation, Task, Action, Result) to answer behavioral questions like 'Tell me about a time when...'"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Vocabulary & Idioms Power Check",
+        "description": "Test your academic vocabulary, idioms, and professional expressions",
+        "questions": [
+          {
+            "id": 1,
+            "question": "Choose the best academic verb: 'The experiment _____ that vitamin C reduces cold duration.'",
+            "options": ["proved", "demonstrated", "showed", "told"],
+            "correct": 1,
+            "explanation": "'Demonstrated' is the most appropriate academic verb. While 'proved' is technically correct, science rarely 'proves' — it 'demonstrates' or 'suggests'."
+          },
+          {
+            "id": 2,
+            "question": "What does the idiom 'burn the midnight oil' mean?",
+            "options": [
+              "To waste energy recklessly",
+              "To work or study very late into the night",
+              "To be extremely angry",
+              "To cook something for too long"
+            ],
+            "correct": 1,
+            "explanation": "'Burn the midnight oil' means to work or study late at night. It originates from the time before electricity, when people used oil lamps to work into the night."
+          },
+          {
+            "id": 3,
+            "question": "In North American English, 'let's table this issue' means:",
+            "options": [
+              "Let's discuss this now",
+              "Let's postpone this discussion",
+              "Let's write this on the board",
+              "Let's present this to everyone"
+            ],
+            "correct": 1,
+            "explanation": "In American/Canadian English, 'to table' means to postpone. This is the opposite of British English, where 'to table' means to bring something forward for discussion!"
+          },
+          {
+            "id": 4,
+            "question": "What is the British English equivalent of the American English word 'elevator'?",
+            "options": ["escalator", "lift", "riser", "hoist"],
+            "correct": 1,
+            "explanation": "In British English, 'lift' is the word for what Americans call an 'elevator'. Similarly: apartment (US) = flat (UK), truck (US) = lorry (UK)."
+          },
+          {
+            "id": 5,
+            "question": "Which phrasal verb means 'to postpone or delay'?",
+            "options": ["put up", "put out", "put off", "put on"],
+            "correct": 2,
+            "explanation": "'Put off' means to postpone. 'Put up' = to accommodate or tolerate; 'put out' = to extinguish or inconvenience; 'put on' = to wear or stage something."
+          },
+          {
+            "id": 6,
+            "question": "Which linking word would you use to CONTRAST two ideas within a single sentence?",
+            "options": ["Furthermore", "Therefore", "Although", "Consequently"],
+            "correct": 2,
+            "explanation": "'Although' introduces a contrast within a sentence (e.g., 'Although the results were unexpected, they were significant.'). The others add, conclude, or show cause-effect."
+          },
+          {
+            "id": 7,
+            "question": "The idiom 'on the same page' means:",
+            "options": [
+              "Reading the same book",
+              "Having the same opinion or understanding",
+              "Working at the same desk",
+              "Submitting the same document"
+            ],
+            "correct": 1,
+            "explanation": "'On the same page' means everyone has the same understanding or is in agreement. Example: 'Before we start, let's make sure we're all on the same page about the objectives.'"
+          },
+          {
+            "id": 8,
+            "question": "In a job interview, using the STAR method refers to:",
+            "options": [
+              "Being charming and likeable",
+              "Structuring answers around Situation, Task, Action, Result",
+              "Speaking clearly and articulately",
+              "Using strong, assertive language"
+            ],
+            "correct": 1,
+            "explanation": "STAR = Situation, Task, Action, Result. It's a structured way to answer behavioral interview questions like 'Tell me about a time when you solved a difficult problem.'"
+          },
+          {
+            "id": 9,
+            "question": "What does 'go the extra mile' mean in a professional context?",
+            "options": [
+              "To travel a long distance for work",
+              "To put in extra effort beyond what is required",
+              "To stay late at the office",
+              "To take a longer route to work"
+            ],
+            "correct": 1,
+            "explanation": "'Go the extra mile' means to make more effort than is expected. Example: 'She always goes the extra mile for her clients, which is why they value her so highly.'"
+          },
+          {
+            "id": 10,
+            "question": "Which of these is an example of 'hedging' language appropriate for academic writing?",
+            "options": [
+              "'The results prove that...'",
+              "'It is absolutely certain that...'",
+              "'The findings suggest that...'",
+              "'Everyone knows that...'"
+            ],
+            "correct": 2,
+            "explanation": "'The findings suggest that...' is hedging — it shows appropriate caution and academic humility. In academic writing, avoid absolute claims. Use: suggest, indicate, appear to, may, might, could."
+          }
+        ]
+      }
+    },
+    {
+      "id": "writing",
+      "icon": "✍️",
+      "title": "Academic Writing",
+      "description": "Essays, reports, paraphrasing, and IELTS/TOEFL writing tasks",
+      "color": "#00C896",
+      "lessons": [
+        {
+          "id": "essay_structure",
+          "title": "Essay Structure & Argumentation",
+          "content": [
+            {
+              "subtitle": "The 5-Paragraph Essay Structure",
+              "explanation": "The standard academic essay structure used in IELTS, TOEFL, and university courses. Mastering it is essential for exam success and academic writing.",
+              "examples": [
+                "INTRODUCTION: Hook → Background → Thesis Statement",
+                "BODY PARAGRAPH 1: Topic Sentence → Supporting Evidence → Example → Analysis → Concluding Sentence",
+                "BODY PARAGRAPH 2: Topic Sentence → Supporting Evidence → Example → Analysis → Concluding Sentence",
+                "BODY PARAGRAPH 3 (optional): Counterargument → Refutation",
+                "CONCLUSION: Restate thesis (paraphrased) → Summarize main points → Final thought/implication"
+              ],
+              "tip": "Your thesis statement should clearly state your position and the main arguments you'll develop. Everything in the essay should connect back to it."
+            },
+            {
+              "subtitle": "Writing Strong Topic Sentences",
+              "explanation": "A topic sentence opens a body paragraph and tells the reader exactly what it's about. It should directly support the thesis.",
+              "examples": [
+                "Weak: 'Technology is important in education.'",
+                "Strong: 'The integration of digital tools in classrooms significantly enhances student engagement and learning outcomes.'",
+                "Weak: 'Many people disagree about immigration.'",
+                "Strong: 'While critics argue that immigration places strain on public resources, evidence consistently shows its substantial net economic benefit.'",
+                "Formula: Position + Main Point + (Concession if needed)"
+              ],
+              "tip": "A body paragraph = Topic Sentence + Evidence/Examples + Analysis + Linking to thesis. Never end a paragraph with just a quote or fact — always analyze."
+            },
+            {
+              "subtitle": "Paraphrasing Techniques",
+              "explanation": "Paraphrasing is essential for academic writing — it shows you understand the source material without plagiarizing. IELTS and TOEFL test this skill directly.",
+              "examples": [
+                "Original: 'The internet has transformed how people communicate globally.'",
+                "Paraphrase 1 (change structure): 'Global communication has been fundamentally altered by the internet.'",
+                "Paraphrase 2 (change vocab): 'Digital connectivity has revolutionized international interaction.'",
+                "Paraphrase 3 (change perspective): 'People around the world now connect in ways that were impossible before the internet era.'",
+                "Techniques: synonyms, change word form, change sentence structure, change voice (active/passive), change clause order"
+              ],
+              "tip": "Change BOTH vocabulary AND structure when paraphrasing. Changing only synonyms while keeping the same structure is still considered plagiarism in most institutions."
+            },
+            {
+              "subtitle": "Cohesion & Coherence",
+              "explanation": "Cohesion = sentences link smoothly. Coherence = ideas flow logically. Both are assessed in IELTS Writing Task 2 and TOEFL Independent Writing.",
+              "examples": [
+                "COHESION TOOLS: Linking words (however, furthermore), pronouns (it, they, this), reference words (the former, the latter), lexical chains",
+                "COHERENCE: Each paragraph has ONE main idea; ideas progress logically; no contradictions",
+                "Example of cohesion: 'Online learning offers flexibility. However, this flexibility can lead to procrastination. This issue affects many students.'",
+                "Avoid: Repeating the same word many times — use synonyms and pronouns",
+                "Avoid: Starting every sentence the same way"
+              ],
+              "tip": "Read your essay aloud. If it sounds choppy or you need to pause to understand the logic, it lacks cohesion or coherence."
+            }
+          ]
+        },
+        {
+          "id": "writing_tasks",
+          "title": "IELTS Writing Tasks",
+          "content": [
+            {
+              "subtitle": "Task 1 (Academic): Describing Visual Data",
+              "explanation": "IELTS Academic Writing Task 1: describe a graph, chart, table, diagram, or map in 150+ words in 20 minutes. No opinion needed.",
+              "examples": [
+                "STRUCTURE: Introduction (paraphrase the question) → Overview (main trends, no data) → Detail paragraph 1 → Detail paragraph 2",
+                "KEY LANGUAGE: 'The graph illustrates...' / 'The chart shows...' / 'According to the data...'",
+                "TRENDS: rose sharply | increased gradually | declined steadily | remained stable | fluctuated slightly",
+                "COMPARISONS: 'X was significantly higher than Y' / 'While A increased, B remained constant'",
+                "OVERVIEW: 'Overall, it is clear that...' / 'The most notable trend is...'"
+              ],
+              "tip": "ALWAYS include an Overview paragraph — examiners say it's the most important part of Task 1. It shows you can identify the BIG PICTURE, not just copy numbers."
+            },
+            {
+              "subtitle": "Task 2: Academic Essay Types",
+              "explanation": "IELTS Writing Task 2 requires a 250+ word essay in 40 minutes. Different question types require different approaches.",
+              "examples": [
+                "OPINION: 'Do you agree or disagree?' → State clear position in introduction + 2 supporting body paragraphs",
+                "DISCUSSION: 'Discuss both views and give your opinion.' → Para 1: View A | Para 2: View B | Para 3: Your opinion",
+                "PROBLEM-SOLUTION: 'What are the causes? What solutions can be offered?' → Para 1: Causes | Para 2: Solutions",
+                "ADVANTAGES-DISADVANTAGES: Weigh pros and cons, then give overall assessment",
+                "TWO-PART QUESTIONS: Answer each question in a separate paragraph"
+              ],
+              "tip": "Read the question THREE times before writing. Underline the key terms. Identify the exact task type. Partially answering = Band 5 maximum for Task Achievement."
+            }
+          ]
+        },
+        {
+          "id": "reading_texts",
+          "title": "Reading Practice Texts",
+          "content": [
+            {
+              "subtitle": "Text 1: The Future of Remote Work",
+              "explanation": "Read the following text carefully, then answer the comprehension questions mentally or aloud. This text is at IELTS Academic Band 6-7 level.",
+              "examples": [
+                "The rapid adoption of remote work, accelerated by the global pandemic of 2020, has fundamentally restructured the relationship between employees and employers. What began as a temporary emergency measure has, for many industries, evolved into a permanent or hybrid model of work.",
+                "Proponents argue that remote work offers significant advantages: reduced commuting time, lower overhead costs for companies, and improved work-life balance for employees. Studies conducted by Stanford University suggest that remote workers can be up to 13% more productive than their office-based counterparts.",
+                "However, critics point to potential drawbacks. The blurring of boundaries between professional and personal life can lead to burnout. Furthermore, remote work may disadvantage newer employees who benefit most from in-person mentorship and collaboration.",
+                "Comprehension Q1: What does 'hybrid model' mean in this context?",
+                "Comprehension Q2: What evidence supports the claim that remote workers are more productive?",
+                "Comprehension Q3: What are TWO disadvantages of remote work mentioned?"
+              ],
+              "tip": "Practice active reading: underline key claims, circle evidence, and identify the author's purpose. Ask yourself: Is this a fact or an opinion?"
+            },
+            {
+              "subtitle": "Text 2: Artificial Intelligence in Healthcare",
+              "explanation": "This intermediate-advanced text covers a common IELTS/TOEFL topic. Notice the hedging language and academic vocabulary.",
+              "examples": [
+                "Artificial intelligence is increasingly being deployed in healthcare settings, with applications ranging from diagnostic imaging to drug discovery. Machine learning algorithms, trained on vast datasets of medical images, have demonstrated the capacity to detect conditions such as diabetic retinopathy and certain cancers with accuracy rivaling that of specialist physicians.",
+                "Notwithstanding these promising developments, the integration of AI into clinical practice raises significant ethical and practical concerns. Questions of accountability — who bears responsibility when an AI system errs — remain largely unresolved in most jurisdictions.",
+                "Moreover, the reliance on large training datasets may inadvertently embed existing social biases into diagnostic tools, potentially exacerbating health inequalities rather than mitigating them.",
+                "Vocabulary focus: deployed, notwithstanding, jurisdictions, inadvertently, exacerbating, mitigating",
+                "Discussion: 'Weigh the benefits and risks of AI in healthcare.' — This is a classic IELTS Task 2 prompt format."
+              ],
+              "tip": "Notice 'notwithstanding' (= despite), 'inadvertently' (= unintentionally), 'exacerbating' (= making worse). These are high-level IELTS vocabulary items."
+            },
+            {
+              "subtitle": "Text 3: Urbanization and Climate Change",
+              "explanation": "Cities generate approximately 70% of global CO₂ emissions. This text is suitable for summarizing and paraphrasing practice.",
+              "examples": [
+                "Rapid urbanization presents a paradox for climate scientists and urban planners alike. On one hand, cities — by concentrating population and economic activity — offer efficiencies that rural living cannot match: shared infrastructure, public transport, and reduced per-capita energy consumption.",
+                "On the other hand, the urban heat island effect, increased impervious surface coverage, and high per-capita consumption patterns in wealthier cities contribute substantially to greenhouse gas emissions.",
+                "Solutions being explored include green roofs, urban tree canopies, district cooling systems, and the transition to low-carbon public transit. Singapore and Copenhagen are frequently cited as models of climate-resilient urban planning.",
+                "Paraphrasing practice: Rewrite this sentence: 'Cities contribute substantially to greenhouse gas emissions due to high consumption patterns.'",
+                "Writing prompt: 'The advantages of urbanization outweigh its disadvantages.' Discuss."
+              ],
+              "tip": "Texts with two contrasting views ('on one hand... on the other hand') are very common in IELTS Academic Reading. Practice identifying the central tension."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Academic Writing Skills Test",
+        "description": "Test your essay writing, paraphrasing, and IELTS writing knowledge",
+        "questions": [
+          {
+            "id": 1,
+            "question": "In IELTS Writing Task 1 (Academic), what is the MOST IMPORTANT paragraph to include?",
+            "options": [
+              "A detailed introduction with background context",
+              "An overview paragraph summarizing the main trends",
+              "A conclusion with personal opinion",
+              "A paragraph comparing all data points"
+            ],
+            "correct": 1,
+            "explanation": "IELTS examiners emphasize that the Overview is essential in Task 1. It shows you can identify the big picture — the most significant trend(s) — without listing every number."
+          },
+          {
+            "id": 2,
+            "question": "Which is the BEST example of effective paraphrasing?",
+            "options": [
+              "Original: 'Climate change threatens biodiversity.' → Para: 'Climate change is a threat to biodiversity.'",
+              "Original: 'Climate change threatens biodiversity.' → Para: 'Global warming poses a significant risk to the variety of species on Earth.'",
+              "Original: 'Climate change threatens biodiversity.' → Para: 'Change of climate threatens the diversity of biology.'",
+              "Original: 'Climate change threatens biodiversity.' → Para: 'It threatens biodiversity.'"
+            ],
+            "correct": 1,
+            "explanation": "Option B changes both vocabulary (climate change→global warming, threatens→poses risk, biodiversity→variety of species) AND structure. Options A and C barely change anything; D removes meaning."
+          },
+          {
+            "id": 3,
+            "question": "For an IELTS Task 2 'Discussion' essay ('Discuss both views'), what is the standard structure?",
+            "options": [
+              "Intro → Your opinion → Opposing view → Conclusion",
+              "Intro → View A → View B → Your opinion → Conclusion",
+              "Intro → Problem → Solution → Conclusion",
+              "Intro → Advantages → Disadvantages → Conclusion"
+            ],
+            "correct": 1,
+            "explanation": "A 'Discuss both views' essay requires presenting BOTH sides objectively before stating your own opinion. Each view gets its own body paragraph."
+          },
+          {
+            "id": 4,
+            "question": "What does 'cohesion' mean in academic writing?",
+            "options": [
+              "Using formal vocabulary throughout",
+              "Making sentences and paragraphs connect smoothly",
+              "Having a clear main argument",
+              "Writing with a consistent tone"
+            ],
+            "correct": 1,
+            "explanation": "Cohesion refers to the grammatical and lexical linking of sentences and paragraphs — using linking words, pronouns, and reference words to create a smooth flow."
+          },
+          {
+            "id": 5,
+            "question": "In the text about remote work, what Stanford evidence is cited?",
+            "options": [
+              "Remote workers earn 13% more",
+              "Remote workers are up to 13% more productive",
+              "Remote work saves 13% in company costs",
+              "13% of workers prefer remote work"
+            ],
+            "correct": 1,
+            "explanation": "The text states: 'Studies conducted by Stanford University suggest that remote workers can be up to 13% more productive than their office-based counterparts.'"
+          },
+          {
+            "id": 6,
+            "question": "Which sentence demonstrates appropriate HEDGING for academic writing?",
+            "options": [
+              "This proves that social media causes depression.",
+              "Everyone agrees that exercise is beneficial.",
+              "The data suggest a possible link between screen time and anxiety.",
+              "It is a fact that diet directly controls intelligence."
+            ],
+            "correct": 2,
+            "explanation": "'Suggest a possible link' is hedged — it avoids overstatement. Academic writing requires epistemic humility: use may, might, suggest, indicate, appear to, seem to, could."
+          },
+          {
+            "id": 7,
+            "question": "What is the STAR method used for in professional English?",
+            "options": [
+              "Structuring academic essays",
+              "Answering behavioral interview questions",
+              "Writing formal emails",
+              "Presenting data in reports"
+            ],
+            "correct": 1,
+            "explanation": "STAR (Situation, Task, Action, Result) is used to answer behavioral interview questions like 'Tell me about a time when...' It helps structure clear, relevant, and impressive answers."
+          },
+          {
+            "id": 8,
+            "question": "In the healthcare AI text, what does 'notwithstanding' mean?",
+            "options": [
+              "Because of",
+              "In addition to",
+              "Despite / in spite of",
+              "As a result of"
+            ],
+            "correct": 2,
+            "explanation": "'Notwithstanding' is a formal word meaning 'despite' or 'in spite of'. Example: 'Notwithstanding the challenges, the project succeeded.'"
+          }
+        ]
+      }
+    },
+    {
+      "id": "speaking",
+      "icon": "🎙️",
+      "title": "Speaking & Pronunciation",
+      "description": "Pronunciation rules, conversation strategies, and IELTS Speaking prep",
+      "color": "#7B2FBE",
+      "lessons": [
+        {
+          "id": "pronunciation",
+          "title": "Pronunciation & Phonics",
+          "content": [
+            {
+              "subtitle": "The 44 English Sounds (Phonemes)",
+              "explanation": "English has 26 letters but 44 sounds. This mismatch is why pronunciation is challenging. Understanding key sound groups helps enormously.",
+              "examples": [
+                "VOWEL SOUNDS: /æ/ as in 'cat', /ɑː/ as in 'car', /ɔː/ as in 'call', /ə/ the schwa in 'about'",
+                "The SCHWA /ə/ is the most common sound in English: 'aBOUT', 'sYSTem', 'doctOR'",
+                "MINIMAL PAIRS (differ by one sound): ship/sheep | hit/heat | full/fool | bed/bad | cut/cat",
+                "TH sounds: /θ/ (voiceless) = think, three, bath | /ð/ (voiced) = this, those, breathe",
+                "SILENT letters: knife, knight, psychology, island, subtle, receipt, Leicester"
+              ],
+              "tip": "The schwa /ə/ appears in EVERY unstressed syllable in natural English speech. Learning to use it makes you sound much more fluent and natural."
+            },
+            {
+              "subtitle": "Word Stress Rules",
+              "explanation": "English is a stress-timed language. Stressing the wrong syllable can make you hard to understand, even if your grammar is perfect.",
+              "examples": [
+                "2-syllable NOUNS: stress on 1st syllable → REcord, PRESent, PROtest, CONflict",
+                "2-syllable VERBS: stress on 2nd syllable → reCORD, preSENT, proTEST, conFLICT",
+                "Suffix -TION/-SION: stress on syllable before → inforMATion, communicATION",
+                "Suffix -IC: stress on syllable before → econOMIC, acaDEMic, sciENTific",
+                "Long words: stress usually on 3rd-to-last syllable → unIVERsity, adMINistrate"
+              ],
+              "tip": "The same word can be a noun OR a verb depending on stress: 'a REcord' (noun) vs. 'to reCORD' (verb). This is extremely common in English."
+            },
+            {
+              "subtitle": "Connected Speech: Linking, Reduction & Contractions",
+              "explanation": "Native speakers don't pronounce every word separately — sounds link, reduce, and merge. Understanding this is key to listening comprehension.",
+              "examples": [
+                "LINKING: 'turn it off' → sounds like 'tur-ni-toff' | 'I'll ask him' → 'I'll-ask-im'",
+                "REDUCTION: 'want to' → 'wanna' | 'going to' → 'gonna' | 'have to' → 'hafta' (informal speech)",
+                "ELISION (dropping sounds): 'next day' → 'nex day' | 'last night' → 'las night'",
+                "ASSIMILATION: 'did you' → 'didjoo' | 'would you' → 'woodjoo' | 'could you' → 'coodja'",
+                "WEAK FORMS: 'and' → /ən/ | 'to' → /tə/ | 'of' → /əv/ | 'can' → /kən/ (unstressed)"
+              ],
+              "tip": "Understanding connected speech is critical for IELTS Listening. Listen to native-level podcasts (BBC 6 Minute English, TED Talks) and transcribe short segments."
+            },
+            {
+              "subtitle": "Intonation Patterns",
+              "explanation": "Intonation (the rise and fall of your voice) conveys meaning, attitude, and grammar structure. Wrong intonation can seem rude or confusing.",
+              "examples": [
+                "FALLING intonation: statements ('I live in London.'), WH-questions ('Where do you work?')",
+                "RISING intonation: Yes/No questions ('Do you speak English?'), lists (except the last item)",
+                "FALL-RISE: shows contrast or reservation ('I LIKE the plan... but I'm not sure about the timing.')",
+                "EMPHATIC stress changes meaning: 'I didn't say SHE took it.' (someone else said it) vs. 'I didn't say she TOOK it.' (she did something else to it)",
+                "Sounding polite: rising intonation on requests ('Could you help me, please? ↗') sounds friendlier than flat/falling"
+              ],
+              "tip": "British and American intonation differ. British English tends to have wider pitch variation; American English is often flatter. Both are acceptable globally."
+            }
+          ]
+        },
+        {
+          "id": "speaking_strategies",
+          "title": "IELTS Speaking Strategies",
+          "content": [
+            {
+              "subtitle": "IELTS Speaking Test Format",
+              "explanation": "The IELTS Speaking test has 3 parts and lasts 11-14 minutes. It's conducted face-to-face with an examiner and recorded.",
+              "examples": [
+                "PART 1 (4-5 min): Familiar topics — hometown, work, hobbies, daily life. Answer in 2-3 sentences.",
+                "PART 2 (3-4 min): Long turn — given a topic card, prepare for 1 minute, speak for 1-2 minutes.",
+                "PART 3 (4-5 min): Discussion — abstract questions linked to Part 2 topic. Longer, more complex answers expected.",
+                "SCORING: Fluency & Coherence | Lexical Resource | Grammatical Range & Accuracy | Pronunciation",
+                "GOAL: Sound natural and fluent, not perfectly memorized. Examiners are trained to detect rehearsed answers."
+              ],
+              "tip": "In Part 2, use the 1 minute of preparation to jot down 4-5 bullet points covering: What? When? Where? Who? How did you feel? This structure prevents running out of things to say."
+            },
+            {
+              "subtitle": "Part 1: Extending Your Answers",
+              "explanation": "In Part 1, don't answer with just one sentence. Always expand with reasons, examples, or contrasts.",
+              "examples": [
+                "Question: 'Do you like reading?'",
+                "Weak answer: 'Yes, I like reading.'",
+                "Strong answer: 'Yes, I really enjoy reading, especially non-fiction. I find it's the best way to learn about new topics — for instance, I recently read a book on behavioral economics which was fascinating. I try to read for about 30 minutes before bed.'",
+                "Expansion techniques: reason ('because...') | example ('for instance...') | contrast ('although...') | feeling ('I find it...') | frequency ('I tend to...')",
+                "AVOID: One-word answers, memorized monologues, silence longer than 3 seconds"
+              ],
+              "tip": "A good Part 1 answer is 3-5 sentences. Practice the 'answer → reason → example' pattern until it feels automatic."
+            },
+            {
+              "subtitle": "Useful Phrases for Fluency",
+              "explanation": "These discourse management phrases help you maintain fluency, buy thinking time, and structure your ideas — without sounding rehearsed.",
+              "examples": [
+                "Thinking time: 'That's an interesting question...' | 'Let me think about that...' | 'Off the top of my head...'",
+                "Clarifying: 'What I mean is...' | 'To put it another way...' | 'What I'm trying to say is...'",
+                "Structuring: 'There are two main points here...' | 'Firstly... and secondly...' | 'On balance, I think...'",
+                "Agreeing/Disagreeing: 'I see your point, however...' | 'That's a valid argument, but...' | 'I'd have to disagree on the grounds that...'",
+                "Speculating: 'I imagine that...' | 'I would assume that...' | 'It seems likely that...' | 'There's a good chance that...'"
+              ],
+              "tip": "Memorize 2-3 phrases from each category. Using discourse markers fluently is a sign of a Band 7+ speaker — examiners will notice."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Speaking & Pronunciation Test",
+        "description": "Test your knowledge of pronunciation rules, stress patterns, and speaking strategies",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the SCHWA sound (/ə/) and why is it important?",
+            "options": [
+              "It is the vowel sound in 'cat' — the most common stressed vowel",
+              "It is the most common English sound, appearing in unstressed syllables",
+              "It is a consonant sound unique to British English",
+              "It is the sound at the end of words like 'free' and 'see'"
+            ],
+            "correct": 1,
+            "explanation": "The schwa /ə/ is the most frequent sound in English. It appears in unstressed syllables of almost every multi-syllable word: 'about' /əˈbaʊt/, 'system' /ˈsɪstəm/, 'doctor' /ˈdɒktə/."
+          },
+          {
+            "id": 2,
+            "question": "In English, 2-syllable NOUNS are typically stressed on the:",
+            "options": ["Second syllable", "First syllable", "Last syllable", "Both syllables equally"],
+            "correct": 1,
+            "explanation": "2-syllable nouns in English are usually stressed on the FIRST syllable: REcord, PRESent, CONflict. The same words as VERBS shift stress to the second syllable: reCORD, preSENT, conFLICT."
+          },
+          {
+            "id": 3,
+            "question": "In IELTS Speaking, Part 2 requires you to speak for approximately how long?",
+            "options": ["30 seconds", "1 minute", "1-2 minutes", "3-4 minutes"],
+            "correct": 2,
+            "explanation": "In Part 2, you are given a topic card and 1 minute to prepare. You must then speak for 1-2 minutes about the topic without interruption."
+          },
+          {
+            "id": 4,
+            "question": "Which phrase is BEST for buying thinking time in an IELTS Speaking exam?",
+            "options": [
+              "Saying nothing for 10 seconds",
+              "Repeating the question word-for-word",
+              "'That's an interesting question — let me think about that for a moment.'",
+              "Saying 'I don't know' and waiting"
+            ],
+            "correct": 2,
+            "explanation": "Using discourse fillers like 'That's an interesting question' buys you 2-3 seconds to think while maintaining fluency. This is a legitimate, native-speaker behavior that examiners expect."
+          },
+          {
+            "id": 5,
+            "question": "What does FALLING intonation in English typically signal?",
+            "options": [
+              "A yes/no question",
+              "Uncertainty or hesitation",
+              "A statement or a WH-question",
+              "Sarcasm or irony"
+            ],
+            "correct": 2,
+            "explanation": "Falling intonation signals finality or completeness: used in statements ('I live here.↘') and WH-questions ('Where are you going?↘'). Rising intonation is used for yes/no questions."
+          },
+          {
+            "id": 6,
+            "question": "What is 'connected speech' in English?",
+            "options": [
+              "Speaking clearly with separate, distinct words",
+              "The way sounds link, reduce, and merge in natural, fast speech",
+              "A formal register used in presentations",
+              "Speaking using only simple, connected sentences"
+            ],
+            "correct": 1,
+            "explanation": "Connected speech refers to phonological processes like linking ('turn_it_off'), reduction ('wanna' for 'want to'), elision ('las night'), and assimilation ('didjoo' for 'did you')."
+          },
+          {
+            "id": 7,
+            "question": "Which answer best demonstrates the 'answer → reason → example' technique?",
+            "options": [
+              "'Yes, I enjoy cooking.'",
+              "'I enjoy cooking because it's a creative outlet. For instance, I recently made a Thai curry from scratch and felt really proud of the result.'",
+              "'Cooking is something that many people do and I am one of those people who cooks.'",
+              "'I don't know. Maybe I like cooking. It's hard to say.'"
+            ],
+            "correct": 1,
+            "explanation": "Option B uses the ideal pattern: direct answer + reason ('because') + example ('for instance'). This signals fluency, lexical range, and grammatical control — all scored in IELTS Speaking."
+          },
+          {
+            "id": 8,
+            "question": "The word 'photograph' has stress on which syllable?",
+            "options": ["pho-TO-graph", "PHO-to-graph", "pho-to-GRAPH", "all syllables equally"],
+            "correct": 1,
+            "explanation": "'PHOtograph' — stress on the first syllable. Note that the word family changes stress: phoTOgraphy (2nd syllable) and photoGRAPHic (3rd syllable). This is very common in English."
+          }
+        ]
+      }
+    },
+    {
+      "id": "exams",
+      "icon": "🎓",
+      "title": "IELTS & TOEFL Prep",
+      "description": "Complete preparation for international English proficiency exams",
+      "color": "#FFD700",
+      "lessons": [
+        {
+          "id": "ielts_overview",
+          "title": "IELTS Complete Guide",
+          "content": [
+            {
+              "subtitle": "IELTS Format & Structure",
+              "explanation": "IELTS (International English Language Testing System) is the world's most popular English language proficiency test, accepted by over 11,000 organizations worldwide.",
+              "examples": [
+                "LISTENING: 4 sections, 40 questions, ~30 minutes + 10 min transfer time",
+                "READING: 3 passages, 40 questions, 60 minutes (no extra time)",
+                "WRITING: Task 1 (20 min, 150+ words) + Task 2 (40 min, 250+ words)",
+                "SPEAKING: 3 parts, 11-14 minutes, face-to-face with examiner",
+                "SCORING: Band 0-9 scale. Universities typically require Band 6.5-7.5. Band 9 = Expert user.",
+                "VALIDITY: 2 years from test date."
+              ],
+              "tip": "The Listening and Speaking tests are the same for both Academic and General Training. Only Reading and Writing differ."
+            },
+            {
+              "subtitle": "IELTS Band Score Requirements",
+              "explanation": "Different institutions and visa types require different band scores. Here's a guide to common requirements.",
+              "examples": [
+                "Band 5.0-5.5: Community colleges, foundation programs, some work visas",
+                "Band 6.0-6.5: Undergraduate programs at many universities, UK Skilled Worker Visa",
+                "Band 7.0-7.5: Postgraduate programs, competitive universities (e.g., Imperial, UCL)",
+                "Band 8.0+: Medical registration (GMC, AHPRA), top universities like Oxford/Cambridge, some immigration programs",
+                "CANADA PR (Express Entry): Typically CLB 7-9, which corresponds to IELTS 6.0-7.5"
+              ],
+              "tip": "Check each institution's specific requirements — some require minimum scores in individual sections, not just overall."
+            },
+            {
+              "subtitle": "IELTS Reading Strategies",
+              "explanation": "The IELTS Academic Reading has 3 passages (increasing difficulty) with 40 questions in 60 minutes. Efficient strategies are essential.",
+              "examples": [
+                "SKIMMING: Read quickly for general meaning — title, headings, first/last sentences of paragraphs (30 seconds per paragraph).",
+                "SCANNING: Search for specific information (dates, names, numbers) by moving your eyes quickly over the text.",
+                "TRUE/FALSE/NOT GIVEN: 'True' = matches text; 'False' = contradicts text; 'Not Given' = not mentioned AT ALL.",
+                "MATCHING HEADINGS: Read paragraph carefully, identify the MAIN idea, then match (not based on keywords alone).",
+                "TIME MANAGEMENT: ~20 minutes per passage. Don't spend more than 2 minutes on one question — move on and return."
+              ],
+              "tip": "For 'Not Given': If you cannot find evidence either supporting OR contradicting the statement, it is 'Not Given'. Many test-takers confuse 'False' with 'Not Given'."
+            },
+            {
+              "subtitle": "IELTS Listening Strategies",
+              "explanation": "The Listening test has 4 sections of increasing difficulty. You hear recordings once only, then transfer answers.",
+              "examples": [
+                "SECTION 1: Conversation in social context (e.g., booking a hotel, registering for a course)",
+                "SECTION 2: Monologue in social context (e.g., tour guide, public announcement)",
+                "SECTION 3: Discussion in academic setting (e.g., students discussing an assignment with a tutor)",
+                "SECTION 4: Academic lecture or talk",
+                "KEY SKILLS: predict answers before listening; listen for signpost language ('The main reason is...', 'However...')"
+              ],
+              "tip": "During the 30 seconds before each section, READ THE QUESTIONS FIRST. This primes your brain to listen for specific information."
+            }
+          ]
+        },
+        {
+          "id": "toefl_overview",
+          "title": "TOEFL iBT Complete Guide",
+          "content": [
+            {
+              "subtitle": "TOEFL iBT Overview",
+              "explanation": "TOEFL (Test of English as a Foreign Language) is primarily required for US and Canadian university admissions. The iBT (internet-based test) is the most common format.",
+              "examples": [
+                "FORMAT: Reading (54-72 min), Listening (41-57 min), Speaking (17 min), Writing (50 min)",
+                "SCORING: 0-120 total (30 per section). Universities typically require 80-100.",
+                "READING: 3-4 passages, 10 questions each. Academic texts from university-level textbooks.",
+                "LISTENING: Lectures and conversations. Must take notes.",
+                "SPEAKING: 4 tasks — 1 independent (your opinion), 3 integrated (reading/listening + speaking).",
+                "WRITING: 1 integrated (read + listen + write), 1 independent (essay)"
+              ],
+              "tip": "Key TOEFL vs IELTS difference: TOEFL uses American English and is computer-based. IELTS has paper options and uses a broader range of accents in Listening."
+            },
+            {
+              "subtitle": "TOEFL Speaking: Integrated Tasks",
+              "explanation": "TOEFL Speaking Tasks 2-4 are 'integrated' — you read and/or listen to something, then speak about it. This tests your ability to synthesize information.",
+              "examples": [
+                "TASK 2 (Campus): Read a notice/letter + listen to a student's opinion → Summarize both and give opinion",
+                "TASK 3 (Academic): Read a term definition + listen to a lecture example → Explain how example illustrates concept",
+                "TASK 4 (Academic Lecture): Listen to a lecture → Summarize the key points",
+                "TEMPLATE for Task 3: 'According to the reading, [concept] refers to [definition]. The professor illustrates this by discussing [example]. Specifically, [detail from lecture].'",
+                "TIME: 45-60 seconds to respond. Speak for the full time — silence wastes your opportunity to demonstrate language."
+              ],
+              "tip": "For all integrated tasks, take notes while reading/listening. Your notes don't need to be full sentences — just key words and relationships between ideas."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Exam Prep Simulation",
+        "description": "Simulated exam questions covering IELTS and TOEFL strategies",
+        "questions": [
+          {
+            "id": 1,
+            "question": "In IELTS Reading, what is 'NOT GIVEN' in a True/False/Not Given question?",
+            "options": [
+              "The statement is false according to the text",
+              "The statement is true according to the text",
+              "The information is not mentioned or cannot be determined from the text",
+              "The statement contradicts the text"
+            ],
+            "correct": 2,
+            "explanation": "'Not Given' means there is NO information in the text to confirm OR deny the statement. Many students confuse this with 'False' (which actively contradicts the text)."
+          },
+          {
+            "id": 2,
+            "question": "What is the IELTS band score typically required for postgraduate programs at competitive universities?",
+            "options": ["Band 5.0-5.5", "Band 6.0-6.5", "Band 7.0-7.5", "Band 4.0 or above"],
+            "correct": 2,
+            "explanation": "Postgraduate programs at competitive universities like UCL, Edinburgh, or Melbourne typically require Band 7.0-7.5. Top programs (Oxford/Cambridge) may require Band 7.5-8.0."
+          },
+          {
+            "id": 3,
+            "question": "How many times do you HEAR the recordings in the IELTS Listening test?",
+            "options": ["Twice", "Three times", "Once", "As many times as needed"],
+            "correct": 2,
+            "explanation": "IELTS Listening recordings are played ONCE only. This is why reading questions before the audio starts is critical — you must prepare to listen for specific information."
+          },
+          {
+            "id": 4,
+            "question": "What is the MAXIMUM possible IELTS band score?",
+            "options": ["8.0", "9.0", "10.0", "100"],
+            "correct": 1,
+            "explanation": "IELTS uses a 9-band scale (0-9). Band 9 = Expert User. Band 8 = Very Good User. The overall score is the average of the four section scores, rounded to the nearest 0.5."
+          },
+          {
+            "id": 5,
+            "question": "In TOEFL iBT Speaking, Task 1 is called 'Independent' because:",
+            "options": [
+              "You don't need to listen to anything first",
+              "You speak based solely on your own opinions and experience",
+              "It's the easiest task",
+              "You can choose your own topic"
+            ],
+            "correct": 1,
+            "explanation": "Independent Speaking tasks require only your own ideas and experiences — no reading or listening passage is provided. You express and support a personal opinion."
+          },
+          {
+            "id": 6,
+            "question": "What is the best IELTS Reading strategy when approaching a passage for the first time?",
+            "options": [
+              "Read every word carefully from beginning to end",
+              "Skip the passage and go straight to the questions",
+              "Skim the passage for general meaning, then scan for specific answers",
+              "Read only the first paragraph"
+            ],
+            "correct": 2,
+            "explanation": "Effective IELTS readers skim first (30 seconds per paragraph) to understand structure and main ideas, then scan for specific information needed to answer questions."
+          },
+          {
+            "id": 7,
+            "question": "How long is the IELTS Academic test in total (approximately)?",
+            "options": ["2 hours", "2 hours 45 minutes", "3 hours 30 minutes", "4 hours"],
+            "correct": 1,
+            "explanation": "IELTS takes approximately 2 hours 45 minutes: Listening (~30 min) + Reading (60 min) + Writing (60 min) + Speaking (11-14 min), with short breaks between modules."
+          },
+          {
+            "id": 8,
+            "question": "Which English variety does TOEFL primarily use?",
+            "options": ["British English", "Australian English", "American English", "Canadian English"],
+            "correct": 2,
+            "explanation": "TOEFL iBT primarily uses American English in its recordings and materials. IELTS, in contrast, uses a variety of accents (British, Australian, North American, etc.) in its Listening section."
+          },
+          {
+            "id": 9,
+            "question": "In TOEFL Writing Task 1 (Integrated), what must you do?",
+            "options": [
+              "Write an opinion essay about a given topic",
+              "Summarize a reading passage only",
+              "Read a passage, listen to a lecture, then write a response connecting both",
+              "Correct grammatical errors in a given text"
+            ],
+            "correct": 2,
+            "explanation": "TOEFL Integrated Writing requires you to read an academic passage, listen to a related lecture, then write a 150-225 word response explaining how the lecture relates to the reading."
+          },
+          {
+            "id": 10,
+            "question": "What is the minimum IELTS score typically required for a UK Skilled Worker Visa?",
+            "options": ["Band 4.0", "Band 5.0", "Band 6.0", "Band 7.5"],
+            "correct": 2,
+            "explanation": "The UK Skilled Worker Visa typically requires IELTS Band 6.0 overall (with minimums per section). Requirements vary by job category and employer — always verify current UK Visas and Immigration guidelines."
+          }
+        ]
+      }
+    }
+  ]
+}
