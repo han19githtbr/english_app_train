@@ -5,26 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>LINGUA PRO — Master English for Study & Career Abroad</title>
 
-  <!-- ─── PWA / Meta ──────────────────────────────────────────────────────── -->
-  <meta name="description" content="A structured English training program covering grammar, vocabulary, idioms, academic writing, speaking, and complete exam prep for IELTS & TOEFL." />
+  <meta name="description" content="A structured English training program covering grammar, vocabulary, idioms, academic writing, speaking, conversation simulator, and complete exam prep." />
   <meta name="theme-color" content="#00D4FF" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="LinguaPro" />
-  <meta name="msapplication-TileColor" content="#050A14" />
-  <meta name="msapplication-TileImage" content="icons/icon-144.png" />
 
-  <!-- ─── Icons ───────────────────────────────────────────────────────────── -->
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="icons/icon-144.png" />
-
-  <!-- ─── Manifest ────────────────────────────────────────────────────────── -->
   <link rel="manifest" href="manifest.json" />
-
-  <!-- ─── Fonts ───────────────────────────────────────────────────────────── -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="css/style.css" />
@@ -33,24 +23,24 @@
 
 <div id="app">
 
-  <!-- ─── PWA INSTALL BANNER ──────────────────────────────────────────────── -->
+  <!-- ─── PWA INSTALL BANNER ──────────────────────────────────────────── -->
   <div id="pwa-banner" role="banner" aria-label="Install app banner">
     <div class="pwa-banner-text">
       <span>📲</span>
       <span><strong>Install Lingua Pro</strong> — use offline, faster access</span>
     </div>
     <div class="pwa-banner-actions">
-      <button class="btn-install" id="btn-install" aria-label="Install app">Install</button>
-      <button class="btn-dismiss" id="btn-dismiss" aria-label="Dismiss banner">Not now</button>
+      <button class="btn-install" id="btn-install">Install</button>
+      <button class="btn-dismiss" id="btn-dismiss">Not now</button>
     </div>
   </div>
 
-  <!-- ─── OFFLINE TOAST ───────────────────────────────────────────────────── -->
+  <!-- ─── OFFLINE TOAST ───────────────────────────────────────────────── -->
   <div id="offline-toast" role="status" aria-live="polite">
     <span>📡</span> <span id="offline-msg">You're offline</span>
   </div>
 
-  <!-- ─── HEADER ──────────────────────────────────────────────────────────── -->
+  <!-- ─── HEADER ──────────────────────────────────────────────────────── -->
   <header class="app-header">
     <div class="logo" onclick="App.goHome()" role="button" tabindex="0"
          aria-label="Lingua Pro — go to home" onkeydown="if(event.key==='Enter')App.goHome()">
@@ -62,8 +52,10 @@
       <button class="nav-btn" onclick="App.goHome()" aria-label="Home">
         🏠 <span class="nav-label">Home</span>
       </button>
-      <button class="nav-btn tts-settings-btn" onclick="App.openVoiceSettings()"
-              title="Voice Settings" aria-label="Open voice settings">
+      <button class="nav-btn" onclick="App.openConvoSimulator()" aria-label="Conversation Simulator">
+        💬 <span class="nav-label">Conversations</span>
+      </button>
+      <button class="nav-btn tts-settings-btn" onclick="App.openVoiceSettings()" aria-label="Voice Settings">
         🔊 Voice
       </button>
     </nav>
@@ -75,39 +67,31 @@
     </div>
   </header>
 
-  <!-- ─── VOICE SETTINGS MODAL ─────────────────────────────────────────────── -->
-  <div class="modal-overlay" id="voice-modal"
-       role="dialog" aria-modal="true" aria-label="Voice Settings"
+  <!-- ─── VOICE SETTINGS MODAL ────────────────────────────────────────── -->
+  <div class="modal-overlay" id="voice-modal" role="dialog" aria-modal="true"
        onclick="App.closeVoiceSettings()">
     <div class="modal-card" onclick="event.stopPropagation()">
       <div class="modal-header">
         <h3>🔊 Voice Settings</h3>
-        <button class="modal-close" onclick="App.closeVoiceSettings()" aria-label="Close voice settings">✕</button>
+        <button class="modal-close" onclick="App.closeVoiceSettings()">✕</button>
       </div>
       <div class="modal-body">
         <label class="setting-label" for="voice-select">English Voice</label>
         <select id="voice-select" class="setting-select"></select>
 
         <label class="setting-label" style="margin-top:20px" for="voice-rate">Speed</label>
-        <input type="range" id="voice-rate" min="0.5" max="1.5" step="0.1" value="0.9"
-               class="setting-range" aria-label="Speech speed"/>
-        <div class="range-labels" aria-hidden="true">
-          <span>Slow</span>
-          <span id="rate-display">0.9x</span>
-          <span>Fast</span>
+        <input type="range" id="voice-rate" min="0.5" max="1.5" step="0.1" value="0.9" class="setting-range"/>
+        <div class="range-labels">
+          <span>Slow</span><span id="rate-display">0.9x</span><span>Fast</span>
         </div>
 
         <label class="setting-label" style="margin-top:20px" for="voice-pitch">Pitch</label>
-        <input type="range" id="voice-pitch" min="0.5" max="2" step="0.1" value="1.0"
-               class="setting-range" aria-label="Speech pitch"/>
-        <div class="range-labels" aria-hidden="true">
-          <span>Low</span>
-          <span id="pitch-display">1.0</span>
-          <span>High</span>
+        <input type="range" id="voice-pitch" min="0.5" max="2" step="0.1" value="1.0" class="setting-range"/>
+        <div class="range-labels">
+          <span>Low</span><span id="pitch-display">1.0</span><span>High</span>
         </div>
 
-        <button id="test-voice-btn"
-                class="btn-primary tts-btn"
+        <button id="test-voice-btn" class="btn-primary tts-btn"
                 style="margin-top:24px;width:100%;justify-content:center;"
                 onclick="App.testVoice()">
           <span class="tts-icon">🔊</span>
@@ -117,36 +101,47 @@
     </div>
   </div>
 
-  <!-- ─── HOME SCREEN ──────────────────────────────────────────────────────── -->
+  <!-- ─── HOME SCREEN ─────────────────────────────────────────────────── -->
   <main class="screen active" id="home-screen">
     <div class="hero">
       <div class="hero-tag">English for Study &amp; Career Abroad</div>
       <h1>Master English<br><span class="gradient-text">Like a Professional</span></h1>
-      <p>A structured training program covering grammar, vocabulary, idioms, academic writing, speaking, and complete exam prep for IELTS &amp; TOEFL — with full audio pronunciation on every example.</p>
+      <p>A structured training program covering grammar, vocabulary, idioms, academic writing, speaking, and complete exam prep — with full audio pronunciation and real conversation practice.</p>
       <div class="stats-row">
         <div class="stat-chip"><span class="num">6</span> Core Modules</div>
         <div class="stat-chip"><span class="num">6</span> Full Quizzes</div>
         <div class="stat-chip"><span class="num">60+</span> Questions</div>
-        <div class="stat-chip"><span class="num">🔊</span> Play / Pause Audio</div>
+        <div class="stat-chip"><span class="num">💬</span> Conversation Sim</div>
+        <div class="stat-chip"><span class="num">🔊</span> Audio on Every Example</div>
       </div>
+
+      <!-- Conversation Simulator CTA -->
+      <div class="convo-cta-home" onclick="App.openConvoSimulator()">
+        <div class="convo-cta-left">
+          <span class="convo-cta-icon">💬</span>
+          <div>
+            <div class="convo-cta-title">Conversation Simulator</div>
+            <div class="convo-cta-sub">Practice real English in 15+ scenarios — restaurant, airport, job interview, and more</div>
+          </div>
+        </div>
+        <div class="convo-cta-arrow">→</div>
+      </div>
+
       <div class="sections-title">Choose a Module to Begin</div>
     </div>
     <div class="sections-grid" id="sections-grid"></div>
   </main>
 
-  <!-- ─── SECTION SCREEN ───────────────────────────────────────────────────── -->
+  <!-- ─── SECTION SCREEN ───────────────────────────────────────────────── -->
   <div class="screen" id="section-screen">
     <button class="back-btn" onclick="App.goHome()">← Back to Home</button>
-
     <div class="section-header">
       <span class="section-header-tag"></span>
       <h2></h2>
       <p></p>
     </div>
-
     <div class="lesson-tabs" id="lesson-tabs"></div>
     <div id="lessons-container"></div>
-
     <div class="quiz-cta">
       <h3></h3>
       <p></p>
@@ -154,99 +149,174 @@
     </div>
   </div>
 
-  <!-- ─── QUIZ SCREEN ───────────────────────────────────────────────────────── -->
+  <!-- ─── QUIZ SCREEN ───────────────────────────────────────────────────── -->
   <div class="screen" id="quiz-screen">
     <button class="back-btn" onclick="App.goSection()">← Back to Lessons</button>
-
     <div class="quiz-header">
       <div class="quiz-meta">
         <h2 class="quiz-title" id="quiz-title"></h2>
         <div class="quiz-counter" id="quiz-counter"></div>
       </div>
-      <div class="progress-bar-wrap" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar-wrap">
         <div class="progress-bar-fill" id="quiz-progress-fill" style="width:0%"></div>
       </div>
     </div>
-
     <div class="question-card">
       <div class="question-number" id="question-number"></div>
       <div class="question-text-wrap" id="question-text-wrap"></div>
       <div class="options-list" id="options-list"></div>
       <div class="feedback-box" id="feedback-box" aria-live="polite"></div>
     </div>
-
     <div class="quiz-nav">
       <button class="btn-next" id="btn-next">Next Question →</button>
     </div>
   </div>
 
-  <!-- ─── RESULTS SCREEN ───────────────────────────────────────────────────── -->
+  <!-- ─── RESULTS SCREEN ───────────────────────────────────────────────── -->
   <div class="screen" id="results-screen" aria-live="polite"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       CONVERSATION SIMULATOR SCREENS
+  ═══════════════════════════════════════════════════════════════════════════ -->
+
+  <!-- Scene Picker -->
+  <div class="screen" id="convo-picker-screen">
+    <div class="convo-picker-wrap">
+      <button class="back-btn" onclick="App.goHome()">← Back to Home</button>
+      <h1 class="convo-picker-title">Practice Real <span>English Conversations</span></h1>
+      <p class="convo-picker-sub">Escolha um cenário, responda às perguntas em inglês e receba correção gramatical imediata — com áudio em voz real! 🎤</p>
+      <div class="scenes-grid-sim" id="scenes-grid-sim"></div>
+    </div>
+  </div>
+
+  <!-- Active Conversation -->
+  <div class="screen convo-active-screen" id="convo-active-screen">
+    <!-- Top bar -->
+    <div class="convo-topbar">
+      <button class="back-btn convo-back-btn" onclick="App.goConvoPicker()">← Cenários</button>
+      <div class="convo-scene-info">
+        <span class="convo-si-emoji" id="convo-si-emoji">🍽️</span>
+        <div>
+          <div class="convo-si-name" id="convo-si-name">Restaurant</div>
+          <div class="convo-si-sub" id="convo-si-sub"></div>
+        </div>
+      </div>
+      <div class="convo-badges">
+        <div class="convo-badge convo-badge-score">✅ <span id="convo-sc">0</span></div>
+        <div class="convo-badge convo-badge-streak">🔥 <span id="convo-st">0</span></div>
+      </div>
+    </div>
+
+    <!-- Voice bar -->
+    <div class="convo-voice-bar">
+      <label>🔊 Voz:</label>
+      <select id="convo-vs"></select>
+      <label>Velocidade:</label>
+      <input type="range" id="convo-vr" min="0.5" max="1.4" step="0.05" value="0.82"/>
+      <span class="convo-vb-val" id="convo-vv">0.82x</span>
+    </div>
+
+    <!-- Avatar + speech bubble -->
+    <div class="convo-avatar-area">
+      <div class="convo-avatar-wrap" id="convo-av-wrap">
+        <div class="convo-avatar-face" id="convo-av-face">👤</div>
+        <div class="convo-avatar-tag" id="convo-av-tag">Character</div>
+      </div>
+      <div class="convo-speech-bubble">
+        <div class="convo-bubble-lbl">💬 They ask you:</div>
+        <div class="convo-bubble-q" id="convo-bq">
+          <div class="convo-typing-dots"><span></span><span></span><span></span></div>
+        </div>
+        <div class="convo-q-progress">
+          <div class="convo-q-progress-fill" id="convo-qpf" style="width:0%"></div>
+        </div>
+        <div class="convo-bubble-btns" id="convo-bbtns" style="display:none">
+          <button class="convo-tts-sm" id="convo-tts-q" onclick="App.convoSpeakQ()">🔊 Ouvir</button>
+          <button class="convo-hint-btn" onclick="App.convoShowHint()">💡 Dica</button>
+          <button class="convo-transl-btn" onclick="App.convoShowTranslation()">🇧🇷 Traduzir</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Answer area -->
+    <div class="convo-answer-area" id="convo-ans-area"></div>
+
+    <!-- Input -->
+    <div class="convo-input-area">
+      <div class="convo-input-row">
+        <textarea class="convo-ans-input" id="convo-ans-in"
+                  placeholder="Type your answer in English..."
+                  rows="1"
+                  onkeydown="App.convoHandleKey(event)"
+                  oninput="App.convoAutoResize(this)"></textarea>
+        <button class="convo-send-btn" id="convo-send-btn" onclick="App.convoSubmit()">➤</button>
+      </div>
+      <div class="convo-inp-hint">Enter para enviar · Shift+Enter para nova linha</div>
+    </div>
+  </div>
+
+  <!-- Grammar modal (Conversation Simulator) -->
+  <div class="convo-modal-ov" id="convo-gmod" onclick="App.convoCloseModal()">
+    <div class="convo-modal-card" onclick="event.stopPropagation()">
+      <h3 id="convo-mod-title">📘 Grammar Rule</h3>
+      <div id="convo-mod-body"></div>
+      <button class="convo-close-m" onclick="App.convoCloseModal()">Entendi ✓</button>
+    </div>
+  </div>
+
+  <!-- Confetti wrapper -->
+  <div class="convo-cfw" id="convo-cfw"></div>
 
 </div><!-- /#app -->
 
 <script src="js/index.js"></script>
+<script src="js/simulator.js"></script>
 <script>
-// ─── SERVICE WORKER REGISTRATION ───────────────────────────────────────────
+// ── Service Worker ─────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js')
-      .then(reg => console.log('[SW] Registered', reg.scope))
-      .catch(err => console.warn('[SW] Registration failed', err));
+      .then(r => console.log('[SW]', r.scope))
+      .catch(e => console.warn('[SW] failed', e));
   });
 }
 
-// ─── OFFLINE / ONLINE TOAST ────────────────────────────────────────────────
+// ── Offline toast ──────────────────────────────────────────────────────────
 const offlineToast = document.getElementById('offline-toast');
 const offlineMsg   = document.getElementById('offline-msg');
 let offlineTimer;
-
-function showToast(msg, duration = 3500) {
+function showToast(msg, dur = 3500) {
   offlineMsg.textContent = msg;
   offlineToast.classList.add('show');
   clearTimeout(offlineTimer);
-  offlineTimer = setTimeout(() => offlineToast.classList.remove('show'), duration);
+  offlineTimer = setTimeout(() => offlineToast.classList.remove('show'), dur);
 }
-
-window.addEventListener('offline', () => showToast('📡 You\'re offline — content may be limited', 5000));
+window.addEventListener('offline', () => showToast('📡 Você está offline', 5000));
 window.addEventListener('online',  () => showToast('✅ Back online!', 3000));
 
-// ─── PWA INSTALL PROMPT ────────────────────────────────────────────────────
+// ── PWA install ────────────────────────────────────────────────────────────
 let deferredInstallPrompt = null;
 const pwaBanner  = document.getElementById('pwa-banner');
 const btnInstall = document.getElementById('btn-install');
 const btnDismiss = document.getElementById('btn-dismiss');
-
-// Listen for the browser's install prompt
 window.addEventListener('beforeinstallprompt', e => {
-  e.preventDefault();
-  deferredInstallPrompt = e;
-
-  // Don't show if user dismissed before
-  if (!localStorage.getItem('pwa-dismissed')) {
-    pwaBanner.classList.add('show');
-  }
+  e.preventDefault(); deferredInstallPrompt = e;
+  if (!localStorage.getItem('pwa-dismissed')) pwaBanner.classList.add('show');
 });
-
 btnInstall.addEventListener('click', async () => {
   if (!deferredInstallPrompt) return;
   pwaBanner.classList.remove('show');
   deferredInstallPrompt.prompt();
   const { outcome } = await deferredInstallPrompt.userChoice;
-  console.log('[PWA] Install outcome:', outcome);
   deferredInstallPrompt = null;
 });
-
 btnDismiss.addEventListener('click', () => {
   pwaBanner.classList.remove('show');
   localStorage.setItem('pwa-dismissed', '1');
 });
-
-// Hide banner if app was installed
 window.addEventListener('appinstalled', () => {
   pwaBanner.classList.remove('show');
-  showToast('🎉 Lingua Pro installed successfully!', 4000);
-  deferredInstallPrompt = null;
+  showToast('🎉 Lingua Pro instalado!', 4000);
 });
 </script>
 </body>

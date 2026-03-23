@@ -471,6 +471,8 @@ body::after {
 /* ─── HERO / HOME SCREEN ─── */
 .screen { display: none; }
 .screen.active { display: block; }
+/* Conversation active screen uses flex layout — must override the block above */
+.convo-active-screen.active { display: flex; }
 
 .hero {
   max-width: 1100px;
@@ -1125,10 +1127,9 @@ body::after {
   .logo-text { font-size: 17px; }
   .logo-mark { width: 32px; height: 32px; font-size: 14px; border-radius: 8px; }
 
-  /* Hide "Home" nav label, keep icon */
-  .nav-btn:first-child .nav-label { display: none; }
-  /* Show only icon on very small screens */
-  .nav-btn { padding: 8px 12px; font-size: 13px; }
+  /* Hide all nav labels on mobile — show icons only */
+  .nav-btn .nav-label { display: none; }
+  .nav-btn { padding: 8px 10px; font-size: 13px; min-height: 38px; }
 
   .progress-indicator { padding: 6px 12px; font-size: 12px; gap: 6px; }
   .progress-indicator .score-label { display: none; } /* hide "pts" label on tiny screens */
@@ -1267,4 +1268,561 @@ body::after {
 button:focus-visible, a:focus-visible {
   outline: 2px solid var(--accent-blue);
   outline-offset: 2px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CONVERSATION SIMULATOR — integrated styles
+═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Home CTA banner ─────────────────────────────────────────────────────── */
+.convo-cta-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: linear-gradient(135deg, rgba(0,212,255,0.08), rgba(123,47,190,0.10));
+  border: 1px solid rgba(0,212,255,0.22);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 0 auto 40px;
+  max-width: 640px;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-tap-highlight-color: transparent;
+}
+.convo-cta-home:hover {
+  border-color: rgba(0,212,255,0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0,212,255,0.12);
+}
+.convo-cta-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+}
+.convo-cta-icon { font-size: 32px; flex-shrink: 0; }
+.convo-cta-title {
+  font-family: var(--font-display);
+  font-size: 17px; font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.convo-cta-sub { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+.convo-cta-arrow {
+  font-size: 20px; color: var(--accent-blue);
+  flex-shrink: 0; transition: transform 0.2s;
+}
+.convo-cta-home:hover .convo-cta-arrow { transform: translateX(4px); }
+
+/* ── Scene picker ─────────────────────────────────────────────────────────── */
+#convo-picker-screen {
+  min-height: calc(100dvh - 65px);
+  overflow-y: auto;
+}
+
+.convo-picker-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 40px 80px;
+}
+.convo-picker-title {
+  font-family: var(--font-display);
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+.convo-picker-title span {
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.convo-picker-sub {
+  color: var(--text-secondary);
+  font-size: 15px;
+  max-width: 580px;
+  line-height: 1.7;
+  margin-bottom: 36px;
+}
+
+.scenes-grid-sim {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 16px;
+}
+
+.scene-card-sim {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 18px;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative; overflow: hidden;
+  display: flex; flex-direction: column; gap: 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.scene-card-sim::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--sc, var(--accent-blue)) 0%, transparent 60%);
+  opacity: 0; transition: opacity 0.3s;
+}
+.scene-card-sim:hover {
+  border-color: var(--sc, var(--accent-blue));
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+}
+.scene-card-sim:hover::before { opacity: 0.07; }
+
+.sc-emoji-sim { font-size: 38px; }
+.sc-name-sim { font-family: var(--font-display); font-size: 15px; font-weight: 700; }
+.sc-desc-sim { color: var(--text-secondary); font-size: 13px; line-height: 1.5; }
+.sc-tag-sim {
+  margin-top: auto;
+  display: inline-block;
+  padding: 3px 10px; border-radius: 20px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.5px;
+  background: rgba(255,255,255,0.05); color: var(--text-secondary);
+}
+
+/* ── Active conversation screen layout ─────────────────────────────────────── */
+.convo-active-screen {
+  display: none;
+  flex-direction: column;
+  /* dvh accounts for collapsing browser chrome on mobile */
+  height: calc(100dvh - 65px);
+  max-height: calc(100dvh - 65px);
+  overflow: hidden;
+  /* Prevent iOS rubber-band scroll bleeding into inner areas */
+  position: relative;
+}
+.convo-active-screen.active { display: flex; }
+
+/* Ensure answer area is the only scrollable child */
+.convo-active-screen > * { flex-shrink: 0; }
+.convo-answer-area { flex-shrink: 1 !important; min-height: 0; }
+
+/* top bar */
+.convo-topbar {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(5,10,20,0.92);
+  backdrop-filter: blur(20px);
+  flex-shrink: 0; flex-wrap: wrap;
+}
+.convo-back-btn {
+  background: transparent;
+  border: 1px solid var(--border-hover);
+  color: var(--text-secondary);
+  padding: 7px 14px; border-radius: 8px;
+  cursor: pointer; font-size: 13px; transition: var(--transition);
+  font-family: var(--font-body); flex-shrink: 0; min-height: 38px;
+}
+.convo-back-btn:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
+
+.convo-scene-info { display: flex; align-items: center; gap: 10px; }
+.convo-si-emoji { font-size: 22px; }
+.convo-si-name { font-family: var(--font-display); font-weight: 700; font-size: 15px; }
+.convo-si-sub { color: var(--text-secondary); font-size: 12px; }
+
+.convo-badges { display: flex; gap: 8px; margin-left: auto; }
+.convo-badge {
+  border-radius: 20px; padding: 4px 12px;
+  font-size: 12px; font-weight: 600;
+}
+.convo-badge-score {
+  background: rgba(0,200,150,0.12); border: 1px solid rgba(0,200,150,0.25);
+  color: #00C896;
+}
+.convo-badge-streak {
+  background: rgba(255,215,0,0.10); border: 1px solid rgba(255,215,0,0.2);
+  color: #FFD700;
+}
+
+/* voice bar */
+.convo-voice-bar {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 20px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(5,10,20,0.6);
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  row-gap: 6px;
+}
+.convo-voice-bar label { font-size: 12px; color: var(--text-secondary); white-space: nowrap; }
+.convo-voice-bar select {
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text-primary); border-radius: 8px;
+  padding: 4px 8px; font-size: 12px; font-family: var(--font-body); cursor: pointer;
+  flex: 1; min-width: 0; max-width: 220px;
+}
+.convo-voice-bar input[type=range] {
+  width: 80px; padding: 0; cursor: pointer;
+  -webkit-appearance: none; height: 4px; border-radius: 2px;
+  background: rgba(255,255,255,0.12); border: none; outline: none;
+}
+.convo-voice-bar input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 16px; height: 16px;
+  border-radius: 50%; background: var(--accent-blue); cursor: pointer;
+}
+.convo-vb-val { font-size: 12px; color: var(--text-secondary); white-space: nowrap; }
+
+/* avatar area */
+.convo-avatar-area {
+  display: flex; align-items: flex-end; gap: 16px;
+  padding: 16px 20px 0;
+  flex-shrink: 0;
+  min-width: 0;
+}
+.convo-avatar-wrap { position: relative; flex-shrink: 0; }
+.convo-avatar-face {
+  width: 90px; height: 128px; border-radius: 16px;
+  border: 2px solid var(--border);
+  background: var(--bg-card);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 62px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  user-select: none;
+}
+.convo-avatar-wrap.convo-speaking .convo-avatar-face {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 24px rgba(0,212,255,0.35);
+}
+.convo-avatar-tag {
+  position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  color: #fff; font-size: 11px; font-weight: 700;
+  padding: 3px 10px; border-radius: 12px; white-space: nowrap;
+  font-family: var(--font-display);
+}
+
+/* speech bubble */
+.convo-speech-bubble {
+  flex: 1;
+  min-width: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border-hover);
+  border-radius: 16px 16px 16px 4px;
+  padding: 14px 16px;
+  display: flex; flex-direction: column; gap: 10px;
+  min-height: 80px;
+  overflow: hidden;
+}
+.convo-bubble-lbl {
+  font-size: 11px; font-weight: 600;
+  color: var(--text-secondary); letter-spacing: 0.5px; text-transform: uppercase;
+}
+.convo-bubble-q { font-size: 16px; line-height: 1.65; color: var(--text-primary); font-weight: 500; min-height: 24px; }
+.convo-bubble-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.convo-tts-sm {
+  display: flex; align-items: center; gap: 5px;
+  background: rgba(0,212,255,0.10); border: 1px solid rgba(0,212,255,0.22);
+  color: var(--accent-blue); border-radius: 8px;
+  padding: 5px 13px; font-size: 12px; cursor: pointer;
+  transition: var(--transition); font-family: var(--font-body);
+  min-height: 34px;
+}
+.convo-tts-sm:hover, .convo-tts-sm.playing {
+  background: rgba(0,212,255,0.20); border-color: var(--accent-blue);
+}
+.convo-hint-btn {
+  background: rgba(255,215,0,0.08); border: 1px solid rgba(255,215,0,0.2);
+  color: #FFD700; border-radius: 8px; padding: 5px 13px; font-size: 12px;
+  cursor: pointer; font-family: var(--font-body); transition: var(--transition);
+  min-height: 34px;
+}
+.convo-hint-btn:hover { background: rgba(255,215,0,0.15); }
+.convo-transl-btn {
+  background: rgba(0,212,255,0.07); border: 1px solid rgba(0,212,255,0.18);
+  color: var(--accent-blue); border-radius: 8px; padding: 5px 13px;
+  font-size: 12px; cursor: pointer; font-family: var(--font-body);
+  min-height: 34px;
+}
+
+/* typing dots */
+.convo-typing-dots { display: flex; gap: 5px; padding: 6px 0; }
+.convo-typing-dots span {
+  width: 8px; height: 8px; background: var(--text-muted);
+  border-radius: 50%; animation: convo-db 1.2s infinite;
+}
+.convo-typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+.convo-typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes convo-db {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-8px); }
+}
+
+/* question progress bar */
+.convo-q-progress { height: 3px; background: var(--border); border-radius: 3px; overflow: hidden; }
+.convo-q-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  border-radius: 3px; transition: width 0.5s ease;
+}
+
+/* answer area */
+.convo-answer-area {
+  flex: 1; overflow-y: auto; overflow-x: hidden; padding: 16px 20px;
+  display: flex; flex-direction: column; gap: 10px;
+  scroll-padding-bottom: 8px;
+}
+.convo-answer-area::-webkit-scrollbar { width: 4px; }
+.convo-answer-area::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+/* bubbles */
+.convo-bubble {
+  border-radius: 12px; padding: 12px 14px;
+  font-size: 14px; line-height: 1.65;
+  position: relative;
+  animation: convo-fu 0.3s ease;
+  max-width: min(92%, 520px);
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+@keyframes convo-fu {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.convo-bubble-user {
+  background: rgba(0,212,255,0.09); border: 1px solid rgba(0,212,255,0.18);
+  align-self: flex-end; border-bottom-right-radius: 4px;
+}
+.convo-bubble-wrong {
+  background: rgba(255,71,87,0.09); border: 1px solid rgba(255,71,87,0.22);
+  align-self: flex-start; border-bottom-left-radius: 4px;
+}
+.convo-bubble-ok {
+  background: rgba(0,200,150,0.09); border: 1px solid rgba(0,200,150,0.22);
+  align-self: flex-start; border-bottom-left-radius: 4px;
+}
+.convo-bubble-hint-b {
+  background: rgba(255,215,0,0.07); border: 1px solid rgba(255,215,0,0.18);
+  align-self: flex-start; border-bottom-left-radius: 4px;
+  color: #FFD700; font-size: 13px;
+}
+
+.convo-blbl {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.5px;
+  text-transform: uppercase; margin-bottom: 5px;
+}
+.convo-bubble-wrong .convo-blbl { color: #FF4757; }
+.convo-bubble-ok    .convo-blbl { color: #00C896; }
+.convo-bubble-hint-b .convo-blbl { color: #FFD700; }
+
+.convo-grammar-tag {
+  display: inline-block; margin-top: 8px;
+  background: rgba(123,47,190,0.15); border: 1px solid rgba(123,47,190,0.30);
+  color: #A78BFA; border-radius: 8px; padding: 4px 12px;
+  font-size: 12px; cursor: pointer; font-family: var(--font-body);
+  transition: var(--transition);
+}
+.convo-grammar-tag:hover { background: rgba(123,47,190,0.25); }
+
+.convo-speak-mini {
+  display: inline-flex; align-items: center; gap: 4px;
+  margin-top: 8px;
+  background: rgba(0,212,255,0.08); border: 1px solid rgba(0,212,255,0.18);
+  color: var(--accent-blue); border-radius: 8px;
+  padding: 4px 10px; font-size: 12px; cursor: pointer;
+  font-family: var(--font-body); transition: var(--transition);
+}
+.convo-speak-mini:hover { background: rgba(0,212,255,0.15); }
+
+/* next question button */
+.convo-next-q-btn {
+  background: linear-gradient(135deg, #00C896, #00A87A);
+  border: none; border-radius: 12px;
+  padding: 12px 28px; color: #fff;
+  font-family: var(--font-display); font-weight: 700; font-size: 14px;
+  cursor: pointer; transition: var(--transition);
+  margin: 4px auto 8px; display: block;
+  min-height: 46px;
+  flex-shrink: 0;
+}
+.convo-next-q-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,200,150,0.35); }
+
+/* input area */
+.convo-input-area {
+  padding: 12px 20px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--border);
+  background: rgba(5,10,20,0.94);
+  backdrop-filter: blur(20px);
+  flex-shrink: 0;
+}
+.convo-input-row { display: flex; gap: 10px; }
+.convo-ans-input {
+  flex: 1;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 12px 14px;
+  font-family: var(--font-body); font-size: 15px;
+  color: var(--text-primary); outline: none;
+  transition: border-color 0.2s; resize: none;
+  min-height: 48px; max-height: 120px;
+  /* Prevent iOS zoom */
+  font-size: max(16px, 15px);
+}
+.convo-ans-input::placeholder { color: var(--text-muted); }
+.convo-ans-input:focus { border-color: rgba(0,212,255,0.4); }
+
+.convo-send-btn {
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  border: none; border-radius: 12px;
+  padding: 0 20px; color: #fff;
+  font-size: 20px; cursor: pointer;
+  transition: var(--transition); flex-shrink: 0;
+  min-height: 48px; min-width: 52px;
+}
+.convo-send-btn:hover { transform: scale(1.05); box-shadow: 0 4px 16px rgba(0,212,255,0.3); }
+.convo-send-btn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
+
+.convo-inp-hint { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
+
+/* grammar modal */
+.convo-modal-ov {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.75); backdrop-filter: blur(8px);
+  z-index: 800;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s;
+}
+.convo-modal-ov.show { opacity: 1; pointer-events: auto; }
+
+.convo-modal-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(0,212,255,0.22);
+  border-radius: 20px; padding: 28px;
+  max-width: 500px; width: 100%;
+  max-height: 82vh; overflow-y: auto;
+  transform: translateY(16px); transition: transform 0.3s;
+}
+.convo-modal-ov.show .convo-modal-card { transform: translateY(0); }
+
+.convo-modal-card h3 { font-family: var(--font-display); font-size: 18px; margin-bottom: 8px; }
+.convo-rule-ex {
+  background: var(--bg-secondary);
+  border-left: 3px solid var(--accent-blue);
+  border-radius: 4px 8px 8px 4px;
+  padding: 10px 14px; margin: 10px 0;
+  font-size: 14px; color: var(--text-primary);
+}
+.convo-modal-card p { color: var(--text-secondary); line-height: 1.75; margin: 8px 0; font-size: 14px; }
+.convo-close-m {
+  background: rgba(255,255,255,0.06); border: none;
+  border-radius: 8px; padding: 10px 22px;
+  color: var(--text-primary); cursor: pointer;
+  font-family: var(--font-body); font-size: 14px;
+  margin-top: 12px; width: 100%; transition: var(--transition);
+}
+.convo-close-m:hover { background: rgba(255,255,255,0.10); }
+
+/* confetti */
+.convo-cfw { position: fixed; inset: 0; pointer-events: none; z-index: 999; }
+.convo-cfp {
+  position: absolute; top: -10px;
+  animation: convo-cff 1.5s ease-in forwards;
+}
+@keyframes convo-cff {
+  to { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CONVERSATION SIMULATOR — RESPONSIVE
+═══════════════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+  .convo-picker-wrap { padding: 32px 24px 60px; }
+  .scenes-grid-sim { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; }
+}
+
+@media (max-width: 640px) {
+  /* Home CTA */
+  .convo-cta-home { padding: 14px 16px; gap: 12px; }
+  .convo-cta-icon { font-size: 26px; }
+  .convo-cta-title { font-size: 15px; }
+  .convo-cta-sub { font-size: 12px; }
+
+  /* Picker */
+  .convo-picker-wrap { padding: 24px 16px 60px; }
+  .convo-picker-title { font-size: clamp(22px, 7vw, 32px); }
+  .convo-picker-sub { font-size: 14px; margin-bottom: 24px; }
+  .convo-picker-wrap .back-btn { margin-bottom: 20px; }
+  .scenes-grid-sim { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .scene-card-sim { padding: 14px 12px; }
+  .sc-emoji-sim { font-size: 30px; }
+  .sc-name-sim { font-size: 14px; }
+  .sc-desc-sim { font-size: 12px; }
+
+  /* Active conversation — allow height to breathe on small screens */
+  .convo-active-screen {
+    height: calc(100dvh - 57px);
+    max-height: calc(100dvh - 57px);
+  }
+
+  /* Keep next button always visible above input */
+  .convo-next-q-btn {
+    margin: 4px auto 4px;
+    width: calc(100% - 28px);
+  }
+
+  /* Conversation topbar */
+  .convo-topbar { padding: 8px 14px; gap: 8px; }
+  .convo-si-name { font-size: 14px; }
+  .convo-si-sub { display: none; }
+  .convo-badge { padding: 3px 10px; font-size: 11px; }
+
+  /* Voice bar — collapse to single tight row */
+  .convo-voice-bar { padding: 6px 14px; gap: 6px; row-gap: 4px; }
+  .convo-voice-bar select { font-size: 11px; max-width: 160px; }
+  .convo-voice-bar input[type=range] { width: 60px; }
+
+  /* Avatar area */
+  .convo-avatar-area { padding: 10px 14px 0; gap: 10px; }
+  .convo-avatar-face { width: 70px; height: 100px; font-size: 48px; }
+  .convo-avatar-tag { font-size: 10px; padding: 2px 8px; }
+  .convo-bubble-q { font-size: 14px; }
+  .convo-speech-bubble { padding: 10px 12px; gap: 8px; min-height: 60px; }
+
+  /* Answer area */
+  .convo-answer-area { padding: 10px 14px; gap: 8px; }
+  .convo-bubble { font-size: 13px; padding: 10px 12px; }
+
+  /* Input area */
+  .convo-input-area {
+    padding: 10px 14px;
+    padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+  .convo-ans-input { font-size: 16px; padding: 10px 12px; min-height: 44px; }
+  .convo-send-btn { padding: 0 16px; font-size: 18px; min-width: 46px; min-height: 44px; }
+  .convo-inp-hint { font-size: 11px; }
+
+  /* Bubble action buttons */
+  .convo-bubble-btns { gap: 6px; flex-wrap: wrap; }
+  .convo-tts-sm, .convo-hint-btn, .convo-transl-btn {
+    padding: 4px 10px; font-size: 11px; min-height: 30px;
+  }
+}
+
+/* ── Landscape mobile — shrink avatar so chat area stays usable ── */
+@media (max-height: 500px) and (orientation: landscape) {
+  .convo-avatar-area { padding: 6px 14px 0; }
+  .convo-avatar-face { width: 54px; height: 76px; font-size: 36px; border-radius: 12px; }
+  .convo-avatar-tag { font-size: 9px; padding: 2px 6px; }
+  .convo-speech-bubble { min-height: 50px; padding: 8px 10px; gap: 6px; }
+  .convo-bubble-q { font-size: 13px; }
+  .convo-voice-bar { display: none; } /* hide voice bar in landscape to save space */
+  .convo-input-area { padding: 7px 14px; padding-bottom: calc(7px + env(safe-area-inset-bottom, 0px)); }
+}
+
+@media (max-width: 380px) {
+  .scenes-grid-sim { grid-template-columns: 1fr; }
+  .convo-avatar-face { width: 60px; height: 88px; font-size: 40px; border-radius: 12px; }
+  .convo-badges { gap: 4px; }
+  /* At 380px the header has logo-mark + 3 icon-only btns + score — still fits */
+  .convo-badge-score, .convo-badge-streak { padding: 3px 8px; font-size: 10px; }
 }
