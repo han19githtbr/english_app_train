@@ -21,6 +21,8 @@
 </head>
 <body>
 
+<div class="bg-decor" aria-hidden="true"></div>
+
 <div id="app">
 
   <!-- ─── PWA INSTALL BANNER ──────────────────────────────────────────── -->
@@ -54,6 +56,9 @@
       </button>
       <button class="nav-btn" onclick="App.openConvoSimulator()" aria-label="Conversation Simulator">
         💬 <span class="nav-label">Conversations</span>
+      </button>
+      <button class="nav-btn" onclick="App.openPronounce()" aria-label="Pronunciation Practice">
+        🎤 <span class="nav-label">Pronúncia</span>
       </button>
       <button class="nav-btn tts-settings-btn" onclick="App.openVoiceSettings()" aria-label="Voice Settings">
         🔊 Voice
@@ -106,25 +111,39 @@
     <div class="hero">
       <div class="hero-tag">English for Study &amp; Career Abroad</div>
       <h1>Master English<br><span class="gradient-text">Like a Professional</span></h1>
-      <p>A structured training program covering grammar, vocabulary, idioms, academic writing, speaking, and complete exam prep — with full audio pronunciation and real conversation practice.</p>
+      <p>A structured training program covering grammar, vocabulary, idioms, academic writing, speaking, careers, culture, study abroad, and complete exam prep — with full audio pronunciation and real conversation practice.</p>
       <div class="stats-row">
-        <div class="stat-chip"><span class="num">6</span> Core Modules</div>
-        <div class="stat-chip"><span class="num">6</span> Full Quizzes</div>
-        <div class="stat-chip"><span class="num">60+</span> Questions</div>
+        <div class="stat-chip"><span class="num">9</span> Core Modules</div>
+        <div class="stat-chip"><span class="num">9</span> Full Quizzes</div>
+        <div class="stat-chip"><span class="num">90+</span> Questions</div>
         <div class="stat-chip"><span class="num">💬</span> Conversation Sim</div>
+        <div class="stat-chip"><span class="num">🎤</span> Pronunciation Practice</div>
         <div class="stat-chip"><span class="num">🔊</span> Audio on Every Example</div>
       </div>
 
-      <!-- Conversation Simulator CTA -->
-      <div class="convo-cta-home" onclick="App.openConvoSimulator()">
-        <div class="convo-cta-left">
-          <span class="convo-cta-icon">💬</span>
-          <div>
-            <div class="convo-cta-title">Conversation Simulator</div>
-            <div class="convo-cta-sub">Practice real English in 15+ scenarios — restaurant, airport, job interview, and more</div>
+      <!-- CTA row: Conversation Simulator + Pronunciation Practice -->
+      <div class="cta-row">
+        <div class="convo-cta-home" onclick="App.openConvoSimulator()">
+          <div class="convo-cta-left">
+            <span class="convo-cta-icon">💬</span>
+            <div>
+              <div class="convo-cta-title">Conversation Simulator</div>
+              <div class="convo-cta-sub">Practice real English in 15+ scenarios — restaurant, airport, job interview, and more</div>
+            </div>
           </div>
+          <div class="convo-cta-arrow">→</div>
         </div>
-        <div class="convo-cta-arrow">→</div>
+
+        <div class="convo-cta-home pron-cta-home" onclick="App.openPronounce()">
+          <div class="convo-cta-left">
+            <span class="convo-cta-icon">🎤</span>
+            <div>
+              <div class="convo-cta-title">Pronunciation Practice</div>
+              <div class="convo-cta-sub">See a word or phrase, say it out loud, and get instant ✅ / ❌ feedback on your pronunciation</div>
+            </div>
+          </div>
+          <div class="convo-cta-arrow">→</div>
+        </div>
       </div>
 
       <div class="sections-title">Choose a Module to Begin</div>
@@ -267,10 +286,60 @@
   <!-- Confetti wrapper -->
   <div class="convo-cfw" id="convo-cfw"></div>
 
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       PRONUNCIATION PRACTICE SCREEN
+  ═══════════════════════════════════════════════════════════════════════════ -->
+  <div class="screen" id="pronounce-screen">
+    <div class="pron-wrap">
+      <button class="back-btn" onclick="App.goPronounceBack()">← Back to Home</button>
+
+      <div class="pron-header">
+        <h1 class="pron-title">🎤 Pronunciation <span>Practice</span></h1>
+        <p class="pron-sub">Veja a frase, palavra ou expressão, fale em voz alta e receba feedback instantâneo da sua pronúncia.</p>
+      </div>
+
+      <div class="pron-stats-row">
+        <div class="pron-stat"><span class="pron-stat-num" id="pron-score">0</span><span class="pron-stat-label">Acertos</span></div>
+        <div class="pron-stat"><span class="pron-stat-num" id="pron-streak">0</span><span class="pron-stat-label">Sequência 🔥</span></div>
+        <div class="pron-stat"><span class="pron-stat-num" id="pron-attempts">0</span><span class="pron-stat-label">Tentativas</span></div>
+        <button class="pron-reset-btn" onclick="App.pronReset()" title="Zerar estatísticas">↺ Zerar</button>
+      </div>
+
+      <div class="pron-cats" id="pron-cats"></div>
+
+      <div class="pron-card">
+        <div class="pron-card-top">
+          <span class="pron-item-cat" id="pron-item-cat"></span>
+          <span class="pron-item-diff" id="pron-item-diff"></span>
+        </div>
+
+        <div class="pron-text" id="pron-text">Loading...</div>
+        <div class="pron-translation" id="pron-translation"></div>
+
+        <button class="pron-listen-btn" onclick="App.pronListen()">
+          🔊 Ouvir pronúncia correta
+        </button>
+
+        <div class="pron-mic-area">
+          <button class="pron-mic-btn" id="pron-mic-btn" onclick="App.pronMic()" aria-label="Falar">
+            <span class="pron-mic-icon">🎙️</span>
+          </button>
+          <div class="pron-mic-hint">Toque no microfone e fale a frase acima</div>
+        </div>
+
+        <div class="pron-feedback" id="pron-feedback"></div>
+        <div class="pron-heard" id="pron-heard"></div>
+      </div>
+
+      <button class="pron-next-btn" onclick="App.pronNext()">Próxima frase →</button>
+    </div>
+  </div>
+
 </div><!-- /#app -->
 
 <script src="js/index.js"></script>
 <script src="js/simulator.js"></script>
+<script src="js/pronounce.js"></script>
 <script>
 // ── Service Worker ─────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {

@@ -30,7 +30,14 @@
 
 /* ─── RESET & BASE ─── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  overscroll-behavior-x: none;
+}
 body {
   font-family: var(--font-body);
   background: var(--bg);
@@ -39,28 +46,51 @@ body {
   min-height: 100dvh; /* dynamic viewport for mobile browsers */
   line-height: 1.6;
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  overscroll-behavior-x: none;
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ─── BACKGROUND EFFECT ─── */
-body::before {
-  content: '';
-  position: fixed; top: -30%; left: -20%;
-  width: 600px; height: 600px;
-  background: radial-gradient(circle, rgba(0,212,255,0.06) 0%, transparent 65%);
-  pointer-events: none; z-index: 0;
+/* ─── BACKGROUND EFFECT ───────────────────────────────────────────────────
+   Decorative glows live inside a dedicated, fully-clipped fixed layer.
+   This prevents the large blurred circles from ever expanding the
+   document's scrollable width on Android Chrome (the cause of the
+   empty space visible when swiping/dragging sideways). ───────────────── */
+.bg-decor {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
 }
-body::after {
+.bg-decor::before {
   content: '';
-  position: fixed; bottom: -20%; right: -15%;
+  position: absolute; top: -30%; left: -20%;
+  width: 600px; height: 600px;
+  max-width: 80vw; max-height: 80vw;
+  background: radial-gradient(circle, rgba(0,212,255,0.06) 0%, transparent 65%);
+}
+.bg-decor::after {
+  content: '';
+  position: absolute; bottom: -20%; right: -15%;
   width: 500px; height: 500px;
+  max-width: 80vw; max-height: 80vw;
   background: radial-gradient(circle, rgba(123,47,190,0.07) 0%, transparent 65%);
-  pointer-events: none; z-index: 0;
 }
 
 /* ─── APP WRAPPER ─── */
-#app { position: relative; z-index: 1; min-height: 100vh; min-height: 100dvh; }
+#app {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  min-height: 100dvh;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 
 /* ─── HEADER ─── */
 .app-header {
@@ -1825,4 +1855,315 @@ button:focus-visible, a:focus-visible {
   .convo-badges { gap: 4px; }
   /* At 380px the header has logo-mark + 3 icon-only btns + score — still fits */
   .convo-badge-score, .convo-badge-streak { padding: 3px 8px; font-size: 10px; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOME CTA ROW — Conversation Simulator + Pronunciation Practice side by side
+═══════════════════════════════════════════════════════════════════════════ */
+.cta-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+.cta-row .convo-cta-home { margin: 0; max-width: none; }
+
+.pron-cta-home {
+  background: linear-gradient(135deg, rgba(232,67,147,0.10), rgba(0,200,150,0.10));
+  border-color: rgba(232,67,147,0.25);
+}
+.pron-cta-home:hover {
+  border-color: rgba(232,67,147,0.55);
+  box-shadow: 0 12px 32px rgba(232,67,147,0.14);
+}
+.pron-cta-home .convo-cta-arrow { color: #E84393; }
+
+@media (max-width: 780px) {
+  .cta-row { grid-template-columns: 1fr; gap: 12px; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   PRONUNCIATION PRACTICE SCREEN
+═══════════════════════════════════════════════════════════════════════════ */
+#pronounce-screen {
+  min-height: calc(100dvh - 65px);
+  overflow-y: auto;
+}
+
+.pron-wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+.pron-header { text-align: center; margin: 8px 0 24px; }
+
+.pron-title {
+  font-family: var(--font-display);
+  font-size: clamp(26px, 5vw, 38px);
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+.pron-title span {
+  background: linear-gradient(90deg, #E84393, var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pron-sub {
+  color: var(--text-secondary);
+  font-size: 14px;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ── Stats row ── */
+.pron-stats-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.pron-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px 20px;
+  min-width: 84px;
+}
+.pron-stat-num {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 800;
+  color: #E84393;
+}
+.pron-stat-label {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+  text-align: center;
+}
+.pron-reset-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 10px 16px;
+  border-radius: 14px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.pron-reset-btn:hover { border-color: var(--border-hover); color: var(--text-primary); }
+
+/* ── Category chips ── */
+.pron-cats {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+  margin-bottom: 24px;
+  mask-image: linear-gradient(to right, black calc(100% - 24px), transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black calc(100% - 24px), transparent 100%);
+}
+.pron-cats::-webkit-scrollbar { display: none; }
+.pron-chip {
+  flex-shrink: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.pron-chip:hover { border-color: var(--border-hover); color: var(--text-primary); }
+.pron-chip.active {
+  background: linear-gradient(135deg, #E84393, var(--accent-purple));
+  border-color: transparent;
+  color: white;
+}
+
+/* ── Practice card ── */
+.pron-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 32px 28px;
+  text-align: center;
+}
+
+.pron-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.pron-item-cat {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #E84393;
+  background: rgba(232,67,147,0.12);
+  padding: 4px 10px;
+  border-radius: 100px;
+}
+.pron-item-diff {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+}
+
+.pron-text {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 4.2vw, 28px);
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  min-height: 1.4em;
+}
+
+.pron-translation {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 24px;
+  min-height: 1.2em;
+}
+
+.pron-listen-btn {
+  background: rgba(0,212,255,0.08);
+  border: 1px solid rgba(0,212,255,0.25);
+  color: var(--accent-blue);
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-bottom: 28px;
+}
+.pron-listen-btn:hover { background: rgba(0,212,255,0.15); border-color: rgba(0,212,255,0.5); }
+
+/* ── Mic area ── */
+.pron-mic-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.pron-mic-btn {
+  width: 88px; height: 88px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #E84393, var(--accent-purple));
+  color: white;
+  font-size: 32px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(232,67,147,0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+.pron-mic-btn:hover { transform: scale(1.05); }
+.pron-mic-btn:active { transform: scale(0.96); }
+
+.pron-mic-btn.listening {
+  animation: pron-pulse 1.2s ease-in-out infinite;
+  background: linear-gradient(135deg, #FF4757, #E84393);
+}
+@keyframes pron-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(255,71,87,0.5), 0 8px 24px rgba(232,67,147,0.35); }
+  70%  { box-shadow: 0 0 0 20px rgba(255,71,87,0), 0 8px 24px rgba(232,67,147,0.35); }
+  100% { box-shadow: 0 0 0 0 rgba(255,71,87,0), 0 8px 24px rgba(232,67,147,0.35); }
+}
+
+.pron-mic-hint { font-size: 12.5px; color: var(--text-secondary); }
+
+/* ── Feedback states ── */
+.pron-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 0;
+  transition: var(--transition);
+}
+.pron-feedback:empty { min-height: 0; }
+.pron-fb-icon { font-size: 16px; flex-shrink: 0; }
+
+.pron-feedback.correct-state {
+  color: var(--accent-green);
+  background: rgba(0,200,150,0.1);
+  border: 1px solid rgba(0,200,150,0.3);
+  padding: 12px 16px;
+}
+.pron-feedback.wrong-state {
+  color: #FF4757;
+  background: rgba(255,71,87,0.08);
+  border: 1px solid rgba(255,71,87,0.28);
+  padding: 12px 16px;
+}
+.pron-feedback.listening-state {
+  color: #E84393;
+  background: rgba(232,67,147,0.08);
+  border: 1px solid rgba(232,67,147,0.25);
+  padding: 12px 16px;
+}
+
+.pron-heard {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.pron-next-btn {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 24px auto 0;
+  background: linear-gradient(135deg, #E84393, var(--accent-purple));
+  border: none;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 100px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.pron-next-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,67,147,0.3); }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .pron-wrap { padding: 28px 16px 60px; }
+  .pron-card { padding: 24px 18px; }
+  .pron-mic-btn { width: 76px; height: 76px; font-size: 28px; }
+  .pron-stat { padding: 8px 14px; min-width: 70px; }
+  .pron-stat-num { font-size: 18px; }
 }

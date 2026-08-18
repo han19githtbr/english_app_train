@@ -285,7 +285,12 @@
           {
             "id": 1,
             "question": "Choose the correct tense: 'By the time she arrived, we _____ for two hours.'",
-            "options": ["were waiting", "had been waiting", "have been waiting", "waited"],
+            "options": [
+              "were waiting",
+              "had been waiting",
+              "have been waiting",
+              "waited"
+            ],
             "correct": 1,
             "explanation": "Past Perfect Continuous is used for an action in progress before another past action. 'By the time' + Past Simple signals the use of Past Perfect Continuous."
           },
@@ -304,14 +309,24 @@
           {
             "id": 3,
             "question": "Select the correct conditional: 'If I _____ the grant, I would travel to Japan for research.'",
-            "options": ["will receive", "receive", "received", "had received"],
+            "options": [
+              "will receive",
+              "receive",
+              "received",
+              "had received"
+            ],
             "correct": 2,
             "explanation": "Second Conditional uses 'If + Past Simple, would + base verb' for hypothetical/unlikely present situations."
           },
           {
             "id": 4,
             "question": "Which tense is typical in academic writing? 'The results _____ that there is a significant correlation.'",
-            "options": ["are showing", "showed", "show", "will show"],
+            "options": [
+              "are showing",
+              "showed",
+              "show",
+              "will show"
+            ],
             "correct": 2,
             "explanation": "In academic writing, Present Simple is used to describe findings, conclusions, and what research 'shows' or 'suggests'."
           },
@@ -330,35 +345,60 @@
           {
             "id": 6,
             "question": "Choose the correct article: '_____ Amazon is _____ longest river in _____ South America.'",
-            "options": ["The / a / —", "The / the / —", "A / the / the", "— / a / the"],
+            "options": [
+              "The / a / —",
+              "The / the / —",
+              "A / the / the",
+              "— / a / the"
+            ],
             "correct": 1,
             "explanation": "'The Amazon' because it's a unique, specific river. 'The longest' because superlatives use 'the'. No article before continental proper nouns like South America."
           },
           {
             "id": 7,
             "question": "Which modal is MOST appropriate? 'You _____ submit your application before the deadline — it is mandatory.'",
-            "options": ["should", "could", "must", "might"],
+            "options": [
+              "should",
+              "could",
+              "must",
+              "might"
+            ],
             "correct": 2,
             "explanation": "'Must' expresses strong obligation. In this context, submitting before the deadline is a requirement, so 'must' is appropriate."
           },
           {
             "id": 8,
             "question": "Choose the correct preposition: 'The study consists _____ three phases.'",
-            "options": ["in", "of", "on", "by"],
+            "options": [
+              "in",
+              "of",
+              "on",
+              "by"
+            ],
             "correct": 1,
             "explanation": "'Consist of' is a fixed collocation — it is always followed by 'of'. Example: 'The team consists of five members.'"
           },
           {
             "id": 9,
             "question": "Complete: 'She _____ English for five years before she moved to London.'",
-            "options": ["studied", "has studied", "had been studying", "was studying"],
+            "options": [
+              "studied",
+              "has studied",
+              "had been studying",
+              "was studying"
+            ],
             "correct": 2,
             "explanation": "Past Perfect Continuous ('had been studying') shows a continuous action that occurred before another past event ('moved to London')."
           },
           {
             "id": 10,
             "question": "Which sentence is correct? The professor said the results _____ announced next week.",
-            "options": ["will be", "would be", "are being", "have been"],
+            "options": [
+              "will be",
+              "would be",
+              "are being",
+              "have been"
+            ],
             "correct": 1,
             "explanation": "In reported speech, 'will' changes to 'would'. Since the professor said this in the past, we use 'would be announced'."
           }
@@ -550,7 +590,12 @@
           {
             "id": 1,
             "question": "Choose the best academic verb: 'The experiment _____ that vitamin C reduces cold duration.'",
-            "options": ["proved", "demonstrated", "showed", "told"],
+            "options": [
+              "proved",
+              "demonstrated",
+              "showed",
+              "told"
+            ],
             "correct": 1,
             "explanation": "'Demonstrated' is the most appropriate academic verb. While 'proved' is technically correct, science rarely 'proves' — it 'demonstrates' or 'suggests'."
           },
@@ -581,21 +626,36 @@
           {
             "id": 4,
             "question": "What is the British English equivalent of the American English word 'elevator'?",
-            "options": ["escalator", "lift", "riser", "hoist"],
+            "options": [
+              "escalator",
+              "lift",
+              "riser",
+              "hoist"
+            ],
             "correct": 1,
             "explanation": "In British English, 'lift' is the word for what Americans call an 'elevator'. Similarly: apartment (US) = flat (UK), truck (US) = lorry (UK)."
           },
           {
             "id": 5,
             "question": "Which phrasal verb means 'to postpone or delay'?",
-            "options": ["put up", "put out", "put off", "put on"],
+            "options": [
+              "put up",
+              "put out",
+              "put off",
+              "put on"
+            ],
             "correct": 2,
             "explanation": "'Put off' means to postpone. 'Put up' = to accommodate or tolerate; 'put out' = to extinguish or inconvenience; 'put on' = to wear or stage something."
           },
           {
             "id": 6,
             "question": "Which linking word would you use to CONTRAST two ideas within a single sentence?",
-            "options": ["Furthermore", "Therefore", "Although", "Consequently"],
+            "options": [
+              "Furthermore",
+              "Therefore",
+              "Although",
+              "Consequently"
+            ],
             "correct": 2,
             "explanation": "'Although' introduces a contrast within a sentence (e.g., 'Although the results were unexpected, they were significant.'). The others add, conclude, or show cause-effect."
           },
@@ -1079,14 +1139,24 @@
           {
             "id": 2,
             "question": "In English, 2-syllable NOUNS are typically stressed on the:",
-            "options": ["Second syllable", "First syllable", "Last syllable", "Both syllables equally"],
+            "options": [
+              "Second syllable",
+              "First syllable",
+              "Last syllable",
+              "Both syllables equally"
+            ],
             "correct": 1,
             "explanation": "2-syllable nouns in English are usually stressed on the FIRST syllable: REcord, PRESent, CONflict. The same words as VERBS shift stress to the second syllable: reCORD, preSENT, conFLICT."
           },
           {
             "id": 3,
             "question": "In IELTS Speaking, Part 2 requires you to speak for approximately how long?",
-            "options": ["30 seconds", "1 minute", "1-2 minutes", "3-4 minutes"],
+            "options": [
+              "30 seconds",
+              "1 minute",
+              "1-2 minutes",
+              "3-4 minutes"
+            ],
             "correct": 2,
             "explanation": "In Part 2, you are given a topic card and 1 minute to prepare. You must then speak for 1-2 minutes about the topic without interruption."
           },
@@ -1141,7 +1211,12 @@
           {
             "id": 8,
             "question": "The word 'photograph' has stress on which syllable?",
-            "options": ["pho-TO-graph", "PHO-to-graph", "pho-to-GRAPH", "all syllables equally"],
+            "options": [
+              "pho-TO-graph",
+              "PHO-to-graph",
+              "pho-to-GRAPH",
+              "all syllables equally"
+            ],
             "correct": 1,
             "explanation": "'PHOtograph' — stress on the first syllable. Note that the word family changes stress: phoTOgraphy (2nd syllable) and photoGRAPHic (3rd syllable). This is very common in English."
           }
@@ -1261,21 +1336,36 @@
           {
             "id": 2,
             "question": "What is the IELTS band score typically required for postgraduate programs at competitive universities?",
-            "options": ["Band 5.0-5.5", "Band 6.0-6.5", "Band 7.0-7.5", "Band 4.0 or above"],
+            "options": [
+              "Band 5.0-5.5",
+              "Band 6.0-6.5",
+              "Band 7.0-7.5",
+              "Band 4.0 or above"
+            ],
             "correct": 2,
             "explanation": "Postgraduate programs at competitive universities like UCL, Edinburgh, or Melbourne typically require Band 7.0-7.5. Top programs (Oxford/Cambridge) may require Band 7.5-8.0."
           },
           {
             "id": 3,
             "question": "How many times do you HEAR the recordings in the IELTS Listening test?",
-            "options": ["Twice", "Three times", "Once", "As many times as needed"],
+            "options": [
+              "Twice",
+              "Three times",
+              "Once",
+              "As many times as needed"
+            ],
             "correct": 2,
             "explanation": "IELTS Listening recordings are played ONCE only. This is why reading questions before the audio starts is critical — you must prepare to listen for specific information."
           },
           {
             "id": 4,
             "question": "What is the MAXIMUM possible IELTS band score?",
-            "options": ["8.0", "9.0", "10.0", "100"],
+            "options": [
+              "8.0",
+              "9.0",
+              "10.0",
+              "100"
+            ],
             "correct": 1,
             "explanation": "IELTS uses a 9-band scale (0-9). Band 9 = Expert User. Band 8 = Very Good User. The overall score is the average of the four section scores, rounded to the nearest 0.5."
           },
@@ -1306,14 +1396,24 @@
           {
             "id": 7,
             "question": "How long is the IELTS Academic test in total (approximately)?",
-            "options": ["2 hours", "2 hours 45 minutes", "3 hours 30 minutes", "4 hours"],
+            "options": [
+              "2 hours",
+              "2 hours 45 minutes",
+              "3 hours 30 minutes",
+              "4 hours"
+            ],
             "correct": 1,
             "explanation": "IELTS takes approximately 2 hours 45 minutes: Listening (~30 min) + Reading (60 min) + Writing (60 min) + Speaking (11-14 min), with short breaks between modules."
           },
           {
             "id": 8,
             "question": "Which English variety does TOEFL primarily use?",
-            "options": ["British English", "Australian English", "American English", "Canadian English"],
+            "options": [
+              "British English",
+              "Australian English",
+              "American English",
+              "Canadian English"
+            ],
             "correct": 2,
             "explanation": "TOEFL iBT primarily uses American English in its recordings and materials. IELTS, in contrast, uses a variety of accents (British, Australian, North American, etc.) in its Listening section."
           },
@@ -1332,7 +1432,12 @@
           {
             "id": 10,
             "question": "What is the minimum IELTS score typically required for a UK Skilled Worker Visa?",
-            "options": ["Band 4.0", "Band 5.0", "Band 6.0", "Band 7.5"],
+            "options": [
+              "Band 4.0",
+              "Band 5.0",
+              "Band 6.0",
+              "Band 7.5"
+            ],
             "correct": 2,
             "explanation": "The UK Skilled Worker Visa typically requires IELTS Band 6.0 overall (with minimums per section). Requirements vary by job category and employer — always verify current UK Visas and Immigration guidelines."
           }
@@ -1731,7 +1836,12 @@
           {
             "id": 4,
             "question": "In British English, 'the bill' at a restaurant is called what in American English?",
-            "options": ["The invoice", "The tab", "The check", "The receipt"],
+            "options": [
+              "The invoice",
+              "The tab",
+              "The check",
+              "The receipt"
+            ],
             "correct": 2,
             "explanation": "In American English, you ask for 'the check' when you want to pay. In British English, you ask for 'the bill'. 'Tab' is informal in both, often used in bars. 'Receipt' is the paper you receive AFTER paying."
           },
@@ -1786,7 +1896,12 @@
           {
             "id": 9,
             "question": "What emergency number should you call in the United Kingdom?",
-            "options": ["911", "000", "999", "112"],
+            "options": [
+              "911",
+              "000",
+              "999",
+              "112"
+            ],
             "correct": 2,
             "explanation": "In the UK, the emergency number is 999 (police, fire, ambulance). In the USA and Canada, it is 911. In most of Europe, it is 112. In Australia, it is 000. Note: 112 also works in the UK and most countries as a universal emergency number."
           },
@@ -1804,6 +1919,1094 @@
           }
         ]
       }
+    },
+    {
+      "id": "career",
+      "icon": "💼",
+      "title": "Career & Job Opportunities",
+      "description": "Resumes, interviews, LinkedIn, and professional communication for international careers",
+      "color": "#FF9F1C",
+      "lessons": [
+        {
+          "id": "resume_cv",
+          "title": "Resume & CV Writing",
+          "content": [
+            {
+              "subtitle": "Power Verbs for Achievements",
+              "explanation": "Start every bullet point with a strong action verb instead of weak phrases like 'was responsible for'. Recruiters scan resumes in seconds, so verbs need to show impact immediately.",
+              "examples": [
+                "Led a team of 5 developers to deliver the project two weeks early.",
+                "Increased website conversion rate by 18% through UX redesign.",
+                "Streamlined the onboarding process, reducing training time by 30%.",
+                "Implemented a new CI/CD pipeline using GitHub Actions.",
+                "Negotiated contracts with three international suppliers."
+              ],
+              "tip": "Avoid 'responsible for' and 'worked on'. Use: led, built, launched, increased, reduced, negotiated, designed, automated."
+            },
+            {
+              "subtitle": "Quantifying Your Impact",
+              "explanation": "Numbers make achievements concrete and credible. Whenever possible, add a metric: percentage, amount of money, number of people, or time saved.",
+              "examples": [
+                "Reduced page load time from 4s to 1.2s, improving user retention by 12%.",
+                "Managed a budget of $50,000 for the marketing campaign.",
+                "Trained 15 new employees during the company's expansion.",
+                "Handled an average of 40 client tickets per week with a 95% satisfaction rate."
+              ],
+              "tip": "If you don't have exact numbers, use reasonable estimates: 'approximately', 'over', 'more than'."
+            },
+            {
+              "subtitle": "Resume Structure & Key Sections",
+              "explanation": "An international resume usually follows this order: Contact Info → Professional Summary → Work Experience → Skills → Education → Certifications/Projects.",
+              "examples": [
+                "Professional Summary: 'Front-end developer with 2+ years of experience building responsive web applications with React and Angular.'",
+                "Skills section: 'Technical Skills: JavaScript, TypeScript, React, Node.js, PostgreSQL, Git.'",
+                "Education: 'B.Sc. in Computer Science, Federal Rural University of Rio de Janeiro (UFRRJ), 2023.'"
+              ],
+              "tip": "Keep it to one page if you have less than 10 years of experience. Tailor the summary for each job application."
+            }
+          ]
+        },
+        {
+          "id": "cover_letters_linkedin",
+          "title": "Cover Letters & LinkedIn",
+          "content": [
+            {
+              "subtitle": "Cover Letter Opening & Closing",
+              "explanation": "A strong opening states the position and shows genuine interest. The closing should restate your value and include a clear call to action.",
+              "examples": [
+                "I am writing to apply for the Front-End Developer position advertised on LinkedIn.",
+                "With two years of experience in React and Angular, I am confident I can contribute to your team from day one.",
+                "I would welcome the opportunity to discuss how my background aligns with your needs.",
+                "Thank you for considering my application. I look forward to hearing from you."
+              ],
+              "tip": "Never start with 'My name is...'. Start with the position and your value proposition instead."
+            },
+            {
+              "subtitle": "LinkedIn Profile & Networking Messages",
+              "explanation": "Your LinkedIn headline should describe what you do and the value you bring, not just your job title. Networking messages should be short, specific, and polite.",
+              "examples": [
+                "Headline: 'Full-Stack Developer | React, Node.js, Java | Open to Opportunities'",
+                "Connection request: 'Hi Sarah, I really enjoyed your talk on scalable APIs. I'd love to connect and follow your work.'",
+                "Cold outreach: 'Hi John, I noticed your team is hiring a Junior Developer. I have experience with Angular and Firebase and would love to learn more about the role.'",
+                "About section opener: 'I'm a developer passionate about building fast, accessible web applications.'"
+              ],
+              "tip": "Keep networking messages under 300 characters — busy professionals rarely reply to long messages from strangers."
+            },
+            {
+              "subtitle": "Following Up After Applying",
+              "explanation": "A polite follow-up shows initiative without being pushy. Wait about one week after applying or after an interview before reaching out.",
+              "examples": [
+                "I wanted to follow up on my application for the Developer position submitted last week.",
+                "I remain very interested in the role and would appreciate any update on the hiring process.",
+                "Thank you again for the interview on Tuesday — I really enjoyed learning more about the team.",
+                "Please let me know if you need any additional information from my side."
+              ],
+              "tip": "One follow-up is professional; more than two can seem impatient. Always keep the tone warm and respectful."
+            }
+          ]
+        },
+        {
+          "id": "job_interviews",
+          "title": "Job Interview Language",
+          "content": [
+            {
+              "subtitle": "Answering Common Interview Questions",
+              "explanation": "Interviewers ask predictable opening questions. Prepare concise, confident answers that connect your background to the role.",
+              "examples": [
+                "'Tell me about yourself.' → 'I'm a front-end developer with two years of experience, currently focused on React and TypeScript. I'm particularly interested in building accessible, high-performance interfaces.'",
+                "'Why do you want to work here?' → 'I admire how your team combines strong engineering practices with real user impact, and I'd love to contribute to that.'",
+                "'What is your biggest weakness?' → 'I used to spend too much time perfecting small details, so I've learned to set clear time limits for each task.'",
+                "'Where do you see yourself in five years?' → 'I see myself growing into a senior developer role, mentoring junior engineers along the way.'"
+              ],
+              "tip": "Keep answers between 30-90 seconds. Practice out loud — silence and hesitation hurt more than small grammar mistakes."
+            },
+            {
+              "subtitle": "Behavioral Questions — The STAR Method",
+              "explanation": "Behavioral questions ask about past experiences. Structure your answer using STAR: Situation, Task, Action, Result.",
+              "examples": [
+                "Situation: 'In my last project, we were close to missing a delivery deadline.'",
+                "Task: 'I was responsible for the front-end integration with the API.'",
+                "Action: 'I reorganized my priorities and worked closely with the back-end team to fix blocking issues.'",
+                "Result: 'We delivered the project on time and the client praised the app's performance.'"
+              ],
+              "tip": "Common triggers for STAR questions: 'Tell me about a time when...', 'Describe a situation where...', 'Give me an example of...'"
+            },
+            {
+              "subtitle": "Questions to Ask the Interviewer",
+              "explanation": "Asking thoughtful questions shows genuine interest and helps you evaluate the company too.",
+              "examples": [
+                "What does success look like in this role after the first six months?",
+                "Can you tell me more about the team I'd be working with?",
+                "What are the biggest challenges the team is currently facing?",
+                "What opportunities are there for professional growth or learning?",
+                "What are the next steps in the hiring process?"
+              ],
+              "tip": "Never say 'I don't have any questions' — it can suggest a lack of interest in the role."
+            },
+            {
+              "subtitle": "Salary Negotiation Phrases",
+              "explanation": "Negotiating salary in English requires confident but polite language, focused on value rather than personal need.",
+              "examples": [
+                "Based on my research and experience, I was expecting a range closer to $X.",
+                "Is there any flexibility in the base salary for this position?",
+                "I'm very excited about this opportunity — could we discuss the compensation package in more detail?",
+                "Besides salary, could you tell me more about benefits like remote work or professional development budget?"
+              ],
+              "tip": "Always let the employer mention a number first if possible, and never apologize for negotiating."
+            }
+          ]
+        },
+        {
+          "id": "workplace_communication",
+          "title": "Workplace & Remote Communication",
+          "content": [
+            {
+              "subtitle": "Professional Email Etiquette",
+              "explanation": "Workplace emails should be clear, polite, and structured: greeting, purpose, details, and a clear closing.",
+              "examples": [
+                "Subject: 'Follow-up: Sprint Planning Meeting Notes'",
+                "Hi team, I hope you're all doing well. I wanted to share a quick update on the project.",
+                "Could you please review the attached document and share your feedback by Friday?",
+                "Let me know if you have any questions — happy to jump on a call.",
+                "Best regards, / Thanks in advance,"
+              ],
+              "tip": "CC only people who truly need the information; BCC is used for privacy in mass emails, not for internal team threads."
+            },
+            {
+              "subtitle": "Remote Work & Freelance Vocabulary",
+              "explanation": "Remote and freelance work has its own vocabulary that's essential for international, distributed teams.",
+              "examples": [
+                "Async communication: updates shared without expecting an immediate reply.",
+                "Standup meeting: a short daily check-in about progress and blockers.",
+                "Time zone overlap: hours when both teams are online at the same time.",
+                "Deliverable: a specific output you agreed to produce, e.g., 'the deliverable is due next Monday.'",
+                "Scope creep: when a project's requirements keep expanding beyond the original agreement."
+              ],
+              "tip": "'PJ' (Pessoa Jurídica) roughly maps to 'independent contractor' or 'freelancer' in English-speaking markets."
+            },
+            {
+              "subtitle": "Giving and Receiving Feedback",
+              "explanation": "Constructive feedback in English workplaces is often 'sandwiched' — positive, then improvement, then encouragement.",
+              "examples": [
+                "I really liked how you handled the client call — very clear and confident.",
+                "One thing to work on: try to summarize next steps at the end of each meeting.",
+                "Overall, great progress this sprint — keep it up!",
+                "Thanks for the feedback, I'll definitely work on that.",
+                "Could you give me an example of what you mean?"
+              ],
+              "tip": "Use 'I feel...' or 'I noticed...' rather than 'you always...' to keep feedback constructive, not accusatory."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Career & Job Search Challenge",
+        "description": "Test your resume, interview, and workplace English",
+        "questions": [
+          {
+            "id": 1,
+            "question": "Which phrase sounds strongest on a resume?",
+            "options": [
+              "Was responsible for the website",
+              "Helped with the website",
+              "Redesigned the website, increasing traffic by 20%",
+              "Did website tasks"
+            ],
+            "correct": 2,
+            "explanation": "Strong resumes use action verbs plus measurable results, not vague descriptions."
+          },
+          {
+            "id": 2,
+            "question": "In a cover letter, what should you avoid in the opening line?",
+            "options": [
+              "Mentioning the job title",
+              "Starting with 'My name is...'",
+              "Showing enthusiasm",
+              "Referencing your experience"
+            ],
+            "correct": 1,
+            "explanation": "Recruiters already know your name from the resume — start with your value instead."
+          },
+          {
+            "id": 3,
+            "question": "What does the STAR method stand for in interviews?",
+            "options": [
+              "Skills, Talent, Achievement, Results",
+              "Situation, Task, Action, Result",
+              "Story, Timing, Answer, Reflection",
+              "Strengths, Talents, Aims, Rewards"
+            ],
+            "correct": 1,
+            "explanation": "STAR helps structure answers to behavioral interview questions clearly and logically."
+          },
+          {
+            "id": 4,
+            "question": "'I was expecting a range closer to $X' is an example of:",
+            "options": [
+              "A rude demand",
+              "Salary negotiation language",
+              "A resignation letter",
+              "An apology"
+            ],
+            "correct": 1,
+            "explanation": "This phrase is a polite, confident way to negotiate compensation."
+          },
+          {
+            "id": 5,
+            "question": "What is an 'async' update in remote work?",
+            "options": [
+              "A meeting that happens twice a day",
+              "An update shared without expecting an immediate reply",
+              "A synchronized video call",
+              "A type of software bug"
+            ],
+            "correct": 1,
+            "explanation": "Asynchronous communication doesn't require both parties to be online at the same time."
+          },
+          {
+            "id": 6,
+            "question": "Which is the best answer to 'Tell me about yourself' in an interview?",
+            "options": [
+              "A full life story from childhood",
+              "A brief professional summary connected to the role",
+              "Just your name and age",
+              "A list of hobbies only"
+            ],
+            "correct": 1,
+            "explanation": "Interviewers want a concise professional summary relevant to the position."
+          },
+          {
+            "id": 7,
+            "question": "What does 'scope creep' mean?",
+            "options": [
+              "A project finishing early",
+              "Requirements expanding beyond what was agreed",
+              "A team member leaving the project",
+              "A software crash"
+            ],
+            "correct": 1,
+            "explanation": "Scope creep happens when a project's demands grow without formal agreement."
+          },
+          {
+            "id": 8,
+            "question": "Which question is appropriate to ask an interviewer?",
+            "options": [
+              "How much do you make?",
+              "What does success look like in this role after six months?",
+              "Can I leave early on Fridays?",
+              "Why did the last person quit?"
+            ],
+            "correct": 1,
+            "explanation": "This question shows genuine interest in expectations and performance."
+          },
+          {
+            "id": 9,
+            "question": "In feedback, 'sandwiching' means:",
+            "options": [
+              "Giving feedback during lunch",
+              "Positive comment, improvement point, then encouragement",
+              "Only giving negative feedback",
+              "Writing feedback in a document"
+            ],
+            "correct": 1,
+            "explanation": "The 'feedback sandwich' balances critique with encouragement to keep it constructive."
+          },
+          {
+            "id": 10,
+            "question": "A polite follow-up email after an interview should:",
+            "options": [
+              "Demand an immediate answer",
+              "Thank the interviewer and restate interest",
+              "Ask for a higher salary",
+              "Be sent the same day, multiple times"
+            ],
+            "correct": 1,
+            "explanation": "A good follow-up is warm, brief, and reinforces your interest in the role."
+          }
+        ]
+      }
+    },
+    {
+      "id": "culture",
+      "icon": "🌍",
+      "title": "Culture & Social Understanding",
+      "description": "Communication styles, etiquette, humor, and everyday culture in English-speaking countries",
+      "color": "#E84393",
+      "lessons": [
+        {
+          "id": "cultural_communication",
+          "title": "Cultural Communication Styles",
+          "content": [
+            {
+              "subtitle": "Direct vs Indirect Communication",
+              "explanation": "English-speaking business cultures (especially US/UK) tend to value directness, but they soften statements with politeness markers rather than being blunt.",
+              "examples": [
+                "Direct but polite: 'I don't think this approach will work. Could we consider an alternative?'",
+                "Too indirect (avoid): 'Maybe, perhaps, possibly it could be an idea to think about changing it a little...'",
+                "Disagreeing politely: 'I see your point, but I'd like to offer a different perspective.'",
+                "Softening a request: 'Would it be possible to get this by Thursday?' instead of 'Give me this by Thursday.'"
+              ],
+              "tip": "Brazilian and French communication often uses more context and warmth before the main point — in English business settings, get to the point sooner, but stay warm."
+            },
+            {
+              "subtitle": "Small Talk & Icebreakers",
+              "explanation": "Small talk is a social ritual in English-speaking cultures — it builds rapport before business or deeper conversation.",
+              "examples": [
+                "'How was your weekend?' — a very common opener at work on Mondays.",
+                "'Did you catch the game last night?' — sports as a safe, common topic.",
+                "'This weather, huh?' — commenting on weather is a classic, safe icebreaker in the UK.",
+                "'How's it going?' 'Not bad, you?' — a casual greeting exchange, not a real question about your life."
+              ],
+              "tip": "Avoid asking about salary, age, weight, or religion in small talk — these are considered too personal in most English-speaking cultures."
+            },
+            {
+              "subtitle": "Politeness Strategies & Hedging",
+              "explanation": "Native speakers often 'hedge' statements to sound less forceful, especially in professional contexts.",
+              "examples": [
+                "'I was just wondering if maybe we could reschedule...' (soft request)",
+                "'It might be worth considering...' (soft suggestion)",
+                "'I could be wrong, but I think the deadline moved.' (soft opinion)",
+                "'Sorry to bother you, but could I ask a quick question?' (polite interruption)"
+              ],
+              "tip": "Hedging isn't weakness — it's a social skill. Overusing very direct commands can come across as rude in English, even if grammatically correct."
+            }
+          ]
+        },
+        {
+          "id": "holidays_traditions",
+          "title": "Holidays, Traditions & Everyday Culture",
+          "content": [
+            {
+              "subtitle": "Major Holidays in English-Speaking Countries",
+              "explanation": "Knowing key holidays helps you understand context in conversations, emails ('Happy Thanksgiving!'), and scheduling.",
+              "examples": [
+                "Thanksgiving (USA, 4th Thursday of November): family dinner with turkey, giving thanks.",
+                "Independence Day (USA, July 4th): fireworks, barbecues, national pride.",
+                "Boxing Day (UK/Canada, December 26th): a shopping and relaxation day after Christmas.",
+                "Halloween (Oct 31st): costumes, trick-or-treating, pumpkin carving — widely celebrated in the US, UK, and Canada.",
+                "St. Patrick's Day (March 17th): Irish culture celebration, popular worldwide."
+              ],
+              "tip": "In work emails around these dates, it's common to write 'Happy Thanksgiving!' or 'Have a great long weekend!'"
+            },
+            {
+              "subtitle": "Food & Dining Culture",
+              "explanation": "Dining customs vary — understanding them avoids awkward moments while traveling or working abroad.",
+              "examples": [
+                "In the US, it's common to ask for a 'to-go box' (doggy bag) to take leftovers home.",
+                "In the UK, tea is often offered as a gesture of hospitality: 'Would you like a cup of tea?'",
+                "Splitting the bill ('going Dutch') is very common among friends in the US, UK, and Canada.",
+                "'BYOB' (Bring Your Own Bottle) parties are common and expected at some casual gatherings."
+              ],
+              "tip": "Tipping culture differs sharply: in the US, 15-20% is expected at restaurants; in the UK it's optional (usually 10%); it's not customary in many other countries."
+            },
+            {
+              "subtitle": "Tipping, Manners & Social Norms",
+              "explanation": "Small social rules can make a big impression when studying, traveling, or working internationally.",
+              "examples": [
+                "Holding the door open for the person behind you is standard courtesy in the US and UK.",
+                "Queuing (standing in line) is taken very seriously in the UK — never cut the line.",
+                "In business meetings, arriving exactly on time (not early, not late) is considered professional in the US.",
+                "A firm handshake and eye contact are typically expected in professional introductions."
+              ],
+              "tip": "When in doubt, observe before acting — cultural norms vary even within English-speaking countries (US, UK, Canada, Australia, Ireland)."
+            }
+          ]
+        },
+        {
+          "id": "cultural_idioms",
+          "title": "Culture Through Idioms & Humor",
+          "content": [
+            {
+              "subtitle": "Idioms Rooted in History & Culture",
+              "explanation": "Many idioms come from historical or cultural references — knowing the story helps you remember the meaning.",
+              "examples": [
+                "'Bite the bullet' — to do something difficult or unpleasant (from soldiers biting a bullet during surgery, before anesthesia).",
+                "'Spill the beans' — to reveal a secret (from ancient voting systems using beans).",
+                "'Break the ice' — to ease tension in a social situation (from ships literally breaking ice to open trade routes).",
+                "'Once in a blue moon' — something that happens very rarely."
+              ],
+              "tip": "You don't need to know the history to use idioms correctly, but it makes them much easier to remember."
+            },
+            {
+              "subtitle": "British vs American English Differences",
+              "explanation": "Vocabulary, spelling, and even meaning can shift between British and American English — important for study or work abroad.",
+              "examples": [
+                "Apartment (US) vs Flat (UK)",
+                "Elevator (US) vs Lift (UK)",
+                "Vacation (US) vs Holiday (UK)",
+                "Color (US spelling) vs Colour (UK spelling)",
+                "'Football' means soccer in the UK, but American football in the US."
+              ],
+              "tip": "Pick one variety (US or UK) for formal writing like a CV or academic essay, and stay consistent throughout the document."
+            },
+            {
+              "subtitle": "Understanding Humor & Sarcasm",
+              "explanation": "British humor especially relies heavily on sarcasm and understatement, which can confuse non-native speakers.",
+              "examples": [
+                "'Oh brilliant, another Monday.' (sarcastic — actually means the opposite)",
+                "Understatement: after a disaster, saying 'That could have gone better.'",
+                "Self-deprecating humor is common and seen as endearing, not weak, in British culture.",
+                "Tone of voice and context matter more than the literal words — sarcasm is often signaled by a flat or exaggerated tone."
+              ],
+              "tip": "If you're unsure whether someone is joking, it's okay to smile and ask: 'Wait, are you being serious?'"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Culture & Social Understanding Check",
+        "description": "Test your knowledge of communication styles, etiquette, and cultural idioms",
+        "questions": [
+          {
+            "id": 1,
+            "question": "In English business culture, it's best to:",
+            "options": [
+              "Be as indirect as possible",
+              "Be direct but softened with politeness",
+              "Never disagree with anyone",
+              "Avoid small talk entirely"
+            ],
+            "correct": 1,
+            "explanation": "English-speaking business culture values getting to the point, softened with polite language."
+          },
+          {
+            "id": 2,
+            "question": "Which topic is generally safe for small talk?",
+            "options": [
+              "Salary",
+              "The weather",
+              "Religion",
+              "Someone's weight"
+            ],
+            "correct": 1,
+            "explanation": "Weather, weekend plans, and sports are classic safe small talk topics."
+          },
+          {
+            "id": 3,
+            "question": "What does 'hedging' mean in communication?",
+            "options": [
+              "Gardening vocabulary",
+              "Softening statements to sound less forceful",
+              "Speaking very loudly",
+              "Refusing to answer questions"
+            ],
+            "correct": 1,
+            "explanation": "Hedging softens opinions and requests, e.g., 'It might be worth considering...'"
+          },
+          {
+            "id": 4,
+            "question": "What is 'Boxing Day'?",
+            "options": [
+              "A martial arts holiday",
+              "The day after Christmas, popular for shopping and relaxing",
+              "American Independence Day",
+              "A day dedicated to sports only"
+            ],
+            "correct": 1,
+            "explanation": "Boxing Day, December 26th, is a public holiday in the UK and Canada."
+          },
+          {
+            "id": 5,
+            "question": "What is expected tipping practice in the US?",
+            "options": [
+              "No tipping is expected",
+              "15-20% at restaurants is standard",
+              "Only 1% is normal",
+              "Tipping is illegal"
+            ],
+            "correct": 1,
+            "explanation": "In the US, 15-20% tipping at restaurants is considered standard and expected."
+          },
+          {
+            "id": 6,
+            "question": "The idiom 'break the ice' means:",
+            "options": [
+              "To literally break ice",
+              "To ease tension in a social situation",
+              "To cancel a meeting",
+              "To make someone angry"
+            ],
+            "correct": 1,
+            "explanation": "'Break the ice' means to reduce social tension, often at the start of an interaction."
+          },
+          {
+            "id": 7,
+            "question": "In British English, 'flat' means:",
+            "options": [
+              "A musical note only",
+              "An apartment",
+              "A type of shoe",
+              "A flat tire"
+            ],
+            "correct": 1,
+            "explanation": "'Flat' is the British English word for what Americans call an 'apartment'."
+          },
+          {
+            "id": 8,
+            "question": "British humor is well known for its use of:",
+            "options": [
+              "Loud, obvious jokes only",
+              "Sarcasm and understatement",
+              "Never joking about anything",
+              "Only physical comedy"
+            ],
+            "correct": 1,
+            "explanation": "Sarcasm and understatement are central features of British humor."
+          },
+          {
+            "id": 9,
+            "question": "Queuing (standing in line) in the UK is:",
+            "options": [
+              "Not important at all",
+              "Taken very seriously — never cut in line",
+              "Only done at airports",
+              "Optional in all situations"
+            ],
+            "correct": 1,
+            "explanation": "Queuing etiquette is culturally significant in the UK; cutting in line is considered very rude."
+          },
+          {
+            "id": 10,
+            "question": "'Once in a blue moon' means:",
+            "options": [
+              "Every full moon",
+              "Something that happens very rarely",
+              "Something that never happens",
+              "Something that happens every night"
+            ],
+            "correct": 1,
+            "explanation": "This idiom describes an event that occurs very infrequently."
+          }
+        ]
+      }
+    },
+    {
+      "id": "study_abroad",
+      "icon": "🎓",
+      "title": "Study Abroad & Academic Life",
+      "description": "Applications, scholarships, visas, and university vocabulary for studying internationally",
+      "color": "#5B8DEF",
+      "lessons": [
+        {
+          "id": "applications_admissions",
+          "title": "University Applications & Admissions",
+          "content": [
+            {
+              "subtitle": "Application Vocabulary",
+              "explanation": "Understanding key admissions terms helps you navigate university websites and application portals confidently.",
+              "examples": [
+                "Undergraduate: a bachelor's degree program (first university degree).",
+                "Graduate / Postgraduate: master's or doctoral studies after a bachelor's degree.",
+                "Transcript: an official record of your grades and courses.",
+                "Deadline: the final date to submit an application — 'The deadline is January 15th.'",
+                "Rolling admissions: applications are reviewed as they arrive, not all at once."
+              ],
+              "tip": "Always check whether a deadline is by 11:59 PM in the university's local time zone — many students miss deadlines because of time zone confusion."
+            },
+            {
+              "subtitle": "Personal Statement / Motivation Letter",
+              "explanation": "This is your chance to explain, in your own voice, why you're a strong candidate — beyond grades and test scores.",
+              "examples": [
+                "'My interest in computer science began when I built my first website at 16.'",
+                "'Studying at [University] would allow me to combine my technical background with your renowned research in AI.'",
+                "'I am particularly drawn to this program because of its emphasis on practical, industry-focused learning.'",
+                "'This opportunity would be a pivotal step in achieving my long-term goal of leading technology projects that create real social impact.'"
+              ],
+              "tip": "Avoid generic statements like 'I've always wanted to study abroad.' Be specific about the program, professors, or research that attracted you."
+            },
+            {
+              "subtitle": "Letters of Recommendation",
+              "explanation": "Recommendation letters are usually written by professors or supervisors — but you often need to request them politely and provide context.",
+              "examples": [
+                "'I was wondering if you would be willing to write a letter of recommendation for my master's application.'",
+                "'I've attached my resume and a summary of the program to make the process easier.'",
+                "'The deadline for submission is March 1st — please let me know if that timeline works for you.'",
+                "'Thank you so much for considering this — I really valued your guidance during the Data Structures course.'"
+              ],
+              "tip": "Ask at least 3-4 weeks before the deadline, and always thank the person afterward, regardless of the outcome."
+            }
+          ]
+        },
+        {
+          "id": "scholarships_visas",
+          "title": "Scholarships, Visas & Finances",
+          "content": [
+            {
+              "subtitle": "Scholarship & Funding Vocabulary",
+              "explanation": "Financial vocabulary is essential to understand what a scholarship actually covers.",
+              "examples": [
+                "Tuition fee: the cost of the academic program itself.",
+                "Full ride: a scholarship covering all costs (tuition, housing, sometimes living expenses).",
+                "Stipend: a regular payment to cover living expenses, often for research or teaching assistants.",
+                "Need-based aid: financial support based on your financial situation.",
+                "Merit-based scholarship: awarded based on academic or other achievements, not financial need."
+              ],
+              "tip": "Always read the fine print: some scholarships only cover tuition and not housing, insurance, or flights."
+            },
+            {
+              "subtitle": "Student Visa Process",
+              "explanation": "Visa vocabulary and processes vary by country, but certain terms are nearly universal.",
+              "examples": [
+                "'I need to provide proof of enrollment before applying for my student visa.'",
+                "'Financial statement: bank documents proving you can support yourself during your studies.'",
+                "'The embassy requires an in-person interview as part of the visa process.'",
+                "'My visa allows me to work part-time up to 20 hours per week during term time.'"
+              ],
+              "tip": "Start the visa process early — processing times can take weeks or months depending on the country and season."
+            },
+            {
+              "subtitle": "Budgeting & Cost of Living Abroad",
+              "explanation": "Being able to discuss your budget in English helps with housing searches, roommate arrangements, and part-time work.",
+              "examples": [
+                "'My monthly budget covers rent, groceries, and transportation, with a small amount left for savings.'",
+                "'Is the rent inclusive of utilities, or do I need to pay them separately?'",
+                "'I'm looking for a shared apartment to reduce living costs.'",
+                "'Do you know if there's a student discount for public transportation?'"
+              ],
+              "tip": "Ask locals or student groups about 'hidden costs' like deposits, agency fees, or mandatory health insurance before committing to housing."
+            }
+          ]
+        },
+        {
+          "id": "campus_life",
+          "title": "Campus Life & Academic Vocabulary",
+          "content": [
+            {
+              "subtitle": "Lectures, Seminars & Assignments",
+              "explanation": "University life has its own vocabulary that differs from general classroom English.",
+              "examples": [
+                "Lecture: a large class where a professor presents information, usually with little discussion.",
+                "Seminar: a smaller, discussion-based class where participation is expected.",
+                "Office hours: scheduled time when professors are available for questions — 'I'll stop by during office hours.'",
+                "Syllabus: the document outlining course content, readings, and grading.",
+                "'The assignment is due by midnight on Friday, submitted through the online portal.'"
+              ],
+              "tip": "Ask professors 'Could you clarify the expectations for this assignment?' if instructions are unclear — this is completely normal and expected."
+            },
+            {
+              "subtitle": "Academic Integrity & Citations",
+              "explanation": "Understanding academic honesty rules is critical — norms can be stricter abroad than what you're used to.",
+              "examples": [
+                "Plagiarism: presenting someone else's work or ideas as your own — taken very seriously abroad.",
+                "Citation: giving credit to a source, e.g., '(Smith, 2021)' in APA style.",
+                "'Please make sure to properly cite all sources used in your essay.'",
+                "'Group work is allowed for this project, but the final write-up must be done individually.'"
+              ],
+              "tip": "When in doubt about what counts as plagiarism, ask your professor or check your university's academic integrity policy — penalties can be severe."
+            },
+            {
+              "subtitle": "Making Friends & Student Housing",
+              "explanation": "Social vocabulary helps you settle in faster, both academically and personally.",
+              "examples": [
+                "'Do you want to grab a coffee sometime this week?' — a common way to build friendships.",
+                "Dorm / Halls of residence: on-campus student housing.",
+                "'I'm looking for a roommate to split rent for a two-bedroom apartment near campus.'",
+                "Freshers' Week (UK) / Welcome Week (US): the first week of university, full of social events for new students.",
+                "'There's an international students' club that organizes weekly meetups — you should join!'"
+              ],
+              "tip": "Joining clubs and student associations is one of the fastest ways to build a social network and practice English naturally."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Study Abroad Readiness Test",
+        "description": "Test your knowledge of applications, scholarships, visas, and academic life",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is a 'transcript' in university applications?",
+            "options": [
+              "A video recording of a lecture",
+              "An official record of grades and courses",
+              "A type of scholarship",
+              "A student visa document"
+            ],
+            "correct": 1,
+            "explanation": "A transcript is the official academic record showing your courses and grades."
+          },
+          {
+            "id": 2,
+            "question": "'Rolling admissions' means:",
+            "options": [
+              "All applications are reviewed at once after the deadline",
+              "Applications are reviewed as they arrive",
+              "Only online applications are accepted",
+              "Admission is guaranteed for everyone"
+            ],
+            "correct": 1,
+            "explanation": "Rolling admissions review and respond to applications continuously, not in a single batch."
+          },
+          {
+            "id": 3,
+            "question": "A good personal statement should:",
+            "options": [
+              "Use generic phrases like 'I've always wanted to study abroad'",
+              "Be specific about the program and your motivations",
+              "Only list your grades",
+              "Avoid mentioning any personal experience"
+            ],
+            "correct": 1,
+            "explanation": "Strong personal statements are specific and connect your background to the particular program."
+          },
+          {
+            "id": 4,
+            "question": "A 'stipend' is:",
+            "options": [
+              "A type of visa",
+              "A regular payment covering living expenses",
+              "A university library",
+              "A grading system"
+            ],
+            "correct": 1,
+            "explanation": "A stipend is money paid regularly, often to cover living costs during study or research."
+          },
+          {
+            "id": 5,
+            "question": "What does 'need-based aid' mean?",
+            "options": [
+              "Aid awarded only for top grades",
+              "Financial support based on financial situation",
+              "Aid for sports achievements",
+              "A type of student visa"
+            ],
+            "correct": 1,
+            "explanation": "Need-based aid considers a student's financial circumstances rather than merit alone."
+          },
+          {
+            "id": 6,
+            "question": "A 'seminar' is best described as:",
+            "options": [
+              "A large lecture with no discussion",
+              "A smaller, discussion-based class",
+              "An exam format",
+              "A type of scholarship"
+            ],
+            "correct": 1,
+            "explanation": "Seminars are typically smaller classes that emphasize discussion and participation."
+          },
+          {
+            "id": 7,
+            "question": "Plagiarism refers to:",
+            "options": [
+              "Attending class late",
+              "Presenting someone else's work as your own",
+              "Asking questions during a lecture",
+              "Working in groups"
+            ],
+            "correct": 1,
+            "explanation": "Plagiarism means using someone else's ideas or words without proper credit — a serious academic offense."
+          },
+          {
+            "id": 8,
+            "question": "'Office hours' refers to:",
+            "options": [
+              "The time a library is open",
+              "Scheduled time when professors are available for student questions",
+              "Working hours at a part-time job",
+              "The university's opening hours"
+            ],
+            "correct": 1,
+            "explanation": "Office hours are dedicated times for students to meet professors individually."
+          },
+          {
+            "id": 9,
+            "question": "What should you check about rent before signing a lease abroad?",
+            "options": [
+              "Nothing, it's always simple",
+              "Whether utilities are included and if there are hidden fees",
+              "Only the color of the walls",
+              "The professor's opinion"
+            ],
+            "correct": 1,
+            "explanation": "Understanding what rent includes (utilities, deposits, fees) avoids budget surprises."
+          },
+          {
+            "id": 10,
+            "question": "'Freshers' Week' or 'Welcome Week' refers to:",
+            "options": [
+              "Final exam period",
+              "The first week of university, full of social events",
+              "Graduation ceremony",
+              "A study-abroad application deadline"
+            ],
+            "correct": 1,
+            "explanation": "This is the welcome period at the start of the academic year, designed to help new students settle in."
+          }
+        ]
+      }
+    }
+  ],
+  "pronunciationBank": [
+    {
+      "text": "The thirty-three thieves thought they thrilled the throne.",
+      "category": "Pronunciation",
+      "translation": "Trava-língua do TH",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Think",
+      "category": "Pronunciation",
+      "translation": "pensar",
+      "difficulty": "easy"
+    },
+    {
+      "text": "This",
+      "category": "Pronunciation",
+      "translation": "isto/isso",
+      "difficulty": "easy"
+    },
+    {
+      "text": "Three",
+      "category": "Pronunciation",
+      "translation": "três",
+      "difficulty": "easy"
+    },
+    {
+      "text": "There",
+      "category": "Pronunciation",
+      "translation": "lá/ali",
+      "difficulty": "easy"
+    },
+    {
+      "text": "Ship",
+      "category": "Pronunciation",
+      "translation": "navio",
+      "difficulty": "easy"
+    },
+    {
+      "text": "Sheep",
+      "category": "Pronunciation",
+      "translation": "ovelha",
+      "difficulty": "easy"
+    },
+    {
+      "text": "House",
+      "category": "Pronunciation",
+      "translation": "casa",
+      "difficulty": "easy"
+    },
+    {
+      "text": "Happy",
+      "category": "Pronunciation",
+      "translation": "feliz",
+      "difficulty": "easy"
+    },
+    {
+      "text": "Right",
+      "category": "Pronunciation",
+      "translation": "certo/direita",
+      "difficulty": "medium"
+    },
+    {
+      "text": "World",
+      "category": "Pronunciation",
+      "translation": "mundo",
+      "difficulty": "medium"
+    },
+    {
+      "text": "Around",
+      "category": "Pronunciation",
+      "translation": "ao redor",
+      "difficulty": "medium"
+    },
+    {
+      "text": "I would like to schedule a meeting for next Thursday.",
+      "category": "Pronunciation",
+      "translation": "Gostaria de agendar uma reunião para a próxima quinta-feira.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "I have worked in three countries.",
+      "category": "Grammar",
+      "translation": "Trabalhei em três países.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "She has just finished the report.",
+      "category": "Grammar",
+      "translation": "Ela acabou de terminar o relatório.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "I am going to apply for a scholarship next month.",
+      "category": "Grammar",
+      "translation": "Vou me candidatar a uma bolsa de estudos no próximo mês.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Could you help me, please?",
+      "category": "Grammar",
+      "translation": "Você poderia me ajudar, por favor?",
+      "difficulty": "medium"
+    },
+    {
+      "text": "You should practice every day.",
+      "category": "Grammar",
+      "translation": "Você deveria praticar todos os dias.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "If I had more time, I would travel more often.",
+      "category": "Grammar",
+      "translation": "Se eu tivesse mais tempo, eu viajaria mais.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Don't give up on your goals.",
+      "category": "Vocabulary",
+      "translation": "Não desista dos seus objetivos.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "I look forward to meeting you.",
+      "category": "Vocabulary",
+      "translation": "Estou ansioso para conhecê-lo.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "She came up with a great idea.",
+      "category": "Vocabulary",
+      "translation": "Ela teve uma ótima ideia.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "Let's kick things off.",
+      "category": "Vocabulary",
+      "translation": "Vamos começar.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "I would be grateful if you could provide further details.",
+      "category": "Vocabulary",
+      "translation": "Eu ficaria grato se você pudesse fornecer mais detalhes.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Could I have a window seat, please?",
+      "category": "Travel",
+      "translation": "Poderia me dar um assento na janela, por favor?",
+      "difficulty": "medium"
+    },
+    {
+      "text": "Is this seat taken?",
+      "category": "Travel",
+      "translation": "Este assento está ocupado?",
+      "difficulty": "easy"
+    },
+    {
+      "text": "How much does it cost to get to the city center?",
+      "category": "Travel",
+      "translation": "Quanto custa para chegar ao centro da cidade?",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Could you recommend a good restaurant nearby?",
+      "category": "Travel",
+      "translation": "Você poderia recomendar um bom restaurante por perto?",
+      "difficulty": "hard"
+    },
+    {
+      "text": "I'd like to check in, please.",
+      "category": "Travel",
+      "translation": "Gostaria de fazer o check-in, por favor.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "Excuse me, where is the nearest pharmacy?",
+      "category": "Travel",
+      "translation": "Com licença, onde fica a farmácia mais próxima?",
+      "difficulty": "medium"
+    },
+    {
+      "text": "I led a team of five developers on this project.",
+      "category": "Career",
+      "translation": "Liderei uma equipe de cinco desenvolvedores neste projeto.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "I'm writing to apply for the Front-End Developer position.",
+      "category": "Career",
+      "translation": "Estou escrevendo para me candidatar à vaga de Desenvolvedor Front-End.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Could you tell me more about the team I'd be working with?",
+      "category": "Career",
+      "translation": "Você poderia me contar mais sobre a equipe com quem eu trabalharia?",
+      "difficulty": "hard"
+    },
+    {
+      "text": "I'm very excited about this opportunity.",
+      "category": "Career",
+      "translation": "Estou muito animado com essa oportunidade.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "Thank you for considering my application.",
+      "category": "Career",
+      "translation": "Obrigado por considerar minha candidatura.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "How was your weekend?",
+      "category": "Culture",
+      "translation": "Como foi seu fim de semana?",
+      "difficulty": "easy"
+    },
+    {
+      "text": "Would you like a cup of tea?",
+      "category": "Culture",
+      "translation": "Você gostaria de uma xícara de chá?",
+      "difficulty": "easy"
+    },
+    {
+      "text": "I could be wrong, but I think the deadline moved.",
+      "category": "Culture",
+      "translation": "Posso estar errado, mas acho que o prazo mudou.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "That could have gone better.",
+      "category": "Culture",
+      "translation": "Poderia ter ido melhor.",
+      "difficulty": "medium"
+    },
+    {
+      "text": "Sorry to bother you, but could I ask a quick question?",
+      "category": "Culture",
+      "translation": "Desculpe incomodar, mas posso fazer uma pergunta rápida?",
+      "difficulty": "hard"
+    },
+    {
+      "text": "I am particularly drawn to this program.",
+      "category": "Study Abroad",
+      "translation": "Eu me sinto particularmente atraído por este programa.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Could you clarify the expectations for this assignment?",
+      "category": "Study Abroad",
+      "translation": "Você poderia esclarecer as expectativas para esta tarefa?",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Do you want to grab a coffee sometime this week?",
+      "category": "Study Abroad",
+      "translation": "Você quer tomar um café em algum momento desta semana?",
+      "difficulty": "medium"
+    },
+    {
+      "text": "I would appreciate any update on the application process.",
+      "category": "Study Abroad",
+      "translation": "Eu agradeceria qualquer atualização sobre o processo de candidatura.",
+      "difficulty": "hard"
+    },
+    {
+      "text": "Is the rent inclusive of utilities?",
+      "category": "Study Abroad",
+      "translation": "O aluguel inclui as contas de consumo?",
+      "difficulty": "hard"
     }
   ]
 }
