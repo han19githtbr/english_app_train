@@ -106,6 +106,23 @@
               ],
               "tip": "Use 'going to' for plans already decided; use 'will' for decisions made at the moment of speaking"
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I am knowing the answer.",
+              "right": "I know the answer.",
+              "note": "Stative verbs (know, want, like, believe, understand) are not normally used in continuous forms."
+            },
+            {
+              "wrong": "I have seen him yesterday.",
+              "right": "I saw him yesterday.",
+              "note": "Use Past Simple, not Present Perfect, with a finished time word like 'yesterday'."
+            },
+            {
+              "wrong": "She is working here since 2019.",
+              "right": "She has been working here since 2019.",
+              "note": "An action that started in the past and continues now needs Present Perfect (Continuous), not Present Continuous."
+            }
           ]
         },
         {
@@ -161,6 +178,23 @@
               ],
               "tip": "Mix 2nd and 3rd when past cause has present consequence, or present situation reflects on past actions."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "If I will have time, I will call you.",
+              "right": "If I have time, I will call you.",
+              "note": "Never use 'will' in the if-clause of a First Conditional — the if-clause stays in the Present Simple."
+            },
+            {
+              "wrong": "If I would have money, I would travel.",
+              "right": "If I had money, I would travel.",
+              "note": "The if-clause of a Second Conditional uses Past Simple, not 'would have'."
+            },
+            {
+              "wrong": "If I would have studied, I would have passed.",
+              "right": "If I had studied, I would have passed.",
+              "note": "Third Conditional if-clauses use Past Perfect ('had + past participle'), never 'would have'."
+            }
           ]
         },
         {
@@ -188,6 +222,23 @@
                 "It is widely accepted that climate change is man-made."
               ],
               "tip": "In academic papers, passive helps you sound objective and impersonal — a key requirement in formal writing."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "The report was wrote by the team.",
+              "right": "The report was written by the team.",
+              "note": "Passive voice needs the past participle, not the past simple form — 'written', not 'wrote'."
+            },
+            {
+              "wrong": "The experiment is doing carefully.",
+              "right": "The experiment is done carefully.",
+              "note": "After be + past participle, don't add '-ing' — that turns it into an active/continuous form by mistake."
+            },
+            {
+              "wrong": "This decision has been make by the board.",
+              "right": "This decision has been made by the board.",
+              "note": "With perfect passive ('has/have been + past participle'), the verb must already be in participle form: 'made', not 'make'."
             }
           ]
         },
@@ -232,6 +283,23 @@
               ],
               "tip": "When in doubt, look up the preposition with the word in a collocations dictionary (e.g., ozdic.com). There is often no logical rule — just usage."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I saw a elephant at the zoo.",
+              "right": "I saw an elephant at the zoo.",
+              "note": "Use 'an' before a vowel sound, not just a vowel letter — 'elephant' starts with a vowel sound."
+            },
+            {
+              "wrong": "I was born in 5 May 1998.",
+              "right": "I was born on 5 May 1998.",
+              "note": "Use 'on' with specific dates and days, 'in' with months/years, and 'at' with clock times."
+            },
+            {
+              "wrong": "She is married with a doctor.",
+              "right": "She is married to a doctor.",
+              "note": "The fixed collocation is 'married to', not 'married with'."
+            }
           ]
         },
         {
@@ -274,6 +342,23 @@
                 "SHOULD (expectation): The results should be ready by Friday."
               ],
               "tip": "In academic writing, 'hedging' with modals (may, might, could, would) is essential. Avoid overly definitive statements."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I can to swim very well.",
+              "right": "I can swim very well.",
+              "note": "Modal verbs (can, must, should, may) are followed by the base verb — never 'to'."
+            },
+            {
+              "wrong": "You must to hand in the report today.",
+              "right": "You must hand in the report today.",
+              "note": "Same rule: no 'to' after 'must'."
+            },
+            {
+              "wrong": "She musted finish the project.",
+              "right": "She had to finish the project.",
+              "note": "'Must' has no past form — use 'had to' for past obligation."
             }
           ]
         }
@@ -463,6 +548,23 @@
               ],
               "tip": "Vary your linking words. Don't use 'however' or 'therefore' more than once per paragraph."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "The study analyse the data in detail.",
+              "right": "The study analyzes the data in detail.",
+              "note": "Third-person singular subjects need the '-s/-es' ending: 'analyzes', not 'analyse' as a bare form."
+            },
+            {
+              "wrong": "This research is discussing about climate change.",
+              "right": "This research discusses climate change.",
+              "note": "'Discuss' is directly transitive in English — don't add 'about' after it."
+            },
+            {
+              "wrong": "In conclusion, however, the results...",
+              "right": "However, in conclusion, the results...",
+              "note": "Don't stack two contrasting discourse markers together — choose the one that best fits the logical relationship you intend."
+            }
           ]
         },
         {
@@ -528,6 +630,23 @@
               ],
               "tip": "Phrasal verbs can be separable ('call off the meeting' = 'call the meeting off') or inseparable ('look into the issue' — cannot say 'look the issue into')."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm all bones about the interview.",
+              "right": "I'm all ears about the interview. / I have butterflies in my stomach about the interview.",
+              "note": "Idioms are fixed expressions — you can't swap words freely, even if they seem to fit the meaning."
+            },
+            {
+              "wrong": "He kicked off the bucket last week.",
+              "right": "He kicked the bucket last week.",
+              "note": "'Kick the bucket' (to die, informal) doesn't take 'off' — learn idioms as whole chunks."
+            },
+            {
+              "wrong": "I look up to that word in the dictionary.",
+              "right": "I look that word up in the dictionary.",
+              "note": "With separable phrasal verbs, a pronoun object (it/that word) must go between the verb and the particle."
+            }
           ]
         },
         {
@@ -579,6 +698,23 @@
                 "Thank you note: 'Thank you again for your time. I'm very enthusiastic about the team and the role.'"
               ],
               "tip": "Use the STAR method (Situation, Task, Action, Result) to answer behavioral questions like 'Tell me about a time when...'"
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I am agree with your proposal.",
+              "right": "I agree with your proposal.",
+              "note": "'Agree' is a full verb in English, not an adjective — don't use 'am/is/are' before it."
+            },
+            {
+              "wrong": "Please to find attached the invoice.",
+              "right": "Please find attached the invoice.",
+              "note": "'Please' is followed directly by the base verb in formal requests, no 'to'."
+            },
+            {
+              "wrong": "I look forward to hear from you.",
+              "right": "I look forward to hearing from you.",
+              "note": "'Look forward to' is followed by a gerund (-ing form), because 'to' here is a preposition, not part of the infinitive."
             }
           ]
         }
@@ -803,6 +939,23 @@
               ],
               "tip": "Read your essay aloud. If it sounds choppy or you need to pause to understand the logic, it lacks cohesion or coherence."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "In my opinion I think that education is important.",
+              "right": "In my opinion, education is important. / I think that education is important.",
+              "note": "'In my opinion' and 'I think' express the same idea — using both together is redundant in academic writing."
+            },
+            {
+              "wrong": "Firstly, secondly, at last, ...",
+              "right": "Firstly, secondly, finally, ...",
+              "note": "'At last' expresses relief after a long wait; the neutral list connector for essays is 'finally' or 'lastly'."
+            },
+            {
+              "wrong": "This essay will talk about the advantages and disadvantages.",
+              "right": "This essay will discuss the advantages and disadvantages.",
+              "note": "'Discuss' is more formal and academic than the conversational 'talk about'."
+            }
           ]
         },
         {
@@ -867,6 +1020,23 @@
               ],
               "tip": "In Problem-Solution essays, always address BOTH parts of the question (causes AND solutions). A common mistake is to write only about solutions, which caps your Task Achievement score at Band 5. Each paragraph should begin with a clear topic sentence."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "The graph show that sales was increasing.",
+              "right": "The graph shows that sales were increasing.",
+              "note": "Subject-verb agreement matters in data description: 'graph shows' (singular) and 'sales were' (plural noun)."
+            },
+            {
+              "wrong": "In my opinion, the graph is very interesting.",
+              "right": "The graph illustrates a clear upward trend in sales.",
+              "note": "IELTS Task 1 must stay objective and descriptive — avoid personal opinions; describe the data instead."
+            },
+            {
+              "wrong": "I completely agree/disagree with this statement 100%.",
+              "right": "I largely agree with this statement, although one point deserves qualification.",
+              "note": "Task 2 essays reward a balanced, nuanced position more than absolute, unqualified agreement."
+            }
           ]
         },
         {
@@ -909,6 +1079,23 @@
                 "Writing prompt: 'The advantages of urbanization outweigh its disadvantages.' Discuss."
               ],
               "tip": "Texts with two contrasting views ('on one hand... on the other hand') are very common in IELTS Academic Reading. Practice identifying the central tension."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Skipping unknown words always ruins comprehension.",
+              "right": "You can often infer an unknown word's meaning from context without stopping to look it up.",
+              "note": "Good reading strategy: use context clues first, and only check a dictionary if the word is essential to the main idea."
+            },
+            {
+              "wrong": "Reading every word at the same speed.",
+              "right": "Skim first for the gist, then scan for specific details.",
+              "note": "Skimming and scanning are different skills — mixing them up wastes time in timed reading tests."
+            },
+            {
+              "wrong": "Assuming the first paragraph always states the main idea.",
+              "right": "Check the topic sentence of each paragraph — the main idea can appear anywhere.",
+              "note": "Don't rely on position alone; identify topic sentences paragraph by paragraph."
             }
           ]
         }
@@ -1075,6 +1262,23 @@
               ],
               "tip": "British and American intonation differ. British English tends to have wider pitch variation; American English is often flatter. Both are acceptable globally."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Pronouncing every letter in 'comfortable' (com-for-ta-ble).",
+              "right": "'comfortable' → /ˈkʌmftəbəl/ (3 syllables).",
+              "note": "English spelling doesn't always match pronunciation — some vowels reduce or disappear entirely in fast speech."
+            },
+            {
+              "wrong": "Stressing 'PHOtoGRAPH' and 'phoTOGraphy' the same way.",
+              "right": "PHOtograph, phoTOGraphy, photoGRAPHic — stress shifts with suffixes.",
+              "note": "Word stress often moves when you add certain suffixes (-y, -ic, -ion) — learn each word family's pattern."
+            },
+            {
+              "wrong": "Pausing before every word: 'I... want... to... go'.",
+              "right": "'I wanna go' (connected, natural rhythm).",
+              "note": "Native speech links and reduces words ('want to' → 'wanna'); over-separating words sounds unnatural."
+            }
           ]
         },
         {
@@ -1116,6 +1320,23 @@
                 "Speculating: 'I imagine that...' | 'I would assume that...' | 'It seems likely that...' | 'There's a good chance that...'"
               ],
               "tip": "Memorize 2-3 phrases from each category. Using discourse markers fluently is a sign of a Band 7+ speaker — examiners will notice."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Answering Part 1 with one word: 'Yes.'",
+              "right": "'Yes, I really enjoy it because it helps me relax after work.'",
+              "note": "Always extend short answers with a reason or example — one-word answers lower your fluency score."
+            },
+            {
+              "wrong": "Memorizing a full scripted answer word for word.",
+              "right": "Prepare ideas and key vocabulary, but speak naturally in the moment.",
+              "note": "Examiners are trained to spot memorized answers, which can hurt your score for naturalness."
+            },
+            {
+              "wrong": "Staying completely silent when you don't know a word.",
+              "right": "'It's like a... thingy you use to... open bottles' (paraphrasing).",
+              "note": "Paraphrasing around a gap in vocabulary shows real communicative competence — silence does not."
             }
           ]
         }
@@ -1283,6 +1504,23 @@
               ],
               "tip": "During the 30 seconds before each section, READ THE QUESTIONS FIRST. This primes your brain to listen for specific information."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Spending all your time perfecting one Reading question.",
+              "right": "Move on and come back to hard questions later if time allows.",
+              "note": "Time management across all questions matters more than perfecting any single answer."
+            },
+            {
+              "wrong": "Writing answers only in Part 2/3 Speaking without linking words.",
+              "right": "Use linkers like 'moreover', 'on the other hand' to connect ideas.",
+              "note": "Cohesion is a scored criterion in both Speaking and Writing."
+            },
+            {
+              "wrong": "Assuming a higher Listening score guarantees a higher Speaking score.",
+              "right": "Each of the four skills (Listening, Reading, Writing, Speaking) is scored independently.",
+              "note": "Your overall band is an average, but skills are graded and often improved separately."
+            }
           ]
         },
         {
@@ -1313,6 +1551,23 @@
                 "TIME: 45-60 seconds to respond. Speak for the full time — silence wastes your opportunity to demonstrate language."
               ],
               "tip": "For all integrated tasks, take notes while reading/listening. Your notes don't need to be full sentences — just key words and relationships between ideas."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Ignoring the reading/listening passage before an Integrated Task.",
+              "right": "Take structured notes from both the passage and the lecture before writing.",
+              "note": "Integrated tasks are scored on how accurately you combine information from both sources, not on invented content."
+            },
+            {
+              "wrong": "Speaking without any preparation time in the Independent Task.",
+              "right": "Use the short prep time to jot down 2–3 key points.",
+              "note": "Even 15–20 seconds of planning noticeably improves organization and score."
+            },
+            {
+              "wrong": "Writing an overly short Integrated Writing response.",
+              "right": "Aim for a well-developed response of roughly 150–225 words that reflects both sources.",
+              "note": "Integrated Writing is graded partly on completeness of content, not only grammar."
             }
           ]
         }
@@ -1499,6 +1754,23 @@
               ],
               "tip": "Save the following numbers before travelling: your airline's customer service line, your travel insurance emergency number, and the phone number of your country's embassy in the destination country."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I want the window place.",
+              "right": "I'd like the window seat.",
+              "note": "On planes and in restaurants, use 'seat', not 'place', for where you sit."
+            },
+            {
+              "wrong": "I have nothing to declare in the customs.",
+              "right": "I have nothing to declare at customs.",
+              "note": "'At customs' is the fixed expression — no article 'the' before the general area."
+            },
+            {
+              "wrong": "Where is my baggage claim?",
+              "right": "Where is the baggage claim?",
+              "note": "'Baggage claim' refers to a shared airport area, so it takes 'the', not a possessive."
+            }
           ]
         },
         {
@@ -1553,6 +1825,23 @@
               ],
               "tip": "In many countries, always agree on the fare BEFORE getting in unlicensed taxis, or insist the driver use the meter. Licensed taxi apps (Uber, Bolt, Cabify) show the price upfront — much safer for tourists."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I go of bus to work.",
+              "right": "I go to work by bus.",
+              "note": "Use 'by + transport' (by bus, by car) to say how you travel — not 'of bus'."
+            },
+            {
+              "wrong": "Get down at the next stop.",
+              "right": "Get off at the next stop.",
+              "note": "For leaving a bus, train, or plane, English uses 'get off', not 'get down'."
+            },
+            {
+              "wrong": "How much is the taxi until downtown?",
+              "right": "How much is the taxi to downtown?",
+              "note": "Destinations after prices/directions normally use 'to', not 'until' (which is about time)."
+            }
           ]
         },
         {
@@ -1589,6 +1878,23 @@
                 "'I'd like to speak to the manager, please.' (for serious issues)"
               ],
               "tip": "Always be polite but firm. Say 'I'm afraid there seems to be a problem with...' rather than 'This is broken!' Polite complaints get resolved faster and with better results."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I want to make check-in.",
+              "right": "I'd like to check in, please.",
+              "note": "'Check in' is a phrasal verb in English, not a noun you 'make' — use it directly as a verb."
+            },
+            {
+              "wrong": "The room is very dirty, I am angry.",
+              "right": "I'm sorry to say the room isn't very clean — could someone take a look?",
+              "note": "Polite, softened complaints work better than blunt statements when speaking to hotel staff."
+            },
+            {
+              "wrong": "Can you call me a taxi for tomorrow morning at 8 o'clock?",
+              "right": "Could you arrange a taxi for 8 a.m. tomorrow, please?",
+              "note": "'Could you... please' sounds more polite than 'Can you' for service requests."
             }
           ]
         },
@@ -1637,6 +1943,23 @@
                 "'I'd like to leave a review. What's the name of your restaurant on Google?'"
               ],
               "tip": "If something is wrong with your food, you're always within your rights to send it back politely. Say 'I'm afraid there might be a small issue with my dish' — the 'I'm afraid' softens the complaint while keeping it clear."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I want a table for two persons.",
+              "right": "I'd like a table for two, please.",
+              "note": "'Two people' or just 'two' is standard — 'persons' sounds overly formal/legalistic in this context."
+            },
+            {
+              "wrong": "Bring me the bill.",
+              "right": "Could we have the bill, please?",
+              "note": "Direct commands can sound rude to native speakers — use 'could/may' plus 'please' for requests."
+            },
+            {
+              "wrong": "This food is very bad, I want money back.",
+              "right": "I'm afraid this isn't quite right — could we get this fixed or replaced?",
+              "note": "Diplomatic complaint language gets better results than blunt demands in service settings."
             }
           ]
         },
@@ -1689,6 +2012,23 @@
               ],
               "tip": "Many major museums in cities like London (British Museum, Tate Modern, Natural History Museum) and New York (MoMA, Metropolitan Museum) offer free entry or pay-what-you-wish admission. Always check the website in advance."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "What hour does the movie start?",
+              "right": "What time does the movie start?",
+              "note": "Ask about a specific time with 'what time', not 'what hour'."
+            },
+            {
+              "wrong": "I am fan of this team since child.",
+              "right": "I've been a fan of this team since I was a child.",
+              "note": "Use Present Perfect (+ 'since') for a state that started in the past and continues now."
+            },
+            {
+              "wrong": "Can I make a photo here?",
+              "right": "Can I take a photo here?",
+              "note": "In English you 'take' a photo, not 'make' one."
+            }
           ]
         },
         {
@@ -1740,6 +2080,23 @@
               ],
               "tip": "Bargaining is common in markets in Morocco, Turkey, Southeast Asia, and parts of Latin America. In the USA, UK, and Australia, fixed prices are the norm — bargaining at chain stores will be met with confusion. Street markets and flea markets are exceptions."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "How much cost this?",
+              "right": "How much does this cost?",
+              "note": "Questions with 'do/does' need the auxiliary — 'does this cost', not just 'cost this'."
+            },
+            {
+              "wrong": "I want to change this product, it doesn't serve.",
+              "right": "I'd like to exchange this — it doesn't fit.",
+              "note": "'Serve' isn't used for fit/size in English; use 'fit' for clothes and 'exchange' for swapping items."
+            },
+            {
+              "wrong": "Can you make a discount?",
+              "right": "Could you give me a discount?",
+              "note": "Discounts are 'given', not 'made', in English."
+            }
           ]
         },
         {
@@ -1789,6 +2146,23 @@
                 "Emergencies: 'Help!' / 'Call 999 (UK) / 911 (USA) / 112 (EU)!' / 'I need a doctor!' / 'I've been robbed!'"
               ],
               "tip": "The single most useful phrase when travelling: 'I'm sorry, my English isn't perfect — could you speak a little more slowly?' Native speakers will always accommodate you, and making the effort to speak English is always appreciated."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "How is called this street?",
+              "right": "What is this street called?",
+              "note": "Word order changes with passive 'be called' — the question word 'what' comes first, not 'how'."
+            },
+            {
+              "wrong": "I am lost, can you help-me?",
+              "right": "I'm lost — could you help me, please?",
+              "note": "English pronouns aren't attached with a hyphen; 'help me' is two separate words."
+            },
+            {
+              "wrong": "I need help for find my hotel.",
+              "right": "I need help finding my hotel.",
+              "note": "'Help' is followed by a base verb or gerund, not 'for + infinitive'."
             }
           ]
         }
@@ -1964,6 +2338,23 @@
               ],
               "tip": "Keep it to one page if you have less than 10 years of experience. Tailor the summary for each job application."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I was responsible to manage the team.",
+              "right": "I was responsible for managing the team.",
+              "note": "'Responsible' is followed by 'for + gerund', not 'to + infinitive'."
+            },
+            {
+              "wrong": "I increased the sales in 30%.",
+              "right": "I increased sales by 30%.",
+              "note": "Use 'by' to express the amount of change, not 'in'."
+            },
+            {
+              "wrong": "Realized market research and improved efficiency.",
+              "right": "Conducted market research and improved efficiency.",
+              "note": "'Realize' is a false friend from Portuguese 'realizar' — in English, use 'conduct/carry out/perform' for tasks."
+            }
           ]
         },
         {
@@ -2002,6 +2393,23 @@
                 "Please let me know if you need any additional information from my side."
               ],
               "tip": "One follow-up is professional; more than two can seem impatient. Always keep the tone warm and respectful."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I am writing this letter for apply to the position.",
+              "right": "I am writing to apply for the position.",
+              "note": "'Apply for' (not 'apply to') a position, and the purpose clause needs 'to + verb', not 'for + apply'."
+            },
+            {
+              "wrong": "I have much experience in this area.",
+              "right": "I have extensive/considerable experience in this field.",
+              "note": "'Much' sounds informal/awkward before 'experience' in professional writing; prefer 'extensive' or 'considerable'."
+            },
+            {
+              "wrong": "I wait your response.",
+              "right": "I look forward to your response.",
+              "note": "'Wait' needs 'for' before an object ('wait for your response'), but the natural closing phrase is 'look forward to'."
             }
           ]
         },
@@ -2054,6 +2462,23 @@
               ],
               "tip": "Always let the employer mention a number first if possible, and never apologize for negotiating."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I have very experience in sales.",
+              "right": "I have a lot of experience in sales.",
+              "note": "'Very' modifies adjectives/adverbs, not nouns — use 'a lot of/much' before 'experience'."
+            },
+            {
+              "wrong": "My biggest defect is I am perfectionist.",
+              "right": "My biggest weakness is that I can be a perfectionist.",
+              "note": "'Defect' describes objects/products; for personal traits, use 'weakness' or 'flaw'."
+            },
+            {
+              "wrong": "How much you can pay me?",
+              "right": "What salary range did you have in mind for this role?",
+              "note": "Direct 'how much' questions can sound blunt — frame salary questions more diplomatically in interviews."
+            }
           ]
         },
         {
@@ -2095,6 +2520,23 @@
                 "Could you give me an example of what you mean?"
               ],
               "tip": "Use 'I feel...' or 'I noticed...' rather than 'you always...' to keep feedback constructive, not accusatory."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Please to send me the file until Friday.",
+              "right": "Please send me the file by Friday.",
+              "note": "No 'to' after 'please' + verb, and use 'by' (deadline), not 'until', for a due date."
+            },
+            {
+              "wrong": "I am agree to work remotely.",
+              "right": "I agree to work remotely. / I'm fine with working remotely.",
+              "note": "'Agree' is a full verb — don't add 'am/is/are' before it."
+            },
+            {
+              "wrong": "Give-me your feedback about my work.",
+              "right": "Could you give me some feedback on my work?",
+              "note": "Pronouns aren't hyphenated to verbs in English, and 'feedback on' (not 'about') is the standard collocation."
             }
           ]
         }
@@ -2270,6 +2712,23 @@
               ],
               "tip": "Hedging isn't weakness — it's a social skill. Overusing very direct commands can come across as rude in English, even if grammatically correct."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Assuming 'yes' always means full agreement everywhere.",
+              "right": "In some cultures, 'yes' can mean 'I hear you', not 'I agree'.",
+              "note": "Direct vs. indirect communication styles vary widely by culture — don't assume your own norms are universal."
+            },
+            {
+              "wrong": "Jumping straight into business with no small talk.",
+              "right": "'How was your weekend?' before getting to the agenda.",
+              "note": "Many English-speaking business cultures expect brief small talk before serious topics."
+            },
+            {
+              "wrong": "I want that you do this now.",
+              "right": "Would you mind doing this now? / I'd appreciate it if you could do this now.",
+              "note": "Hedged, softened requests are the norm in English professional contexts, not blunt demands."
+            }
           ]
         },
         {
@@ -2310,6 +2769,23 @@
               ],
               "tip": "When in doubt, observe before acting — cultural norms vary even within English-speaking countries (US, UK, Canada, Australia, Ireland)."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Happy holidays, I hope you had a Christmas.",
+              "right": "Happy holidays! I hope you had a wonderful Christmas.",
+              "note": "Season's greetings need a full, natural phrase — not a literal, incomplete translation."
+            },
+            {
+              "wrong": "How much do I give of tip?",
+              "right": "How much should I tip?",
+              "note": "'Tip' is used as a verb directly in English, not 'give of tip'."
+            },
+            {
+              "wrong": "It is obligatory to finish all food on your plate.",
+              "right": "In many English-speaking countries, leaving a little food isn't considered rude.",
+              "note": "Table-manner norms differ from country to country — don't assume your home culture's rules apply everywhere."
+            }
           ]
         },
         {
@@ -2349,6 +2825,23 @@
                 "Tone of voice and context matter more than the literal words — sarcasm is often signaled by a flat or exaggerated tone."
               ],
               "tip": "If you're unsure whether someone is joking, it's okay to smile and ask: 'Wait, are you being serious?'"
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Translating an idiom word-for-word into English.",
+              "right": "Find the equivalent English idiom instead of a literal translation.",
+              "note": "Idioms rarely translate directly between languages — look for the closest natural equivalent."
+            },
+            {
+              "wrong": "Assuming British and American English never differ in vocabulary.",
+              "right": "'Flat' (UK) vs 'apartment' (US), 'lift' (UK) vs 'elevator' (US).",
+              "note": "Many everyday words differ between British and American English — context tells you which is expected."
+            },
+            {
+              "wrong": "Taking every sarcastic comment literally.",
+              "right": "'Oh great, more rain' often means the opposite — annoyance, not enthusiasm.",
+              "note": "Tone of voice and context signal sarcasm in English; a literal reading can cause misunderstandings."
             }
           ]
         }
@@ -2525,6 +3018,23 @@
               ],
               "tip": "Ask at least 3-4 weeks before the deadline, and always thank the person afterward, regardless of the outcome."
             }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I have interest in study in your university.",
+              "right": "I am interested in studying at your university.",
+              "note": "'Interested in' takes a gerund ('studying'), and universities use 'at', not 'in'."
+            },
+            {
+              "wrong": "My personal statement is about myself life.",
+              "right": "My personal statement is about my life and academic goals.",
+              "note": "Possessive adjectives (my, your) precede the noun; 'myself' cannot function as a possessive."
+            },
+            {
+              "wrong": "Please to consider my application.",
+              "right": "Please consider my application.",
+              "note": "No 'to' directly after 'please' + base verb."
+            }
           ]
         },
         {
@@ -2564,6 +3074,23 @@
                 "'Do you know if there's a student discount for public transportation?'"
               ],
               "tip": "Ask locals or student groups about 'hidden costs' like deposits, agency fees, or mandatory health insurance before committing to housing."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I need a visa for study in abroad.",
+              "right": "I need a student visa to study abroad.",
+              "note": "'Abroad' already means 'in a foreign country' — don't add 'in' before it."
+            },
+            {
+              "wrong": "The scholarship pay all my expenses.",
+              "right": "The scholarship covers all my expenses.",
+              "note": "'Cover expenses' is the natural collocation in English, not 'pay expenses' in this sense."
+            },
+            {
+              "wrong": "I have a budget of live very tight.",
+              "right": "I'm living on a very tight budget.",
+              "note": "'Live on a budget' is the fixed expression for managing limited money."
             }
           ]
         },
@@ -2605,6 +3132,23 @@
                 "'There's an international students' club that organizes weekly meetups — you should join!'"
               ],
               "tip": "Joining clubs and student associations is one of the fastest ways to build a social network and practice English naturally."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I assisted the lecture yesterday.",
+              "right": "I attended the lecture yesterday.",
+              "note": "'Assist' is a false friend from Portuguese 'assistir' — in English it means 'to help', not 'to attend'."
+            },
+            {
+              "wrong": "I copy this sentence of the internet without citation.",
+              "right": "I paraphrased this sentence and cited the original source.",
+              "note": "Copying text without citation is plagiarism, a serious academic integrity violation in English-speaking institutions."
+            },
+            {
+              "wrong": "I divide the room with three another students.",
+              "right": "I share the room with three other students.",
+              "note": "'Share' (not 'divide') is used for living arrangements, and 'other' (not 'another') before a plural noun."
             }
           ]
         }
@@ -3008,5 +3552,434 @@
       "translation": "O aluguel inclui as contas de consumo?",
       "difficulty": "hard"
     }
-  ]
+  ],
+  "photoPhrases": {
+    "categories": [
+      {
+        "id": "culture",
+        "label": "Culture",
+        "pt": "Cultura",
+        "icon": "🎭",
+        "tag": "culture,festival,tradition"
+      },
+      {
+        "id": "travel",
+        "label": "Travel",
+        "pt": "Viagens",
+        "icon": "✈️",
+        "tag": "travel,landmark,city"
+      },
+      {
+        "id": "technology",
+        "label": "Technology",
+        "pt": "Tecnologia",
+        "icon": "💻",
+        "tag": "technology,computer,innovation"
+      },
+      {
+        "id": "nature",
+        "label": "Nature",
+        "pt": "Natureza",
+        "icon": "🌿",
+        "tag": "nature,landscape,forest"
+      },
+      {
+        "id": "gastronomy",
+        "label": "Gastronomy",
+        "pt": "Gastronomia",
+        "icon": "🍽️",
+        "tag": "food,gourmet,cuisine"
+      },
+      {
+        "id": "movies",
+        "label": "Movies",
+        "pt": "Filmes",
+        "icon": "🎬",
+        "tag": "cinema,movietheater,film"
+      },
+      {
+        "id": "sports",
+        "label": "Sports",
+        "pt": "Esportes",
+        "icon": "⚽",
+        "tag": "sports,athlete,fitness"
+      },
+      {
+        "id": "fashion",
+        "label": "Fashion",
+        "pt": "Moda",
+        "icon": "👗",
+        "tag": "fashion,style,clothing"
+      },
+      {
+        "id": "education",
+        "label": "Education",
+        "pt": "Educação",
+        "icon": "📚",
+        "tag": "education,university,students"
+      }
+    ],
+    "items": [
+      {
+        "id": "pp-001",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=100",
+        "imageAlt": "A local festival brings the whole community together to celebrate.",
+        "sentence": "A local festival brings the whole community together to celebrate.",
+        "translation": "Um festival local reúne toda a comunidade para celebrar."
+      },
+      {
+        "id": "pp-002",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=107",
+        "imageAlt": "Traditional costumes are worn with pride during the parade.",
+        "sentence": "Traditional costumes are worn with pride during the parade.",
+        "translation": "Trajes tradicionais são usados com orgulho durante o desfile."
+      },
+      {
+        "id": "pp-003",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=114",
+        "imageAlt": "Music and dance are at the heart of this cultural celebration.",
+        "sentence": "Music and dance are at the heart of this cultural celebration.",
+        "translation": "Música e dança estão no coração dessa celebração cultural."
+      },
+      {
+        "id": "pp-004",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=121",
+        "imageAlt": "Every culture has its own unique way of telling stories.",
+        "sentence": "Every culture has its own unique way of telling stories.",
+        "translation": "Cada cultura tem sua própria maneira única de contar histórias."
+      },
+      {
+        "id": "pp-005",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=128",
+        "imageAlt": "Handmade crafts reflect generations of local tradition.",
+        "sentence": "Handmade crafts reflect generations of local tradition.",
+        "translation": "Artesanatos feitos à mão refletem gerações de tradição local."
+      },
+      {
+        "id": "pp-006",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=135",
+        "imageAlt": "This landmark attracts visitors from all over the world.",
+        "sentence": "This landmark attracts visitors from all over the world.",
+        "translation": "Esse marco histórico atrai visitantes do mundo inteiro."
+      },
+      {
+        "id": "pp-007",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=142",
+        "imageAlt": "Exploring a new city on foot is the best way to discover it.",
+        "sentence": "Exploring a new city on foot is the best way to discover it.",
+        "translation": "Explorar uma cidade nova a pé é a melhor forma de descobri-la."
+      },
+      {
+        "id": "pp-008",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=149",
+        "imageAlt": "The view from up here makes the whole trip worth it.",
+        "sentence": "The view from up here makes the whole trip worth it.",
+        "translation": "A vista lá de cima faz a viagem inteira valer a pena."
+      },
+      {
+        "id": "pp-009",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=156",
+        "imageAlt": "Travelers often stop here to take a memorable photo.",
+        "sentence": "Travelers often stop here to take a memorable photo.",
+        "translation": "Viajantes costumam parar aqui para tirar uma foto memorável."
+      },
+      {
+        "id": "pp-010",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=163",
+        "imageAlt": "A good trip always starts with a bit of adventure.",
+        "sentence": "A good trip always starts with a bit of adventure.",
+        "translation": "Uma boa viagem sempre começa com um pouco de aventura."
+      },
+      {
+        "id": "pp-011",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=170",
+        "imageAlt": "Technology keeps changing the way we live and work.",
+        "sentence": "Technology keeps changing the way we live and work.",
+        "translation": "A tecnologia continua mudando a forma como vivemos e trabalhamos."
+      },
+      {
+        "id": "pp-012",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=177",
+        "imageAlt": "This device makes everyday tasks faster and easier.",
+        "sentence": "This device makes everyday tasks faster and easier.",
+        "translation": "Esse dispositivo torna as tarefas do dia a dia mais rápidas e fáceis."
+      },
+      {
+        "id": "pp-013",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=184",
+        "imageAlt": "Engineers are constantly developing new digital solutions.",
+        "sentence": "Engineers are constantly developing new digital solutions.",
+        "translation": "Engenheiros estão constantemente desenvolvendo novas soluções digitais."
+      },
+      {
+        "id": "pp-014",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=191",
+        "imageAlt": "Working with computers has become part of almost every job.",
+        "sentence": "Working with computers has become part of almost every job.",
+        "translation": "Trabalhar com computadores se tornou parte de quase todo emprego."
+      },
+      {
+        "id": "pp-015",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=198",
+        "imageAlt": "Innovation often starts with a simple idea and a lot of testing.",
+        "sentence": "Innovation often starts with a simple idea and a lot of testing.",
+        "translation": "A inovação geralmente começa com uma ideia simples e muitos testes."
+      },
+      {
+        "id": "pp-016",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=205",
+        "imageAlt": "The forest is calm and quiet early in the morning.",
+        "sentence": "The forest is calm and quiet early in the morning.",
+        "translation": "A floresta é calma e silenciosa no início da manhã."
+      },
+      {
+        "id": "pp-017",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=212",
+        "imageAlt": "Mountains like this one take your breath away.",
+        "sentence": "Mountains like this one take your breath away.",
+        "translation": "Montanhas como essa tiram o seu fôlego."
+      },
+      {
+        "id": "pp-018",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=219",
+        "imageAlt": "Nature has an incredible way of healing the mind.",
+        "sentence": "Nature has an incredible way of healing the mind.",
+        "translation": "A natureza tem uma forma incrível de curar a mente."
+      },
+      {
+        "id": "pp-019",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=226",
+        "imageAlt": "The sound of the ocean is one of the most relaxing things in the world.",
+        "sentence": "The sound of the ocean is one of the most relaxing things in the world.",
+        "translation": "O som do oceano é uma das coisas mais relaxantes do mundo."
+      },
+      {
+        "id": "pp-020",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=233",
+        "imageAlt": "Wildlife thrives when humans protect their natural habitat.",
+        "sentence": "Wildlife thrives when humans protect their natural habitat.",
+        "translation": "A vida selvagem prospera quando os humanos protegem seu habitat natural."
+      },
+      {
+        "id": "pp-021",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=240",
+        "imageAlt": "This dish combines fresh ingredients with bold flavors.",
+        "sentence": "This dish combines fresh ingredients with bold flavors.",
+        "translation": "Esse prato combina ingredientes frescos com sabores marcantes."
+      },
+      {
+        "id": "pp-022",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=247",
+        "imageAlt": "Cooking is one of the best ways to share culture with others.",
+        "sentence": "Cooking is one of the best ways to share culture with others.",
+        "translation": "Cozinhar é uma das melhores formas de compartilhar cultura com os outros."
+      },
+      {
+        "id": "pp-023",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=254",
+        "imageAlt": "A good meal always tastes better when it's shared.",
+        "sentence": "A good meal always tastes better when it's shared.",
+        "translation": "Uma boa refeição sempre fica melhor quando é compartilhada."
+      },
+      {
+        "id": "pp-024",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=261",
+        "imageAlt": "The chef spent years perfecting this recipe.",
+        "sentence": "The chef spent years perfecting this recipe.",
+        "translation": "O chef passou anos aperfeiçoando essa receita."
+      },
+      {
+        "id": "pp-025",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=268",
+        "imageAlt": "Street food often tells you a lot about local culture.",
+        "sentence": "Street food often tells you a lot about local culture.",
+        "translation": "A comida de rua costuma revelar muito sobre a cultura local."
+      },
+      {
+        "id": "pp-026",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=275",
+        "imageAlt": "Nothing beats watching a great film on the big screen.",
+        "sentence": "Nothing beats watching a great film on the big screen.",
+        "translation": "Nada supera assistir a um ótimo filme na telona."
+      },
+      {
+        "id": "pp-027",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=282",
+        "imageAlt": "The smell of popcorn is part of the whole cinema experience.",
+        "sentence": "The smell of popcorn is part of the whole cinema experience.",
+        "translation": "O cheiro de pipoca faz parte de toda a experiência do cinema."
+      },
+      {
+        "id": "pp-028",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=289",
+        "imageAlt": "A well-told story can stay with you for years.",
+        "sentence": "A well-told story can stay with you for years.",
+        "translation": "Uma história bem contada pode ficar com você por anos."
+      },
+      {
+        "id": "pp-029",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=296",
+        "imageAlt": "Friday nights are perfect for a movie marathon.",
+        "sentence": "Friday nights are perfect for a movie marathon.",
+        "translation": "As noites de sexta-feira são perfeitas para uma maratona de filmes."
+      },
+      {
+        "id": "pp-030",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=303",
+        "imageAlt": "The director spent months planning every single scene.",
+        "sentence": "The director spent months planning every single scene.",
+        "translation": "O diretor passou meses planejando cada cena."
+      },
+      {
+        "id": "pp-031",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=310",
+        "imageAlt": "Regular training builds both strength and discipline.",
+        "sentence": "Regular training builds both strength and discipline.",
+        "translation": "O treino regular constrói tanto força quanto disciplina."
+      },
+      {
+        "id": "pp-032",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=317",
+        "imageAlt": "The crowd goes wild every time the team scores.",
+        "sentence": "The crowd goes wild every time the team scores.",
+        "translation": "A torcida vibra toda vez que o time marca um ponto."
+      },
+      {
+        "id": "pp-033",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=324",
+        "imageAlt": "Every athlete starts with small, consistent steps.",
+        "sentence": "Every athlete starts with small, consistent steps.",
+        "translation": "Todo atleta começa com passos pequenos e consistentes."
+      },
+      {
+        "id": "pp-034",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=331",
+        "imageAlt": "Teamwork is often more important than individual talent.",
+        "sentence": "Teamwork is often more important than individual talent.",
+        "translation": "O trabalho em equipe costuma ser mais importante do que o talento individual."
+      },
+      {
+        "id": "pp-035",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=338",
+        "imageAlt": "A morning run is a great way to start the day.",
+        "sentence": "A morning run is a great way to start the day.",
+        "translation": "Uma corrida matinal é uma ótima forma de começar o dia."
+      },
+      {
+        "id": "pp-036",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=345",
+        "imageAlt": "This outfit mixes classic pieces with a modern twist.",
+        "sentence": "This outfit mixes classic pieces with a modern twist.",
+        "translation": "Esse look mistura peças clássicas com um toque moderno."
+      },
+      {
+        "id": "pp-037",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=352",
+        "imageAlt": "Fashion is a simple way to express who you are.",
+        "sentence": "Fashion is a simple way to express who you are.",
+        "translation": "A moda é uma forma simples de expressar quem você é."
+      },
+      {
+        "id": "pp-038",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=359",
+        "imageAlt": "Designers often find inspiration in everyday life.",
+        "sentence": "Designers often find inspiration in everyday life.",
+        "translation": "Estilistas costumam encontrar inspiração no dia a dia."
+      },
+      {
+        "id": "pp-039",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=366",
+        "imageAlt": "Choosing the right colors can completely change an outfit.",
+        "sentence": "Choosing the right colors can completely change an outfit.",
+        "translation": "Escolher as cores certas pode mudar completamente um look."
+      },
+      {
+        "id": "pp-040",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=373",
+        "imageAlt": "Sustainable fashion is becoming more popular every year.",
+        "sentence": "Sustainable fashion is becoming more popular every year.",
+        "translation": "A moda sustentável está se tornando mais popular a cada ano."
+      },
+      {
+        "id": "pp-041",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=380",
+        "imageAlt": "A good education opens doors that stay open for life.",
+        "sentence": "A good education opens doors that stay open for life.",
+        "translation": "Uma boa educação abre portas que permanecem abertas por toda a vida."
+      },
+      {
+        "id": "pp-042",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=387",
+        "imageAlt": "Students often learn best when they work together.",
+        "sentence": "Students often learn best when they work together.",
+        "translation": "Estudantes costumam aprender melhor quando trabalham juntos."
+      },
+      {
+        "id": "pp-043",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=394",
+        "imageAlt": "Libraries are still one of the best places to focus and study.",
+        "sentence": "Libraries are still one of the best places to focus and study.",
+        "translation": "Bibliotecas ainda são um dos melhores lugares para focar e estudar."
+      },
+      {
+        "id": "pp-044",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=401",
+        "imageAlt": "A great teacher can change the direction of someone's life.",
+        "sentence": "A great teacher can change the direction of someone's life.",
+        "translation": "Um grande professor pode mudar o rumo da vida de alguém."
+      },
+      {
+        "id": "pp-045",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=408",
+        "imageAlt": "Learning never really stops, no matter your age.",
+        "sentence": "Learning never really stops, no matter your age.",
+        "translation": "Aprender nunca realmente para, não importa a sua idade."
+      }
+    ]
+  }
 }

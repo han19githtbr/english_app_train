@@ -60,6 +60,9 @@
       <button class="nav-btn" onclick="App.openPronounce()" aria-label="Pronunciation Practice">
         🎤 <span class="nav-label">Pronúncia</span>
       </button>
+      <button class="nav-btn" onclick="App.openPhotoPhrases()" aria-label="Photo Phrases">
+        🖼️ <span class="nav-label">Photo Phrases</span>
+      </button>
       <button class="nav-btn tts-settings-btn" onclick="App.openVoiceSettings()" aria-label="Voice Settings">
         🔊 <span class="nav-label">Voice</span>
       </button>
@@ -140,6 +143,20 @@
             <div>
               <div class="convo-cta-title">Pronunciation Practice</div>
               <div class="convo-cta-sub">See a word or phrase, say it out loud, and get instant ✅ / ❌ feedback on your pronunciation</div>
+            </div>
+          </div>
+          <div class="convo-cta-arrow">→</div>
+        </div>
+
+        <div class="convo-cta-home pp-cta-home" onclick="App.openPhotoPhrases()">
+          <div class="convo-cta-left">
+            <span class="convo-cta-icon">🖼️</span>
+            <div>
+              <div class="convo-cta-title">Photo Phrases</div>
+              <div class="convo-cta-sub">See a picture, read the English sentence, translate it and hear it out loud — culture, travel, tech, food and more</div>
+              <div class="pp-home-thumbs" aria-hidden="true">
+                <span>🎭</span><span>✈️</span><span>💻</span><span>🌿</span><span>🍽️</span>
+              </div>
             </div>
           </div>
           <div class="convo-cta-arrow">→</div>
@@ -335,11 +352,30 @@
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       PHOTO PHRASES SCREEN — visual learning: image + English sentence + audio
+  ═══════════════════════════════════════════════════════════════════════════ -->
+  <div class="screen" id="photophrases-screen">
+    <div class="pp-wrap">
+      <button class="back-btn" onclick="App.goHome()">← Back to Home</button>
+
+      <div class="pp-header">
+        <h1 class="pp-title">🖼️ Photo <span>Phrases</span></h1>
+        <p class="pp-sub">Veja a imagem, leia a frase em inglês, ouça a pronúncia e traduza quando quiser. Culture, travel, technology, nature, gastronomy, movies, sports, fashion and education.</p>
+      </div>
+
+      <div class="pp-cats" id="pp-cats"></div>
+
+      <div class="pp-grid" id="pp-grid"></div>
+    </div>
+  </div>
+
 </div><!-- /#app -->
 
 <script src="js/index.js"></script>
 <script src="js/simulator.js"></script>
 <script src="js/pronounce.js"></script>
+<script src="js/photophrases.js"></script>
 <script>
 // ── Service Worker ─────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
