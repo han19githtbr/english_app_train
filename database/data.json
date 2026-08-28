@@ -3631,7 +3631,7 @@
       {
         "id": "pp-002",
         "category": "culture",
-        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=107",
+        "imageUrl": "https://loremflickr.com/640/480/museum,art,heritage/all?lock=107",
         "imageAlt": "Traditional costumes are worn with pride during the parade.",
         "sentence": "Traditional costumes are worn with pride during the parade.",
         "translation": "Trajes tradicionais são usados com orgulho durante o desfile."
@@ -3639,7 +3639,7 @@
       {
         "id": "pp-003",
         "category": "culture",
-        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=114",
+        "imageUrl": "https://loremflickr.com/640/480/temple,religion,ritual/all?lock=114",
         "imageAlt": "Music and dance are at the heart of this cultural celebration.",
         "sentence": "Music and dance are at the heart of this cultural celebration.",
         "translation": "Música e dança estão no coração dessa celebração cultural."
@@ -3647,7 +3647,7 @@
       {
         "id": "pp-004",
         "category": "culture",
-        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=121",
+        "imageUrl": "https://loremflickr.com/640/480/carnival,parade,dance/all?lock=121",
         "imageAlt": "Every culture has its own unique way of telling stories.",
         "sentence": "Every culture has its own unique way of telling stories.",
         "translation": "Cada cultura tem sua própria maneira única de contar histórias."
@@ -3655,330 +3655,1410 @@
       {
         "id": "pp-005",
         "category": "culture",
-        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=128",
+        "imageUrl": "https://loremflickr.com/640/480/handicraft,pottery,artisan/all?lock=128",
         "imageAlt": "Handmade crafts reflect generations of local tradition.",
         "sentence": "Handmade crafts reflect generations of local tradition.",
         "translation": "Artesanatos feitos à mão refletem gerações de tradição local."
       },
       {
         "id": "pp-006",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=135",
+        "imageAlt": "This temple has stood as a sacred place for centuries.",
+        "sentence": "This temple has stood as a sacred place for centuries.",
+        "translation": "Esse templo permanece como um lugar sagrado há séculos."
+      },
+      {
+        "id": "pp-007",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/museum,art,heritage/all?lock=142",
+        "imageAlt": "Museums help preserve stories that would otherwise be forgotten.",
+        "sentence": "Museums help preserve stories that would otherwise be forgotten.",
+        "translation": "Museus ajudam a preservar histórias que, de outra forma, seriam esquecidas."
+      },
+      {
+        "id": "pp-008",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/temple,religion,ritual/all?lock=149",
+        "imageAlt": "Religious rituals often connect people to something greater than themselves.",
+        "sentence": "Religious rituals often connect people to something greater than themselves.",
+        "translation": "Rituais religiosos costumam conectar as pessoas a algo maior do que elas mesmas."
+      },
+      {
+        "id": "pp-009",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/carnival,parade,dance/all?lock=156",
+        "imageAlt": "The carnival parade fills the streets with color and rhythm.",
+        "sentence": "The carnival parade fills the streets with color and rhythm.",
+        "translation": "O desfile de carnaval enche as ruas de cor e ritmo."
+      },
+      {
+        "id": "pp-010",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/handicraft,pottery,artisan/all?lock=163",
+        "imageAlt": "A skilled potter can turn simple clay into a work of art.",
+        "sentence": "A skilled potter can turn simple clay into a work of art.",
+        "translation": "Um oleiro habilidoso pode transformar argila simples em uma obra de arte."
+      },
+      {
+        "id": "pp-011",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=170",
+        "imageAlt": "Folklore passed down through generations still shapes local identity.",
+        "sentence": "Folklore passed down through generations still shapes local identity.",
+        "translation": "O folclore transmitido por gerações ainda molda a identidade local."
+      },
+      {
+        "id": "pp-012",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/museum,art,heritage/all?lock=177",
+        "imageAlt": "Every mask in this ritual tells a different part of the story.",
+        "sentence": "Every mask in this ritual tells a different part of the story.",
+        "translation": "Cada máscara nesse ritual conta uma parte diferente da história."
+      },
+      {
+        "id": "pp-013",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/temple,religion,ritual/all?lock=184",
+        "imageAlt": "Elders often play a key role in keeping traditions alive.",
+        "sentence": "Elders often play a key role in keeping traditions alive.",
+        "translation": "Os mais velhos costumam ter um papel fundamental em manter as tradições vivas."
+      },
+      {
+        "id": "pp-014",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/carnival,parade,dance/all?lock=191",
+        "imageAlt": "Sacred architecture reflects the beliefs of the people who built it.",
+        "sentence": "Sacred architecture reflects the beliefs of the people who built it.",
+        "translation": "A arquitetura sagrada reflete as crenças de quem a construiu."
+      },
+      {
+        "id": "pp-015",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/handicraft,pottery,artisan/all?lock=198",
+        "imageAlt": "Public art installations bring culture into everyday city life.",
+        "sentence": "Public art installations bring culture into everyday city life.",
+        "translation": "Instalações de arte pública trazem cultura para o cotidiano da cidade."
+      },
+      {
+        "id": "pp-016",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/culture,festival,tradition/all?lock=205",
+        "imageAlt": "This ceremony marks an important moment in the community's calendar.",
+        "sentence": "This ceremony marks an important moment in the community's calendar.",
+        "translation": "Essa cerimônia marca um momento importante no calendário da comunidade."
+      },
+      {
+        "id": "pp-017",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/museum,art,heritage/all?lock=212",
+        "imageAlt": "Storytelling around a fire is one of humanity's oldest traditions.",
+        "sentence": "Storytelling around a fire is one of humanity's oldest traditions.",
+        "translation": "Contar histórias ao redor do fogo é uma das tradições mais antigas da humanidade."
+      },
+      {
+        "id": "pp-018",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/temple,religion,ritual/all?lock=219",
+        "imageAlt": "Cultural exchange helps people understand each other better.",
+        "sentence": "Cultural exchange helps people understand each other better.",
+        "translation": "O intercâmbio cultural ajuda as pessoas a se entenderem melhor."
+      },
+      {
+        "id": "pp-019",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/carnival,parade,dance/all?lock=226",
+        "imageAlt": "The colors of this fabric carry deep symbolic meaning.",
+        "sentence": "The colors of this fabric carry deep symbolic meaning.",
+        "translation": "As cores desse tecido carregam um significado simbólico profundo."
+      },
+      {
+        "id": "pp-020",
+        "category": "culture",
+        "imageUrl": "https://loremflickr.com/640/480/handicraft,pottery,artisan/all?lock=233",
+        "imageAlt": "Preserving heritage sites is a responsibility shared by everyone.",
+        "sentence": "Preserving heritage sites is a responsibility shared by everyone.",
+        "translation": "Preservar sítios históricos é uma responsabilidade compartilhada por todos."
+      },
+      {
+        "id": "pp-021",
         "category": "travel",
-        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=135",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=240",
         "imageAlt": "This landmark attracts visitors from all over the world.",
         "sentence": "This landmark attracts visitors from all over the world.",
         "translation": "Esse marco histórico atrai visitantes do mundo inteiro."
       },
       {
-        "id": "pp-007",
+        "id": "pp-022",
         "category": "travel",
-        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=142",
+        "imageUrl": "https://loremflickr.com/640/480/beach,island,tropical/all?lock=247",
         "imageAlt": "Exploring a new city on foot is the best way to discover it.",
         "sentence": "Exploring a new city on foot is the best way to discover it.",
         "translation": "Explorar uma cidade nova a pé é a melhor forma de descobri-la."
       },
       {
-        "id": "pp-008",
+        "id": "pp-023",
         "category": "travel",
-        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=149",
+        "imageUrl": "https://loremflickr.com/640/480/mountain,hiking,adventure/all?lock=254",
         "imageAlt": "The view from up here makes the whole trip worth it.",
         "sentence": "The view from up here makes the whole trip worth it.",
         "translation": "A vista lá de cima faz a viagem inteira valer a pena."
       },
       {
-        "id": "pp-009",
+        "id": "pp-024",
         "category": "travel",
-        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=156",
+        "imageUrl": "https://loremflickr.com/640/480/backpacker,roadtrip,map/all?lock=261",
         "imageAlt": "Travelers often stop here to take a memorable photo.",
         "sentence": "Travelers often stop here to take a memorable photo.",
         "translation": "Viajantes costumam parar aqui para tirar uma foto memorável."
       },
       {
-        "id": "pp-010",
+        "id": "pp-025",
         "category": "travel",
-        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=163",
+        "imageUrl": "https://loremflickr.com/640/480/airport,train,journey/all?lock=268",
         "imageAlt": "A good trip always starts with a bit of adventure.",
         "sentence": "A good trip always starts with a bit of adventure.",
         "translation": "Uma boa viagem sempre começa com um pouco de aventura."
       },
       {
-        "id": "pp-011",
+        "id": "pp-026",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=275",
+        "imageAlt": "This beach is famous for its crystal-clear water.",
+        "sentence": "This beach is famous for its crystal-clear water.",
+        "translation": "Essa praia é famosa por sua água cristalina."
+      },
+      {
+        "id": "pp-027",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/beach,island,tropical/all?lock=282",
+        "imageAlt": "Hiking up this trail rewards you with an incredible panorama.",
+        "sentence": "Hiking up this trail rewards you with an incredible panorama.",
+        "translation": "Subir essa trilha recompensa você com um panorama incrível."
+      },
+      {
+        "id": "pp-028",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/mountain,hiking,adventure/all?lock=289",
+        "imageAlt": "A backpacker with a good map can find hidden gems everywhere.",
+        "sentence": "A backpacker with a good map can find hidden gems everywhere.",
+        "translation": "Um viajante com um bom mapa pode encontrar tesouros escondidos em qualquer lugar."
+      },
+      {
+        "id": "pp-029",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/backpacker,roadtrip,map/all?lock=296",
+        "imageAlt": "Long train rides give you time to really see the countryside.",
+        "sentence": "Long train rides give you time to really see the countryside.",
+        "translation": "Longas viagens de trem dão tempo para você realmente ver o campo."
+      },
+      {
+        "id": "pp-030",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/airport,train,journey/all?lock=303",
+        "imageAlt": "Airports are often the first taste of a new culture.",
+        "sentence": "Airports are often the first taste of a new culture.",
+        "translation": "Aeroportos costumam ser o primeiro contato com uma nova cultura."
+      },
+      {
+        "id": "pp-031",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=310",
+        "imageAlt": "Getting lost in a new place sometimes leads to the best memories.",
+        "sentence": "Getting lost in a new place sometimes leads to the best memories.",
+        "translation": "Se perder em um lugar novo às vezes gera as melhores memórias."
+      },
+      {
+        "id": "pp-032",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/beach,island,tropical/all?lock=317",
+        "imageAlt": "Island life moves at a much slower, more relaxed pace.",
+        "sentence": "Island life moves at a much slower, more relaxed pace.",
+        "translation": "A vida nas ilhas segue um ritmo muito mais lento e relaxado."
+      },
+      {
+        "id": "pp-033",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/mountain,hiking,adventure/all?lock=324",
+        "imageAlt": "A road trip with good company beats any luxury vacation.",
+        "sentence": "A road trip with good company beats any luxury vacation.",
+        "translation": "Uma viagem de carro com boa companhia supera qualquer férias de luxo."
+      },
+      {
+        "id": "pp-034",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/backpacker,roadtrip,map/all?lock=331",
+        "imageAlt": "This viewpoint is the perfect spot to watch the sunset.",
+        "sentence": "This viewpoint is the perfect spot to watch the sunset.",
+        "translation": "Esse mirante é o lugar perfeito para ver o pôr do sol."
+      },
+      {
+        "id": "pp-035",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/airport,train,journey/all?lock=338",
+        "imageAlt": "Local guides know stories that no guidebook can tell you.",
+        "sentence": "Local guides know stories that no guidebook can tell you.",
+        "translation": "Guias locais conhecem histórias que nenhum guia de viagem pode contar."
+      },
+      {
+        "id": "pp-036",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/travel,landmark,city/all?lock=345",
+        "imageAlt": "Crossing this bridge feels like stepping into another era.",
+        "sentence": "Crossing this bridge feels like stepping into another era.",
+        "translation": "Atravessar essa ponte parece dar um passo para outra época."
+      },
+      {
+        "id": "pp-037",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/beach,island,tropical/all?lock=352",
+        "imageAlt": "Packing light makes any journey so much easier.",
+        "sentence": "Packing light makes any journey so much easier.",
+        "translation": "Fazer uma mala leve torna qualquer viagem muito mais fácil."
+      },
+      {
+        "id": "pp-038",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/mountain,hiking,adventure/all?lock=359",
+        "imageAlt": "The old town's narrow streets are full of surprises.",
+        "sentence": "The old town's narrow streets are full of surprises.",
+        "translation": "As ruas estreitas do centro histórico são cheias de surpresas."
+      },
+      {
+        "id": "pp-039",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/backpacker,roadtrip,map/all?lock=366",
+        "imageAlt": "Watching the plane take off never gets old for some travelers.",
+        "sentence": "Watching the plane take off never gets old for some travelers.",
+        "translation": "Ver o avião decolar nunca perde a graça para alguns viajantes."
+      },
+      {
+        "id": "pp-040",
+        "category": "travel",
+        "imageUrl": "https://loremflickr.com/640/480/airport,train,journey/all?lock=373",
+        "imageAlt": "This mountain range has drawn climbers for generations.",
+        "sentence": "This mountain range has drawn climbers for generations.",
+        "translation": "Essa cadeia de montanhas atrai alpinistas há gerações."
+      },
+      {
+        "id": "pp-041",
         "category": "technology",
-        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=170",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=380",
         "imageAlt": "Technology keeps changing the way we live and work.",
         "sentence": "Technology keeps changing the way we live and work.",
         "translation": "A tecnologia continua mudando a forma como vivemos e trabalhamos."
       },
       {
-        "id": "pp-012",
+        "id": "pp-042",
         "category": "technology",
-        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=177",
+        "imageUrl": "https://loremflickr.com/640/480/robot,ai,automation/all?lock=387",
         "imageAlt": "This device makes everyday tasks faster and easier.",
         "sentence": "This device makes everyday tasks faster and easier.",
         "translation": "Esse dispositivo torna as tarefas do dia a dia mais rápidas e fáceis."
       },
       {
-        "id": "pp-013",
+        "id": "pp-043",
         "category": "technology",
-        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=184",
+        "imageUrl": "https://loremflickr.com/640/480/smartphone,gadget,device/all?lock=394",
         "imageAlt": "Engineers are constantly developing new digital solutions.",
         "sentence": "Engineers are constantly developing new digital solutions.",
         "translation": "Engenheiros estão constantemente desenvolvendo novas soluções digitais."
       },
       {
-        "id": "pp-014",
+        "id": "pp-044",
         "category": "technology",
-        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=191",
+        "imageUrl": "https://loremflickr.com/640/480/startup,coding,developer/all?lock=401",
         "imageAlt": "Working with computers has become part of almost every job.",
         "sentence": "Working with computers has become part of almost every job.",
         "translation": "Trabalhar com computadores se tornou parte de quase todo emprego."
       },
       {
-        "id": "pp-015",
+        "id": "pp-045",
         "category": "technology",
-        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=198",
+        "imageUrl": "https://loremflickr.com/640/480/datacenter,server,network/all?lock=408",
         "imageAlt": "Innovation often starts with a simple idea and a lot of testing.",
         "sentence": "Innovation often starts with a simple idea and a lot of testing.",
         "translation": "A inovação geralmente começa com uma ideia simples e muitos testes."
       },
       {
-        "id": "pp-016",
+        "id": "pp-046",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=415",
+        "imageAlt": "This robot can perform repetitive tasks with perfect precision.",
+        "sentence": "This robot can perform repetitive tasks with perfect precision.",
+        "translation": "Esse robô pode executar tarefas repetitivas com precisão perfeita."
+      },
+      {
+        "id": "pp-047",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/robot,ai,automation/all?lock=422",
+        "imageAlt": "Artificial intelligence is being used in more industries every year.",
+        "sentence": "Artificial intelligence is being used in more industries every year.",
+        "translation": "A inteligência artificial está sendo usada em mais setores a cada ano."
+      },
+      {
+        "id": "pp-048",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/smartphone,gadget,device/all?lock=429",
+        "imageAlt": "A smartphone today can do more than a computer from a decade ago.",
+        "sentence": "A smartphone today can do more than a computer from a decade ago.",
+        "translation": "Um smartphone hoje pode fazer mais do que um computador de uma década atrás."
+      },
+      {
+        "id": "pp-049",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/startup,coding,developer/all?lock=436",
+        "imageAlt": "Startups often move fast and change direction quickly.",
+        "sentence": "Startups often move fast and change direction quickly.",
+        "translation": "Startups costumam se mover rápido e mudar de direção com facilidade."
+      },
+      {
+        "id": "pp-050",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/datacenter,server,network/all?lock=443",
+        "imageAlt": "Writing clean code makes a project easier to maintain later.",
+        "sentence": "Writing clean code makes a project easier to maintain later.",
+        "translation": "Escrever um código limpo torna um projeto mais fácil de manter depois."
+      },
+      {
+        "id": "pp-051",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=450",
+        "imageAlt": "This data center keeps millions of websites running smoothly.",
+        "sentence": "This data center keeps millions of websites running smoothly.",
+        "translation": "Esse data center mantém milhões de sites funcionando sem problemas."
+      },
+      {
+        "id": "pp-052",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/robot,ai,automation/all?lock=457",
+        "imageAlt": "A strong network connection is essential for remote work.",
+        "sentence": "A strong network connection is essential for remote work.",
+        "translation": "Uma conexão de rede forte é essencial para o trabalho remoto."
+      },
+      {
+        "id": "pp-053",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/smartphone,gadget,device/all?lock=464",
+        "imageAlt": "Wearable devices now track health data in real time.",
+        "sentence": "Wearable devices now track health data in real time.",
+        "translation": "Dispositivos vestíveis agora monitoram dados de saúde em tempo real."
+      },
+      {
+        "id": "pp-054",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/startup,coding,developer/all?lock=471",
+        "imageAlt": "Cybersecurity has become a top priority for every company.",
+        "sentence": "Cybersecurity has become a top priority for every company.",
+        "translation": "A segurança cibernética se tornou uma prioridade máxima para toda empresa."
+      },
+      {
+        "id": "pp-055",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/datacenter,server,network/all?lock=478",
+        "imageAlt": "Cloud computing lets teams collaborate from anywhere in the world.",
+        "sentence": "Cloud computing lets teams collaborate from anywhere in the world.",
+        "translation": "A computação em nuvem permite que equipes colaborem de qualquer lugar do mundo."
+      },
+      {
+        "id": "pp-056",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/technology,computer,innovation/all?lock=485",
+        "imageAlt": "This circuit board is the brain behind the whole device.",
+        "sentence": "This circuit board is the brain behind the whole device.",
+        "translation": "Essa placa de circuito é o cérebro por trás de todo o dispositivo."
+      },
+      {
+        "id": "pp-057",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/robot,ai,automation/all?lock=492",
+        "imageAlt": "Virtual reality is opening new doors in education and training.",
+        "sentence": "Virtual reality is opening new doors in education and training.",
+        "translation": "A realidade virtual está abrindo novas portas na educação e no treinamento."
+      },
+      {
+        "id": "pp-058",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/smartphone,gadget,device/all?lock=499",
+        "imageAlt": "A well-designed app can make a complex process feel simple.",
+        "sentence": "A well-designed app can make a complex process feel simple.",
+        "translation": "Um aplicativo bem projetado pode fazer um processo complexo parecer simples."
+      },
+      {
+        "id": "pp-059",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/startup,coding,developer/all?lock=506",
+        "imageAlt": "Automation is changing what factory work looks like today.",
+        "sentence": "Automation is changing what factory work looks like today.",
+        "translation": "A automação está mudando a aparência do trabalho industrial hoje."
+      },
+      {
+        "id": "pp-060",
+        "category": "technology",
+        "imageUrl": "https://loremflickr.com/640/480/datacenter,server,network/all?lock=513",
+        "imageAlt": "Developers often spend hours debugging a single line of code.",
+        "sentence": "Developers often spend hours debugging a single line of code.",
+        "translation": "Desenvolvedores costumam passar horas depurando uma única linha de código."
+      },
+      {
+        "id": "pp-061",
         "category": "nature",
-        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=205",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=520",
         "imageAlt": "The forest is calm and quiet early in the morning.",
         "sentence": "The forest is calm and quiet early in the morning.",
         "translation": "A floresta é calma e silenciosa no início da manhã."
       },
       {
-        "id": "pp-017",
+        "id": "pp-062",
         "category": "nature",
-        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=212",
+        "imageUrl": "https://loremflickr.com/640/480/ocean,waves,coast/all?lock=527",
         "imageAlt": "Mountains like this one take your breath away.",
         "sentence": "Mountains like this one take your breath away.",
         "translation": "Montanhas como essa tiram o seu fôlego."
       },
       {
-        "id": "pp-018",
+        "id": "pp-063",
         "category": "nature",
-        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=219",
+        "imageUrl": "https://loremflickr.com/640/480/wildlife,animal,safari/all?lock=534",
         "imageAlt": "Nature has an incredible way of healing the mind.",
         "sentence": "Nature has an incredible way of healing the mind.",
         "translation": "A natureza tem uma forma incrível de curar a mente."
       },
       {
-        "id": "pp-019",
+        "id": "pp-064",
         "category": "nature",
-        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=226",
+        "imageUrl": "https://loremflickr.com/640/480/mountain,snow,peak/all?lock=541",
         "imageAlt": "The sound of the ocean is one of the most relaxing things in the world.",
         "sentence": "The sound of the ocean is one of the most relaxing things in the world.",
         "translation": "O som do oceano é uma das coisas mais relaxantes do mundo."
       },
       {
-        "id": "pp-020",
+        "id": "pp-065",
         "category": "nature",
-        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=233",
+        "imageUrl": "https://loremflickr.com/640/480/garden,flowers,spring/all?lock=548",
         "imageAlt": "Wildlife thrives when humans protect their natural habitat.",
         "sentence": "Wildlife thrives when humans protect their natural habitat.",
         "translation": "A vida selvagem prospera quando os humanos protegem seu habitat natural."
       },
       {
-        "id": "pp-021",
+        "id": "pp-066",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=555",
+        "imageAlt": "Waves crashing against the rocks create a powerful rhythm.",
+        "sentence": "Waves crashing against the rocks create a powerful rhythm.",
+        "translation": "As ondas batendo nas pedras criam um ritmo poderoso."
+      },
+      {
+        "id": "pp-067",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/ocean,waves,coast/all?lock=562",
+        "imageAlt": "A safari gives you the rare chance to see animals in the wild.",
+        "sentence": "A safari gives you the rare chance to see animals in the wild.",
+        "translation": "Um safári dá a rara chance de ver animais em seu habitat natural."
+      },
+      {
+        "id": "pp-068",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/wildlife,animal,safari/all?lock=569",
+        "imageAlt": "Snow-covered peaks look almost unreal against the blue sky.",
+        "sentence": "Snow-covered peaks look almost unreal against the blue sky.",
+        "translation": "Picos cobertos de neve parecem quase irreais contra o céu azul."
+      },
+      {
+        "id": "pp-069",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/mountain,snow,peak/all?lock=576",
+        "imageAlt": "Spring flowers bring color back into the garden after winter.",
+        "sentence": "Spring flowers bring color back into the garden after winter.",
+        "translation": "As flores da primavera trazem cor de volta ao jardim depois do inverno."
+      },
+      {
+        "id": "pp-070",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/garden,flowers,spring/all?lock=583",
+        "imageAlt": "A river carves its path through the landscape over thousands of years.",
+        "sentence": "A river carves its path through the landscape over thousands of years.",
+        "translation": "Um rio talha seu caminho pela paisagem ao longo de milhares de anos."
+      },
+      {
+        "id": "pp-071",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=590",
+        "imageAlt": "Deep in the jungle, life is louder than you might expect.",
+        "sentence": "Deep in the jungle, life is louder than you might expect.",
+        "translation": "No fundo da floresta, a vida é mais ruidosa do que se poderia esperar."
+      },
+      {
+        "id": "pp-072",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/ocean,waves,coast/all?lock=597",
+        "imageAlt": "This waterfall has been shaping the canyon for centuries.",
+        "sentence": "This waterfall has been shaping the canyon for centuries.",
+        "translation": "Essa cachoeira vem moldando o cânion há séculos."
+      },
+      {
+        "id": "pp-073",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/wildlife,animal,safari/all?lock=604",
+        "imageAlt": "A single tree can support an entire ecosystem of insects and birds.",
+        "sentence": "A single tree can support an entire ecosystem of insects and birds.",
+        "translation": "Uma única árvore pode sustentar um ecossistema inteiro de insetos e pássaros."
+      },
+      {
+        "id": "pp-074",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/mountain,snow,peak/all?lock=611",
+        "imageAlt": "The desert looks empty, but it's full of hidden life.",
+        "sentence": "The desert looks empty, but it's full of hidden life.",
+        "translation": "O deserto parece vazio, mas está cheio de vida escondida."
+      },
+      {
+        "id": "pp-075",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/garden,flowers,spring/all?lock=618",
+        "imageAlt": "Migrating birds travel thousands of kilometers every year.",
+        "sentence": "Migrating birds travel thousands of kilometers every year.",
+        "translation": "Pássaros migratórios viajam milhares de quilômetros todo ano."
+      },
+      {
+        "id": "pp-076",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/nature,landscape,forest/all?lock=625",
+        "imageAlt": "A quiet lake at sunrise is one of nature's simplest gifts.",
+        "sentence": "A quiet lake at sunrise is one of nature's simplest gifts.",
+        "translation": "Um lago tranquilo ao amanhecer é um dos presentes mais simples da natureza."
+      },
+      {
+        "id": "pp-077",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/ocean,waves,coast/all?lock=632",
+        "imageAlt": "Coral reefs are home to some of the most colorful creatures on Earth.",
+        "sentence": "Coral reefs are home to some of the most colorful creatures on Earth.",
+        "translation": "Recifes de coral abrigam algumas das criaturas mais coloridas da Terra."
+      },
+      {
+        "id": "pp-078",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/wildlife,animal,safari/all?lock=639",
+        "imageAlt": "Autumn leaves turn the whole hillside into shades of orange and red.",
+        "sentence": "Autumn leaves turn the whole hillside into shades of orange and red.",
+        "translation": "As folhas do outono transformam toda a colina em tons de laranja e vermelho."
+      },
+      {
+        "id": "pp-079",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/mountain,snow,peak/all?lock=646",
+        "imageAlt": "Storm clouds gathering over the fields can be both beautiful and dangerous.",
+        "sentence": "Storm clouds gathering over the fields can be both beautiful and dangerous.",
+        "translation": "Nuvens de tempestade se formando sobre os campos podem ser bonitas e perigosas ao mesmo tempo."
+      },
+      {
+        "id": "pp-080",
+        "category": "nature",
+        "imageUrl": "https://loremflickr.com/640/480/garden,flowers,spring/all?lock=653",
+        "imageAlt": "Even a small garden can attract bees, butterflies, and birds.",
+        "sentence": "Even a small garden can attract bees, butterflies, and birds.",
+        "translation": "Até um jardim pequeno pode atrair abelhas, borboletas e pássaros."
+      },
+      {
+        "id": "pp-081",
         "category": "gastronomy",
-        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=240",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=660",
         "imageAlt": "This dish combines fresh ingredients with bold flavors.",
         "sentence": "This dish combines fresh ingredients with bold flavors.",
         "translation": "Esse prato combina ingredientes frescos com sabores marcantes."
       },
       {
-        "id": "pp-022",
+        "id": "pp-082",
         "category": "gastronomy",
-        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=247",
+        "imageUrl": "https://loremflickr.com/640/480/bakery,bread,pastry/all?lock=667",
         "imageAlt": "Cooking is one of the best ways to share culture with others.",
         "sentence": "Cooking is one of the best ways to share culture with others.",
         "translation": "Cozinhar é uma das melhores formas de compartilhar cultura com os outros."
       },
       {
-        "id": "pp-023",
+        "id": "pp-083",
         "category": "gastronomy",
-        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=254",
+        "imageUrl": "https://loremflickr.com/640/480/coffee,cafe,espresso/all?lock=674",
         "imageAlt": "A good meal always tastes better when it's shared.",
         "sentence": "A good meal always tastes better when it's shared.",
         "translation": "Uma boa refeição sempre fica melhor quando é compartilhada."
       },
       {
-        "id": "pp-024",
+        "id": "pp-084",
         "category": "gastronomy",
-        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=261",
+        "imageUrl": "https://loremflickr.com/640/480/streetfood,market,spices/all?lock=681",
         "imageAlt": "The chef spent years perfecting this recipe.",
         "sentence": "The chef spent years perfecting this recipe.",
         "translation": "O chef passou anos aperfeiçoando essa receita."
       },
       {
-        "id": "pp-025",
+        "id": "pp-085",
         "category": "gastronomy",
-        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=268",
+        "imageUrl": "https://loremflickr.com/640/480/wine,restaurant,chef/all?lock=688",
         "imageAlt": "Street food often tells you a lot about local culture.",
         "sentence": "Street food often tells you a lot about local culture.",
         "translation": "A comida de rua costuma revelar muito sobre a cultura local."
       },
       {
-        "id": "pp-026",
+        "id": "pp-086",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=695",
+        "imageAlt": "Freshly baked bread fills the whole bakery with a warm smell.",
+        "sentence": "Freshly baked bread fills the whole bakery with a warm smell.",
+        "translation": "O pão fresquinho enche toda a padaria com um cheiro quentinho."
+      },
+      {
+        "id": "pp-087",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/bakery,bread,pastry/all?lock=702",
+        "imageAlt": "A good cup of coffee can turn a slow morning into a great one.",
+        "sentence": "A good cup of coffee can turn a slow morning into a great one.",
+        "translation": "Uma boa xícara de café pode transformar uma manhã lenta em uma ótima manhã."
+      },
+      {
+        "id": "pp-088",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/coffee,cafe,espresso/all?lock=709",
+        "imageAlt": "This market sells spices that have traveled from all over the world.",
+        "sentence": "This market sells spices that have traveled from all over the world.",
+        "translation": "Esse mercado vende especiarias que viajaram do mundo todo."
+      },
+      {
+        "id": "pp-089",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/streetfood,market,spices/all?lock=716",
+        "imageAlt": "Pairing the right wine with a meal makes all the difference.",
+        "sentence": "Pairing the right wine with a meal makes all the difference.",
+        "translation": "Combinar o vinho certo com uma refeição faz toda a diferença."
+      },
+      {
+        "id": "pp-090",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/wine,restaurant,chef/all?lock=723",
+        "imageAlt": "Every region has its own version of this classic dish.",
+        "sentence": "Every region has its own version of this classic dish.",
+        "translation": "Cada região tem sua própria versão desse prato clássico."
+      },
+      {
+        "id": "pp-091",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=730",
+        "imageAlt": "Fresh pastry, still warm from the oven, is hard to resist.",
+        "sentence": "Fresh pastry, still warm from the oven, is hard to resist.",
+        "translation": "Um doce fresco, ainda quente do forno, é difícil de resistir."
+      },
+      {
+        "id": "pp-092",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/bakery,bread,pastry/all?lock=737",
+        "imageAlt": "A busy kitchen during dinner service is pure organized chaos.",
+        "sentence": "A busy kitchen during dinner service is pure organized chaos.",
+        "translation": "Uma cozinha movimentada durante o jantar é um caos totalmente organizado."
+      },
+      {
+        "id": "pp-093",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/coffee,cafe,espresso/all?lock=744",
+        "imageAlt": "Grilling over an open flame gives food a smoky, rich flavor.",
+        "sentence": "Grilling over an open flame gives food a smoky, rich flavor.",
+        "translation": "Grelhar em fogo aberto dá aos alimentos um sabor rico e fumado."
+      },
+      {
+        "id": "pp-094",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/streetfood,market,spices/all?lock=751",
+        "imageAlt": "Homemade recipes often get passed down from grandmother to grandchild.",
+        "sentence": "Homemade recipes often get passed down from grandmother to grandchild.",
+        "translation": "Receitas caseiras costumam ser passadas de avó para nieto."
+      },
+      {
+        "id": "pp-095",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/wine,restaurant,chef/all?lock=758",
+        "imageAlt": "A colorful plate is often a sign of a healthy, balanced meal.",
+        "sentence": "A colorful plate is often a sign of a healthy, balanced meal.",
+        "translation": "Um prato colorido costuma ser sinal de uma refeição saudável e equilibrada."
+      },
+      {
+        "id": "pp-096",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/food,gourmet,cuisine/all?lock=765",
+        "imageAlt": "This dessert takes hours to make but only minutes to disappear.",
+        "sentence": "This dessert takes hours to make but only minutes to disappear.",
+        "translation": "Esse doce leva horas para fazer, mas só minutos para desaparecer."
+      },
+      {
+        "id": "pp-097",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/bakery,bread,pastry/all?lock=772",
+        "imageAlt": "Farmers markets connect people directly to where their food comes from.",
+        "sentence": "Farmers markets connect people directly to where their food comes from.",
+        "translation": "Feiras de agricultores conectam as pessoas diretamente à origem de sua comida."
+      },
+      {
+        "id": "pp-098",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/coffee,cafe,espresso/all?lock=779",
+        "imageAlt": "A well-set table can make even a simple dinner feel special.",
+        "sentence": "A well-set table can make even a simple dinner feel special.",
+        "translation": "Uma mesa bem posta pode fazer até um jantar simples parecer especial."
+      },
+      {
+        "id": "pp-099",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/streetfood,market,spices/all?lock=786",
+        "imageAlt": "Fermentation has been used to preserve and flavor food for centuries.",
+        "sentence": "Fermentation has been used to preserve and flavor food for centuries.",
+        "translation": "A fermentação é usada há séculos para conservar e dar sabor à comida."
+      },
+      {
+        "id": "pp-100",
+        "category": "gastronomy",
+        "imageUrl": "https://loremflickr.com/640/480/wine,restaurant,chef/all?lock=793",
+        "imageAlt": "The smell of spices roasting in a pan is the start of something delicious.",
+        "sentence": "The smell of spices roasting in a pan is the start of something delicious.",
+        "translation": "O cheiro de especiarias tostando na panela é o começo de algo delicioso."
+      },
+      {
+        "id": "pp-101",
         "category": "movies",
-        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=275",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=800",
         "imageAlt": "Nothing beats watching a great film on the big screen.",
         "sentence": "Nothing beats watching a great film on the big screen.",
         "translation": "Nada supera assistir a um ótimo filme na telona."
       },
       {
-        "id": "pp-027",
+        "id": "pp-102",
         "category": "movies",
-        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=282",
+        "imageUrl": "https://loremflickr.com/640/480/popcorn,screen,theater/all?lock=807",
         "imageAlt": "The smell of popcorn is part of the whole cinema experience.",
         "sentence": "The smell of popcorn is part of the whole cinema experience.",
         "translation": "O cheiro de pipoca faz parte de toda a experiência do cinema."
       },
       {
-        "id": "pp-028",
+        "id": "pp-103",
         "category": "movies",
-        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=289",
+        "imageUrl": "https://loremflickr.com/640/480/camera,filmmaking,director/all?lock=814",
         "imageAlt": "A well-told story can stay with you for years.",
         "sentence": "A well-told story can stay with you for years.",
         "translation": "Uma história bem contada pode ficar com você por anos."
       },
       {
-        "id": "pp-029",
+        "id": "pp-104",
         "category": "movies",
-        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=296",
+        "imageUrl": "https://loremflickr.com/640/480/premiere,redcarpet,hollywood/all?lock=821",
         "imageAlt": "Friday nights are perfect for a movie marathon.",
         "sentence": "Friday nights are perfect for a movie marathon.",
         "translation": "As noites de sexta-feira são perfeitas para uma maratona de filmes."
       },
       {
-        "id": "pp-030",
+        "id": "pp-105",
         "category": "movies",
-        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=303",
+        "imageUrl": "https://loremflickr.com/640/480/projector,filmreel,vintage/all?lock=828",
         "imageAlt": "The director spent months planning every single scene.",
         "sentence": "The director spent months planning every single scene.",
         "translation": "O diretor passou meses planejando cada cena."
       },
       {
-        "id": "pp-031",
+        "id": "pp-106",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=835",
+        "imageAlt": "This old film projector still works after all these years.",
+        "sentence": "This old film projector still works after all these years.",
+        "translation": "Esse projetor de filme antigo ainda funciona depois de todos esses anos."
+      },
+      {
+        "id": "pp-107",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/popcorn,screen,theater/all?lock=842",
+        "imageAlt": "A great soundtrack can make an ordinary scene feel unforgettable.",
+        "sentence": "A great soundtrack can make an ordinary scene feel unforgettable.",
+        "translation": "Uma ótima trilha sonora pode fazer uma cena comum parecer inesquecível."
+      },
+      {
+        "id": "pp-108",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/camera,filmmaking,director/all?lock=849",
+        "imageAlt": "Walking the red carpet is a dream for many young actors.",
+        "sentence": "Walking the red carpet is a dream for many young actors.",
+        "translation": "Andar pelo tapete vermelho é um sonho para muitos atores jovens."
+      },
+      {
+        "id": "pp-109",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/premiere,redcarpet,hollywood/all?lock=856",
+        "imageAlt": "Behind every movie is a huge team working outside the camera's view.",
+        "sentence": "Behind every movie is a huge team working outside the camera's view.",
+        "translation": "Por trás de todo filme há uma equipe enorme trabalhando fora do campo de visão da câmera."
+      },
+      {
+        "id": "pp-110",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/projector,filmreel,vintage/all?lock=863",
+        "imageAlt": "The opening night of a new release always draws a big crowd.",
+        "sentence": "The opening night of a new release always draws a big crowd.",
+        "translation": "A noite de lançamento de um filme novo sempre atrai uma multidão."
+      },
+      {
+        "id": "pp-111",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=870",
+        "imageAlt": "Classic black-and-white films still influence directors today.",
+        "sentence": "Classic black-and-white films still influence directors today.",
+        "translation": "Filmes clássicos em preto e branco ainda influenciam diretores hoje."
+      },
+      {
+        "id": "pp-112",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/popcorn,screen,theater/all?lock=877",
+        "imageAlt": "A single camera angle can completely change how a scene feels.",
+        "sentence": "A single camera angle can completely change how a scene feels.",
+        "translation": "Um único ângulo de câmera pode mudar completamente a sensação de uma cena."
+      },
+      {
+        "id": "pp-113",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/camera,filmmaking,director/all?lock=884",
+        "imageAlt": "Reels of film like this one used to be the only way to watch a movie.",
+        "sentence": "Reels of film like this one used to be the only way to watch a movie.",
+        "translation": "Rolos de filme como esse eram a única forma de assistir a um filme."
+      },
+      {
+        "id": "pp-114",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/premiere,redcarpet,hollywood/all?lock=891",
+        "imageAlt": "Editing a movie can take just as long as filming it.",
+        "sentence": "Editing a movie can take just as long as filming it.",
+        "translation": "Editar um filme pode levar tanto tempo quanto filmá-lo."
+      },
+      {
+        "id": "pp-115",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/projector,filmreel,vintage/all?lock=898",
+        "imageAlt": "Watching a movie at a drive-in theater feels like stepping back in time.",
+        "sentence": "Watching a movie at a drive-in theater feels like stepping back in time.",
+        "translation": "Assistir a um filme em um cine drive-in parece voltar no tempo."
+      },
+      {
+        "id": "pp-116",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/cinema,movietheater,film/all?lock=905",
+        "imageAlt": "A good plot twist can change the way you see the entire film.",
+        "sentence": "A good plot twist can change the way you see the entire film.",
+        "translation": "Uma boa virada na trama pode mudar a forma como você vê o filme inteiro."
+      },
+      {
+        "id": "pp-117",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/popcorn,screen,theater/all?lock=912",
+        "imageAlt": "Some fans line up for hours just to see a movie on premiere night.",
+        "sentence": "Some fans line up for hours just to see a movie on premiere night.",
+        "translation": "Alguns fãs esperam na fila por horas só para ver um filme na noite de lançamento."
+      },
+      {
+        "id": "pp-118",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/camera,filmmaking,director/all?lock=919",
+        "imageAlt": "Independent films often tell stories that big studios overlook.",
+        "sentence": "Independent films often tell stories that big studios overlook.",
+        "translation": "Filmes independentes costumam contar histórias que os grandes estúdios ignoram."
+      },
+      {
+        "id": "pp-119",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/premiere,redcarpet,hollywood/all?lock=926",
+        "imageAlt": "The lighting in this shot creates a very dramatic mood.",
+        "sentence": "The lighting in this shot creates a very dramatic mood.",
+        "translation": "A iluminação nessa cena cria um clima bem dramático."
+      },
+      {
+        "id": "pp-120",
+        "category": "movies",
+        "imageUrl": "https://loremflickr.com/640/480/projector,filmreel,vintage/all?lock=933",
+        "imageAlt": "Rewatching a favorite movie feels like visiting an old friend.",
+        "sentence": "Rewatching a favorite movie feels like visiting an old friend.",
+        "translation": "Rever um filme favorito parece visitar um velho amigo."
+      },
+      {
+        "id": "pp-121",
         "category": "sports",
-        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=310",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=940",
         "imageAlt": "Regular training builds both strength and discipline.",
         "sentence": "Regular training builds both strength and discipline.",
         "translation": "O treino regular constrói tanto força quanto disciplina."
       },
       {
-        "id": "pp-032",
+        "id": "pp-122",
         "category": "sports",
-        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=317",
+        "imageUrl": "https://loremflickr.com/640/480/soccer,football,stadium/all?lock=947",
         "imageAlt": "The crowd goes wild every time the team scores.",
         "sentence": "The crowd goes wild every time the team scores.",
         "translation": "A torcida vibra toda vez que o time marca um ponto."
       },
       {
-        "id": "pp-033",
+        "id": "pp-123",
         "category": "sports",
-        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=324",
+        "imageUrl": "https://loremflickr.com/640/480/running,marathon,fitness/all?lock=954",
         "imageAlt": "Every athlete starts with small, consistent steps.",
         "sentence": "Every athlete starts with small, consistent steps.",
         "translation": "Todo atleta começa com passos pequenos e consistentes."
       },
       {
-        "id": "pp-034",
+        "id": "pp-124",
         "category": "sports",
-        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=331",
+        "imageUrl": "https://loremflickr.com/640/480/basketball,court,team/all?lock=961",
         "imageAlt": "Teamwork is often more important than individual talent.",
         "sentence": "Teamwork is often more important than individual talent.",
         "translation": "O trabalho em equipe costuma ser mais importante do que o talento individual."
       },
       {
-        "id": "pp-035",
+        "id": "pp-125",
         "category": "sports",
-        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=338",
+        "imageUrl": "https://loremflickr.com/640/480/swimming,pool,training/all?lock=968",
         "imageAlt": "A morning run is a great way to start the day.",
         "sentence": "A morning run is a great way to start the day.",
         "translation": "Uma corrida matinal é uma ótima forma de começar o dia."
       },
       {
-        "id": "pp-036",
+        "id": "pp-126",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=975",
+        "imageAlt": "This stadium can hold thousands of fans on match day.",
+        "sentence": "This stadium can hold thousands of fans on match day.",
+        "translation": "Esse estádio pode receber milhares de fãs no dia do jogo."
+      },
+      {
+        "id": "pp-127",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/soccer,football,stadium/all?lock=982",
+        "imageAlt": "Marathon runners train for months before race day.",
+        "sentence": "Marathon runners train for months before race day.",
+        "translation": "Corredores de maratona treinam por meses antes do dia da corrida."
+      },
+      {
+        "id": "pp-128",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/running,marathon,fitness/all?lock=989",
+        "imageAlt": "A good coach knows how to bring out the best in every player.",
+        "sentence": "A good coach knows how to bring out the best in every player.",
+        "translation": "Um bom treinador sabe como tirar o melhor de cada jogador."
+      },
+      {
+        "id": "pp-129",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/basketball,court,team/all?lock=996",
+        "imageAlt": "Swimming laps every morning builds serious endurance over time.",
+        "sentence": "Swimming laps every morning builds serious endurance over time.",
+        "translation": "Nadar voltas todas as manhãs constrói uma resistência séria com o tempo."
+      },
+      {
+        "id": "pp-130",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/swimming,pool,training/all?lock=1003",
+        "imageAlt": "The final seconds of a close game are always the most intense.",
+        "sentence": "The final seconds of a close game are always the most intense.",
+        "translation": "Os segundos finais de um jogo apertado são sempre os mais intensos."
+      },
+      {
+        "id": "pp-131",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=1010",
+        "imageAlt": "Stretching before a workout helps prevent injuries.",
+        "sentence": "Stretching before a workout helps prevent injuries.",
+        "translation": "Alongar antes do treino ajuda a prevenir lesões."
+      },
+      {
+        "id": "pp-132",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/soccer,football,stadium/all?lock=1017",
+        "imageAlt": "A basketball court can turn into a battlefield during playoffs.",
+        "sentence": "A basketball court can turn into a battlefield during playoffs.",
+        "translation": "Uma quadra de basquete pode se tornar um campo de batalha durante os playoffs."
+      },
+      {
+        "id": "pp-133",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/running,marathon,fitness/all?lock=1024",
+        "imageAlt": "Winning a championship is the result of years of hard work.",
+        "sentence": "Winning a championship is the result of years of hard work.",
+        "translation": "Ganhar um campeonato é o resultado de anos de trabalho duro."
+      },
+      {
+        "id": "pp-134",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/basketball,court,team/all?lock=1031",
+        "imageAlt": "Youth sports teach kids about teamwork long before anything else.",
+        "sentence": "Youth sports teach kids about teamwork long before anything else.",
+        "translation": "Os esportes na infância ensinam trabalho em equipe antes de qualquer outra coisa."
+      },
+      {
+        "id": "pp-135",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/swimming,pool,training/all?lock=1038",
+        "imageAlt": "A personal best is something every athlete chases, no matter the sport.",
+        "sentence": "A personal best is something every athlete chases, no matter the sport.",
+        "translation": "Um recorde pessoal é algo que todo atleta persegue, independente do esporte."
+      },
+      {
+        "id": "pp-136",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/sports,athlete,fitness/all?lock=1045",
+        "imageAlt": "Recovery days are just as important as training days.",
+        "sentence": "Recovery days are just as important as training days.",
+        "translation": "Os dias de descanso são tão importantes quanto os dias de treino."
+      },
+      {
+        "id": "pp-137",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/soccer,football,stadium/all?lock=1052",
+        "imageAlt": "The referee's final call can decide the outcome of the whole match.",
+        "sentence": "The referee's final call can decide the outcome of the whole match.",
+        "translation": "A decisão final do árbitro pode decidir o resultado de todo o jogo."
+      },
+      {
+        "id": "pp-138",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/running,marathon,fitness/all?lock=1059",
+        "imageAlt": "A well-timed pass can be more valuable than a spectacular goal.",
+        "sentence": "A well-timed pass can be more valuable than a spectacular goal.",
+        "translation": "Um passe bem cronometrado pode valer mais do que um gol espetacular."
+      },
+      {
+        "id": "pp-139",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/basketball,court,team/all?lock=1066",
+        "imageAlt": "Cycling long distances requires both physical and mental strength.",
+        "sentence": "Cycling long distances requires both physical and mental strength.",
+        "translation": "Pedalar longas distâncias exige tanto força física quanto mental."
+      },
+      {
+        "id": "pp-140",
+        "category": "sports",
+        "imageUrl": "https://loremflickr.com/640/480/swimming,pool,training/all?lock=1073",
+        "imageAlt": "Fans often travel across the country just to watch their team play.",
+        "sentence": "Fans often travel across the country just to watch their team play.",
+        "translation": "Fãs costumam viajar pelo país só para ver o time jogar."
+      },
+      {
+        "id": "pp-141",
         "category": "fashion",
-        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=345",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=1080",
         "imageAlt": "This outfit mixes classic pieces with a modern twist.",
         "sentence": "This outfit mixes classic pieces with a modern twist.",
         "translation": "Esse look mistura peças clássicas com um toque moderno."
       },
       {
-        "id": "pp-037",
+        "id": "pp-142",
         "category": "fashion",
-        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=352",
+        "imageUrl": "https://loremflickr.com/640/480/runway,designer,couture/all?lock=1087",
         "imageAlt": "Fashion is a simple way to express who you are.",
         "sentence": "Fashion is a simple way to express who you are.",
         "translation": "A moda é uma forma simples de expressar quem você é."
       },
       {
-        "id": "pp-038",
+        "id": "pp-143",
         "category": "fashion",
-        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=359",
+        "imageUrl": "https://loremflickr.com/640/480/shoes,accessories,style/all?lock=1094",
         "imageAlt": "Designers often find inspiration in everyday life.",
         "sentence": "Designers often find inspiration in everyday life.",
         "translation": "Estilistas costumam encontrar inspiração no dia a dia."
       },
       {
-        "id": "pp-039",
+        "id": "pp-144",
         "category": "fashion",
-        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=366",
+        "imageUrl": "https://loremflickr.com/640/480/vintage,boutique,retail/all?lock=1101",
         "imageAlt": "Choosing the right colors can completely change an outfit.",
         "sentence": "Choosing the right colors can completely change an outfit.",
         "translation": "Escolher as cores certas pode mudar completamente um look."
       },
       {
-        "id": "pp-040",
+        "id": "pp-145",
         "category": "fashion",
-        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=373",
+        "imageUrl": "https://loremflickr.com/640/480/textile,tailor,fabric/all?lock=1108",
         "imageAlt": "Sustainable fashion is becoming more popular every year.",
         "sentence": "Sustainable fashion is becoming more popular every year.",
         "translation": "A moda sustentável está se tornando mais popular a cada ano."
       },
       {
-        "id": "pp-041",
+        "id": "pp-146",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=1115",
+        "imageAlt": "A runway show is the result of months of planning and design.",
+        "sentence": "A runway show is the result of months of planning and design.",
+        "translation": "Um desfile de moda é o resultado de meses de planejamento e design."
+      },
+      {
+        "id": "pp-147",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/runway,designer,couture/all?lock=1122",
+        "imageAlt": "A good pair of shoes can complete almost any outfit.",
+        "sentence": "A good pair of shoes can complete almost any outfit.",
+        "translation": "Um bom par de sapatos pode completar quase qualquer look."
+      },
+      {
+        "id": "pp-148",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/shoes,accessories,style/all?lock=1129",
+        "imageAlt": "Vintage clothing often tells a story from another era.",
+        "sentence": "Vintage clothing often tells a story from another era.",
+        "translation": "Roupas vintage costumam contar uma história de outra época."
+      },
+      {
+        "id": "pp-149",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/vintage,boutique,retail/all?lock=1136",
+        "imageAlt": "This boutique curates pieces you won't find anywhere else.",
+        "sentence": "This boutique curates pieces you won't find anywhere else.",
+        "translation": "Essa boutique seleciona peças que você não encontra em nenhum outro lugar."
+      },
+      {
+        "id": "pp-150",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/textile,tailor,fabric/all?lock=1143",
+        "imageAlt": "Every fabric feels and moves differently once it's sewn into a garment.",
+        "sentence": "Every fabric feels and moves differently once it's sewn into a garment.",
+        "translation": "Cada tecido se sente e se move de forma diferente depois de costurado em uma peça."
+      },
+      {
+        "id": "pp-151",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=1150",
+        "imageAlt": "Accessories can turn a simple outfit into something memorable.",
+        "sentence": "Accessories can turn a simple outfit into something memorable.",
+        "translation": "Acessórios podem transformar um look simples em algo memorável."
+      },
+      {
+        "id": "pp-152",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/runway,designer,couture/all?lock=1157",
+        "imageAlt": "Tailoring a suit properly can take several fittings.",
+        "sentence": "Tailoring a suit properly can take several fittings.",
+        "translation": "Costurar um terno sob medida pode exigir várias provas."
+      },
+      {
+        "id": "pp-153",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/shoes,accessories,style/all?lock=1164",
+        "imageAlt": "Street style often influences trends more than the runway does.",
+        "sentence": "Street style often influences trends more than the runway does.",
+        "translation": "O estilo de rua costuma influenciar tendências mais do que a passarela."
+      },
+      {
+        "id": "pp-154",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/vintage,boutique,retail/all?lock=1171",
+        "imageAlt": "Bold patterns can make even a plain outfit stand out.",
+        "sentence": "Bold patterns can make even a plain outfit stand out.",
+        "translation": "Estampas marcantes podem fazer até um look simples se destacar."
+      },
+      {
+        "id": "pp-155",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/textile,tailor,fabric/all?lock=1178",
+        "imageAlt": "Many designers now focus on clothes that last for years, not seasons.",
+        "sentence": "Many designers now focus on clothes that last for years, not seasons.",
+        "translation": "Muitos estilistas agora focam em roupas que duram anos, não apenas temporadas."
+      },
+      {
+        "id": "pp-156",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/fashion,style,clothing/all?lock=1185",
+        "imageAlt": "A well-organized closet makes getting dressed so much easier.",
+        "sentence": "A well-organized closet makes getting dressed so much easier.",
+        "translation": "Um guarda-roupa bem organizado torna o ato de se vestir muito mais fácil."
+      },
+      {
+        "id": "pp-157",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/runway,designer,couture/all?lock=1192",
+        "imageAlt": "Fashion weeks bring together designers from all over the world.",
+        "sentence": "Fashion weeks bring together designers from all over the world.",
+        "translation": "As semanas de moda reúnem estilistas do mundo inteiro."
+      },
+      {
+        "id": "pp-158",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/shoes,accessories,style/all?lock=1199",
+        "imageAlt": "Layering different textures adds depth to any outfit.",
+        "sentence": "Layering different textures adds depth to any outfit.",
+        "translation": "Combinar texturas diferentes dá profundidade a qualquer look."
+      },
+      {
+        "id": "pp-159",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/vintage,boutique,retail/all?lock=1206",
+        "imageAlt": "This dress took the seamstress nearly a week to finish.",
+        "sentence": "This dress took the seamstress nearly a week to finish.",
+        "translation": "Esse vestido levou quase uma semana para a costureira terminar."
+      },
+      {
+        "id": "pp-160",
+        "category": "fashion",
+        "imageUrl": "https://loremflickr.com/640/480/textile,tailor,fabric/all?lock=1213",
+        "imageAlt": "Comfortable clothing doesn't have to mean boring clothing.",
+        "sentence": "Comfortable clothing doesn't have to mean boring clothing.",
+        "translation": "Roupa confortável não precisa significar roupa sem graça."
+      },
+      {
+        "id": "pp-161",
         "category": "education",
-        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=380",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=1220",
         "imageAlt": "A good education opens doors that stay open for life.",
         "sentence": "A good education opens doors that stay open for life.",
         "translation": "Uma boa educação abre portas que permanecem abertas por toda a vida."
       },
       {
-        "id": "pp-042",
+        "id": "pp-162",
         "category": "education",
-        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=387",
+        "imageUrl": "https://loremflickr.com/640/480/library,books,study/all?lock=1227",
         "imageAlt": "Students often learn best when they work together.",
         "sentence": "Students often learn best when they work together.",
         "translation": "Estudantes costumam aprender melhor quando trabalham juntos."
       },
       {
-        "id": "pp-043",
+        "id": "pp-163",
         "category": "education",
-        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=394",
+        "imageUrl": "https://loremflickr.com/640/480/classroom,teacher,lecture/all?lock=1234",
         "imageAlt": "Libraries are still one of the best places to focus and study.",
         "sentence": "Libraries are still one of the best places to focus and study.",
         "translation": "Bibliotecas ainda são um dos melhores lugares para focar e estudar."
       },
       {
-        "id": "pp-044",
+        "id": "pp-164",
         "category": "education",
-        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=401",
+        "imageUrl": "https://loremflickr.com/640/480/graduation,diploma,campus/all?lock=1241",
         "imageAlt": "A great teacher can change the direction of someone's life.",
         "sentence": "A great teacher can change the direction of someone's life.",
         "translation": "Um grande professor pode mudar o rumo da vida de alguém."
       },
       {
-        "id": "pp-045",
+        "id": "pp-165",
         "category": "education",
-        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=408",
+        "imageUrl": "https://loremflickr.com/640/480/science,laboratory,research/all?lock=1248",
         "imageAlt": "Learning never really stops, no matter your age.",
         "sentence": "Learning never really stops, no matter your age.",
         "translation": "Aprender nunca realmente para, não importa a sua idade."
+      },
+      {
+        "id": "pp-166",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=1255",
+        "imageAlt": "Graduation day is the reward for years of hard work.",
+        "sentence": "Graduation day is the reward for years of hard work.",
+        "translation": "O dia da formatura é a recompensa de anos de trabalho duro."
+      },
+      {
+        "id": "pp-167",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/library,books,study/all?lock=1262",
+        "imageAlt": "A hands-on science experiment teaches more than any textbook.",
+        "sentence": "A hands-on science experiment teaches more than any textbook.",
+        "translation": "Um experimento científico prático ensina mais do que qualquer livro."
+      },
+      {
+        "id": "pp-168",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/classroom,teacher,lecture/all?lock=1269",
+        "imageAlt": "This lecture hall has seen decades of students come and go.",
+        "sentence": "This lecture hall has seen decades of students come and go.",
+        "translation": "Esse anfiteatro viu gerações de estudantes passarem."
+      },
+      {
+        "id": "pp-169",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/graduation,diploma,campus/all?lock=1276",
+        "imageAlt": "Group projects teach students how to communicate under pressure.",
+        "sentence": "Group projects teach students how to communicate under pressure.",
+        "translation": "Trabalhos em grupo ensinam os estudantes a se comunicar sob pressão."
+      },
+      {
+        "id": "pp-170",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/science,laboratory,research/all?lock=1283",
+        "imageAlt": "A quiet corner in the library is perfect for deep focus.",
+        "sentence": "A quiet corner in the library is perfect for deep focus.",
+        "translation": "Um canto tranquilo na biblioteca é perfeito para um foco profundo."
+      },
+      {
+        "id": "pp-171",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=1290",
+        "imageAlt": "Research in the lab often takes years before it produces results.",
+        "sentence": "Research in the lab often takes years before it produces results.",
+        "translation": "A pesquisa no laboratório costuma levar anos antes de gerar resultados."
+      },
+      {
+        "id": "pp-172",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/library,books,study/all?lock=1297",
+        "imageAlt": "Taking good notes in class makes studying so much easier later.",
+        "sentence": "Taking good notes in class makes studying so much easier later.",
+        "translation": "Fazer boas anotações em aula facilita muito o estudo depois."
+      },
+      {
+        "id": "pp-173",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/classroom,teacher,lecture/all?lock=1304",
+        "imageAlt": "College campuses are full of energy at the start of a new semester.",
+        "sentence": "College campuses are full of energy at the start of a new semester.",
+        "translation": "Os campi universitários ficam cheios de energia no início de um novo semestre."
+      },
+      {
+        "id": "pp-174",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/graduation,diploma,campus/all?lock=1311",
+        "imageAlt": "A diploma represents years of effort, not just one final exam.",
+        "sentence": "A diploma represents years of effort, not just one final exam.",
+        "translation": "Um diploma representa anos de esforço, não apenas uma prova final."
+      },
+      {
+        "id": "pp-175",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/science,laboratory,research/all?lock=1318",
+        "imageAlt": "Studying abroad teaches lessons no classroom back home ever could.",
+        "sentence": "Studying abroad teaches lessons no classroom back home ever could.",
+        "translation": "Estudar no exterior ensina lições que nenhuma sala de aula em casa poderia ensinar."
+      },
+      {
+        "id": "pp-176",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/education,university,students/all?lock=1325",
+        "imageAlt": "A curious question in class can lead to the best discussions.",
+        "sentence": "A curious question in class can lead to the best discussions.",
+        "translation": "Uma pergunta curiosa em aula pode gerar as melhores discussões."
+      },
+      {
+        "id": "pp-177",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/library,books,study/all?lock=1332",
+        "imageAlt": "Online classes have changed the way many students learn today.",
+        "sentence": "Online classes have changed the way many students learn today.",
+        "translation": "As aulas online mudaram a forma como muitos estudantes aprendem hoje."
+      },
+      {
+        "id": "pp-178",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/classroom,teacher,lecture/all?lock=1339",
+        "imageAlt": "A well-organized backpack makes the school day run more smoothly.",
+        "sentence": "A well-organized backpack makes the school day run more smoothly.",
+        "translation": "Uma mochila bem organizada faz o dia escolar fluir melhor."
+      },
+      {
+        "id": "pp-179",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/graduation,diploma,campus/all?lock=1346",
+        "imageAlt": "Peer tutoring helps both the student teaching and the one learning.",
+        "sentence": "Peer tutoring helps both the student teaching and the one learning.",
+        "translation": "A tutoria entre colegas ajuda tanto quem ensina quanto quem aprende."
+      },
+      {
+        "id": "pp-180",
+        "category": "education",
+        "imageUrl": "https://loremflickr.com/640/480/science,laboratory,research/all?lock=1353",
+        "imageAlt": "Every scientist started out as a curious student asking questions.",
+        "sentence": "Every scientist started out as a curious student asking questions.",
+        "translation": "Todo cientista começou como um estudante curioso fazendo perguntas."
       }
     ]
   }
