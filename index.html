@@ -50,7 +50,7 @@
       <span class="logo-text">LINGUA<span>PRO</span></span>
     </div>
 
-    <nav class="header-nav" aria-label="Main navigation">
+    <nav class="header-nav" id="header-nav" aria-label="Main navigation">
       <button class="nav-btn" onclick="App.goHome()" aria-label="Home">
         🏠 <span class="nav-label">Home</span>
       </button>
@@ -73,7 +73,16 @@
       <span class="score" id="header-score">0</span>
       <span class="score-label">pts</span>
     </div>
+
+    <button class="menu-toggle" id="menu-toggle" type="button"
+            aria-label="Abrir menu de navegação" aria-controls="header-nav" aria-expanded="false"
+            onclick="App.toggleMenu()">
+      <span class="menu-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
   </header>
+
+  <!-- Backdrop shown behind the mobile nav dropdown -->
+  <div class="nav-backdrop" id="nav-backdrop" onclick="App.closeMenu()"></div>
 
   <!-- ─── VOICE SETTINGS MODAL ────────────────────────────────────────── -->
   <div class="modal-overlay" id="voice-modal" role="dialog" aria-modal="true"

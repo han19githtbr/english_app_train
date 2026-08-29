@@ -210,6 +210,7 @@ const App = (() => {
       renderHome();
       showScreen('home-screen');
       initVoiceSettings();
+      initHeaderMenu();
       if (window.speechSynthesis) {
         TTS.loadVoices();
         window.speechSynthesis.onvoiceschanged = TTS.loadVoices;
@@ -625,6 +626,55 @@ const App = (() => {
   function goSection()         { showScreen('section-screen'); }
   function getCurrentSection() { return state.currentSection; }
 
+  // ─── MOBILE NAV DROPDOWN (hamburger menu) ──────────────────────────────────
+  function toggleMenu() {
+    const nav = document.getElementById('header-nav');
+    if (!nav) return;
+    nav.classList.contains('open') ? closeMenu() : openMenu();
+  }
+
+  function openMenu() {
+    const nav      = document.getElementById('header-nav');
+    const btn      = document.getElementById('menu-toggle');
+    const backdrop = document.getElementById('nav-backdrop');
+    if (!nav || !btn) return;
+    nav.classList.add('open');
+    btn.classList.add('active');
+    btn.setAttribute('aria-expanded', 'true');
+    backdrop?.classList.add('open');
+  }
+
+  function closeMenu() {
+    const nav      = document.getElementById('header-nav');
+    const btn      = document.getElementById('menu-toggle');
+    const backdrop = document.getElementById('nav-backdrop');
+    if (!nav || !btn) return;
+    nav.classList.remove('open');
+    btn.classList.remove('active');
+    btn.setAttribute('aria-expanded', 'false');
+    backdrop?.classList.remove('open');
+  }
+
+  function initHeaderMenu() {
+    const nav = document.getElementById('header-nav');
+    if (!nav) return;
+
+    // Close the dropdown once a guide/nav item is chosen
+    nav.querySelectorAll('.nav-btn').forEach(btn => {
+      btn.addEventListener('click', closeMenu);
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeMenu();
+    });
+
+    // Close if the viewport is resized back to desktop width while open
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 640) closeMenu();
+    });
+  }
+
   // ─── UTILS ────────────────────────────────────────────────────────────────
   function shuffleArray(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
@@ -647,7 +697,10 @@ const App = (() => {
     getCurrentSection,
     openVoiceSettings,
     closeVoiceSettings,
-    testVoice
+    testVoice,
+    toggleMenu,
+    openMenu,
+    closeMenu
   };
 })();
 

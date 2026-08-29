@@ -186,6 +186,62 @@ body {
 
 .progress-indicator .score { color: var(--accent-green); font-weight: 700; }
 
+/* ─── HAMBURGER MENU TOGGLE (mobile guide/nav drawer) ─── */
+.menu-toggle {
+  display: none; /* hidden on desktop — nav is shown inline */
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.menu-toggle:hover, .menu-toggle.active {
+  background: var(--bg-card);
+  border-color: var(--border-hover);
+}
+
+.menu-toggle-bars {
+  position: relative;
+  width: 18px; height: 13px;
+  display: inline-block;
+}
+
+.menu-toggle-bars span {
+  position: absolute;
+  left: 0;
+  width: 100%; height: 2px;
+  border-radius: 2px;
+  background: var(--text-primary);
+  transition: transform 0.25s ease, opacity 0.2s ease, top 0.25s ease;
+}
+
+.menu-toggle-bars span:nth-child(1) { top: 0; }
+.menu-toggle-bars span:nth-child(2) { top: 5.5px; }
+.menu-toggle-bars span:nth-child(3) { top: 11px; }
+
+/* Morph into an "X" when the menu is open */
+.menu-toggle.active .menu-toggle-bars span:nth-child(1) { top: 5.5px; transform: rotate(45deg); }
+.menu-toggle.active .menu-toggle-bars span:nth-child(2) { opacity: 0; }
+.menu-toggle.active .menu-toggle-bars span:nth-child(3) { top: 5.5px; transform: rotate(-45deg); }
+
+.nav-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(2,6,14,0.55);
+  backdrop-filter: blur(2px);
+  /* Must stay below .app-header's own stacking context (z-index: 100)
+     so the dropdown nav inside the header still receives clicks. */
+  z-index: 90;
+}
+
+.nav-backdrop.open { display: block; }
+
 /* ─── PWA INSTALL BANNER ─── */
 #pwa-banner {
   display: none;
@@ -1157,12 +1213,49 @@ body {
   .logo-text { font-size: 17px; }
   .logo-mark { width: 32px; height: 32px; font-size: 14px; border-radius: 8px; }
 
-  /* Hide all nav labels on mobile — show icons only */
-  .nav-btn .nav-label { display: none; }
-  .nav-btn { padding: 8px 10px; font-size: 13px; min-height: 38px; }
-
   .progress-indicator { padding: 6px 12px; font-size: 12px; gap: 6px; }
   .progress-indicator .score-label { display: none; } /* hide "pts" label on tiny screens */
+
+  /* Reveal the hamburger, top-right of the header */
+  .menu-toggle { display: flex; order: 3; }
+
+  /* The nav becomes a dropdown "guide" panel opened from the hamburger,
+     instead of a row of icons competing for header space */
+  .header-nav {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 16px;
+    left: 16px;
+    z-index: 200;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    padding: 10px;
+    background: rgba(10,16,28,0.98);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.45);
+    animation: navDropdownIn 0.18s ease;
+  }
+
+  .header-nav.open { display: flex; }
+
+  .header-nav .nav-btn {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 12px 14px;
+    font-size: 14px;
+    min-height: 46px;
+  }
+
+  /* Show labels again inside the dropdown — icon-only doesn't work in a list */
+  .header-nav .nav-btn .nav-label { display: inline; }
+}
+
+@keyframes navDropdownIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
 
   /* ── Hero ── */
   .hero { padding: 48px 20px 36px; }
@@ -1275,17 +1368,13 @@ body {
   .btn-secondary { min-height: 46px; display: flex; align-items: center; justify-content: center; }
 }
 
-@media (max-width: 380px) {
-  .header-nav { gap: 4px; }
-  .nav-btn { padding: 8px 8px; min-width: 36px; }
-}
-
 /* ═══════════════════════════════════════════════════════════════
    RESPONSIVE — SMALL PHONES  (≤ 380px)
 ═══════════════════════════════════════════════════════════════ */
 @media (max-width: 380px) {
   .logo-text { display: none; } /* show only mark on very small screens */
   .app-header { padding: 10px 12px; padding-top: calc(10px + var(--safe-top)); }
+  .header-nav { left: 12px; right: 12px; }
   .hero h1 { font-size: clamp(26px, 10vw, 36px); }
   .option-btn { font-size: 13px; padding: 11px 12px; }
 }
